@@ -4,35 +4,32 @@ To be deployed on Netlify. ETA: Late August.
 
 "Under construction" page up by Aug. 2 on custom domain.
 
-[**Trello Board**](https://trello.com/b/t5dx7VLw/mob-website) - Feel free to check in on progress.
-
 ## Description:
 
 Mouths of Babes Theatre Company was founded in 2014 on the principles of active agency and respect for young adult audiences and actors. They’re dedicated to creating engaging, interesting, and smart theatre for actors and audiences for the purposes of building community. They especially want to promote and support young actors and audiences to be active participants, not only in the arts, but in the world around them. They seek new forms to tackle today's changing issues. They see theatre through a contemporary lens and use forms of devising theatre and documentary theatre to contribute truth and reconciliation by using art to establish connections.
 
 ## Pages
 
-- Home/Landing (includes a section teasing a current project **or Scotopia** and a link to the appropriate page, link to a donation option also prominently featured)
-- Projects (includes current and previous works, events, and community engagement)
-- Individual project pages (not in main menu, linked from Projects page): (1) Scotopia, **others?**
-- About (includes Our Team and Press sections)
-- Get Involved/Contact Us page (with link to a donation option)
+- **Home/Landing** (includes a section teasing a current project **or Scotopia** and a link to the appropriate page, link to a donation option also prominently featured)
+- **Projects** (includes current and previous works, events, and community engagement)
+- **Individual project pages** (not in main menu, linked from Projects page): (1) Scotopia, **others?**
+- **About** (includes Our Team and Press sections)
+- **Get Involved/Contact Us** (with link to a donation option)
 
-**Note:** Trey is still getting clarity from the ticketing platform (On the Stage) about selling tickets and merch directly on MoB site.
-**Note:** Need clarity on donation option, as well.
+**Notes:** Trey is still getting clarity from the ticketing platform (On the Stage) about selling tickets and merch directly on MoB site. Need clarity on donation option, as well.
 
 ## Design & Branding Notes
 
 - Informal, punk/grunge but not destructive or negative, playful, whimsical, edgy, smart
-- Sketches, spraypaint
-- **MW PICKUP** Review sites/images/etc
-
-**Note:** Gracie is looking for the best photos to showcase.
-**Note:** Trey asked Chloe about making a couple of collages for the site.
+- Sketches, soft scribbles, spraypaint (not excessive), collages
+- **Notes:** Gracie is looking for the best photos to showcase. Trey asked Chloe about making a couple of collages for the site.
 
 ## Colors
 
-- Red, burnt orange, black, white, occasional dark purples and blues
+- Primary: Red, burnt orange, black, white
+- Secondary: Dark purple, dark blue
+
+![Color Palette](./../MoB_Website/public/images/colors.jpeg)
 
 ## Other Requests
 
@@ -40,7 +37,7 @@ Mouths of Babes Theatre Company was founded in 2014 on the principles of active 
 
 ## Wireframes
 
-![Home Page]()
+- TBD
 
 ## Dependencies
 
