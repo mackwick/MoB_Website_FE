@@ -40,7 +40,31 @@ Hex Codes: #B50D0D, #000000, #b25126, #5F106C, #17106C
 
 ## Wireframes:
 
-- TBD
+**Note:** I'd love to use a collage for the menu/logo background. It would lend some consistency to the site. Also, I think including contact info in the footer, like you've been doing, is a good idea.
+
+# Home Page
+
+![Mobile](./public/images/home-mobile.jpeg)
+
+![Desktop](./public/images/home-desktop.png)
+
+# Projects
+
+![Mobile](./public/images/projects-mobile.jpeg)
+
+![Desktop](./public/images/projects-desktop.jpeg)
+
+# About
+
+![Mobile](./public/images/about-mobile.jpeg)
+
+![Desktop](./public/images/about-desktop.png)
+
+# Contact Us/Get Involved
+
+![Mobile](./public/images/getinvolved-mobile.jpeg)
+
+![Desktop](./public/images/getinvolved-desktop.jpeg)
 
 ## Dependencies:
 
