@@ -4,7 +4,7 @@ To be deployed on Netlify. ETA: Late August.
 
 "Under construction" page design by Aug. 2. Up on custom domain Aug. 8ish.
 
-## Description:
+## Client description:
 
 Mouths of Babes Theatre Company was founded in 2014 on the principles of active agency and respect for young adult audiences and actors. They’re dedicated to creating engaging, interesting, and smart theatre for actors and audiences for the purposes of building community. They especially want to promote and support young actors and audiences to be active participants, not only in the arts, but in the world around them. They seek new forms to tackle today's changing issues. They see theatre through a contemporary lens and use forms of devising theatre and documentary theatre to contribute truth and reconciliation by using art to establish connections.
 
@@ -27,43 +27,50 @@ Mouths of Babes Theatre Company was founded in 2014 on the principles of active 
 
 ## Colors:
 
-- Primary: Red, burnt orange, black, white
-- Secondary: Dark purple, dark blue
+- Red, burnt orange, black, white, dark purple, dark blue
+- Hex Codes: #B50D0D, #000000, #b25126, #5F106C, #17106C
 
-Hex Codes: #B50D0D, #000000, #b25126, #5F106C, #17106C
-
+**Color Palette**
 ![Color Palette](./public/images/colors.jpeg)
 
 ## Other Requests:
 
-- **Easy for staff/interns to update content (2-3 x a year):** I want to prioritize getting an attractive, guest-friendly site live by September first, so the initial deployment may not include an intuitive, non-developer option for updating. However, I will update content (upon MoB request) during this time and incorporate an admin user option within the first year.
+- **Easy for staff/interns to update content (2-3 x a year):** I want to prioritize getting an attractive, guest-friendly site live by September, so the initial deployment may not include an intuitive, non-developer option for updating. However, I will update content (upon MoB request) during this time and incorporate an admin user option within the first year.
 
-## Wireframes:
+## Wireframes for Primary Pages:
 
 **Note:** I'd love to use a collage for the menu/logo background. It would lend some consistency to the site. Also, I think including contact info in the footer, like you've been doing, is a good idea.
 
-# Home Page
+### Home Page
 
+**Mobile**
 ![Mobile](./public/images/home-mobile.jpeg)
 
+**Desktop**
 ![Desktop](./public/images/home-desktop.png)
 
-# Projects
+### Projects
 
+**Mobile**
 ![Mobile](./public/images/projects-mobile.jpeg)
 
+**Desktop**
 ![Desktop](./public/images/projects-desktop.jpeg)
 
-# About
+### About
 
+**Mobile**
 ![Mobile](./public/images/about-mobile.jpeg)
 
+**Desktop**
 ![Desktop](./public/images/about-desktop.png)
 
-# Contact Us/Get Involved
+### Contact Us/Get Involved
 
+**Mobile**
 ![Mobile](./public/images/getinvolved-mobile.jpeg)
 
+**Desktop**
 ![Desktop](./public/images/getinvolved-desktop.jpeg)
 
 ## Dependencies:
