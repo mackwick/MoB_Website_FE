@@ -1,4 +1,4 @@
-# Words of Babes Website
+# Mouths of Babes Website
 
 To be deployed on Netlify. ETA: Late August.
 
