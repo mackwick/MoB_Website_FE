@@ -36,7 +36,7 @@ h2 {
 @media screen and (min-width: 760px) {
   body {
     background-position: top center;
-    background-size: 85%;
+    background-size: 80%;
   }
   .under-construction {
     font-size: 18px;
@@ -46,7 +46,7 @@ h2 {
 
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("../public/images/UnderConstruction.png");
+    background-image: url("images/UnderConstruction.png");
     background-size: 100dvw;
   }
 
