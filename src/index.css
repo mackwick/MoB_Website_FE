@@ -33,9 +33,14 @@ h2 {
   color: var(--purple);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 760px) {
+  body {
+    background-position: top center;
+    background-size: 85%;
+  }
   .under-construction {
     font-size: 18px;
+    margin: 40% 20%;
   }
 }
 
