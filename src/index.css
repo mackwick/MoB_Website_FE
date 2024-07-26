@@ -33,6 +33,24 @@ h2 {
   color: var(--purple);
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
+  .under-construction {
+    font-size: 18px;
+  }
+}
 
-} */
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("../public/images/UnderConstruction.png");
+    background-size: 100dvw;
+  }
+
+  h2 {
+    padding: 3% 0 0 0;
+  }
+
+  .under-construction {
+    font-size: 20px;
+    margin: 15% 27%;
+  }
+}
