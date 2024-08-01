@@ -1,9 +1,11 @@
-// import logo from "./../public/images/logo.png";
-
-import "./App.css";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  return <>This is the App.</>;
+  return (
+    <div className="App">
+      <Outlet />
+    </div>
+  );
 }
 
 export default App;
