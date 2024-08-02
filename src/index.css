@@ -24,3 +24,45 @@
   padding: 0;
   margin: 2px;
 }
+
+/*-----------------  FOOTER  -----------------*/
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  padding-top: 5px;
+  text-align: center;
+  border-top: solid black 1px;
+}
+
+.footer-content {
+  margin: 0;
+}
+
+.social-icons {
+  width: 20%;
+}
+
+.icon {
+  padding: 0 1px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid gray 0.5px;
+  padding: 3px;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.footer-reference {
+  font-size: 12px;
+  padding: 3px;
+}
