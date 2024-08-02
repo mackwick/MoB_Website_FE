@@ -66,3 +66,28 @@
   font-size: 12px;
   padding: 3px;
 }
+
+/*-----------------  LANDING  -----------------*/
+
+.landing-about,
+.landing-teaser,
+.latest-news {
+  padding: 5px 0;
+  border-bottom: solid black 1px;
+}
+
+.landing-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.latest-news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.news-item {
+  padding: 5px;
+}
