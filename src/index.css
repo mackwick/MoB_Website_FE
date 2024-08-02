@@ -1,3 +1,26 @@
+/*-----------------  ROOT  -----------------*/
+
+/*-----------------  BODY  -----------------*/
+
+/*-----------------  HEADER  -----------------*/
+
 .logo {
-  height: 200px;
+  height: 100px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3px;
+  border-bottom: solid black 1px;
+}
+
+.header-container > .header-menu {
+  text-align: right;
+}
+
+.header-menu > p {
+  padding: 0;
+  margin: 2px;
 }

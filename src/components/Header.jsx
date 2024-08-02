@@ -6,7 +6,12 @@ function Header() {
       <div className="logo">
         <img src={logo} alt="Mouths of Babes logo" className="logo" />
       </div>
-      <div className="header-menu">Here's the menu</div>
+      <nav className="header-menu">
+        <p>Home</p>
+        <p>Projects</p>
+        <p>About MoB</p>
+        <p>Get Involved</p>
+      </nav>
     </div>
   );
 }
