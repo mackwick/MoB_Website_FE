@@ -1,4 +1,5 @@
 import image from "/images/placeholder.jpeg";
+import LatestNews from "../components/LatestNews";
 
 function Landing() {
   return (
@@ -18,17 +19,39 @@ function Landing() {
       </div>
 
       <div className="landing-teaser">
-        current project teaser and link with image/collage background
+        <p>
+          [REPLACE WITH SCOTOPIA FLYER AND/OR INFO ABOUT SCOTOPIA & LINK TO
+          SCOTOPIA PAGE]
+        </p>
       </div>
       <div className="latest-news">
         <div className="news-item">
-          three images with brief blurbs: projects, events or calls to action
+          <LatestNews
+            image={image}
+            title={"2024 Fundraiser"}
+            blurb={"Date and Time TBD"}
+            link={"https://www.mouthsofbabestheatre.com/tickets"}
+          />
         </div>
         <div className="news-item">
-          three images with brief blurbs: projects, events or calls to action
+          <LatestNews
+            image={image}
+            title={"Voices from the Opioid Epidemic"}
+            blurb={
+              "Our current developing project, Voices from the Opioid Epidemic highlights the stories of those in our community impacted by overdose and addiction, be it personally or with someone they love."
+            }
+            link={"https://www.mouthsofbabestheatre.com/current-projects"}
+          />
         </div>
         <div className="news-item">
-          three images with brief blurbs: projects, events or calls to action
+          <LatestNews
+            image={image}
+            title={"YouthQuake"}
+            blurb={
+              "In December 2023, two of MoB's artistic associates partnered with PeaceRose Montessori School to teach the upper-elementary kids about Social Justice through Theatre."
+            }
+            link={"https://www.mouthsofbabestheatre.com/gallery"}
+          />
         </div>
       </div>
     </div>
