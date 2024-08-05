@@ -2,6 +2,12 @@
 
 /*-----------------  BODY  -----------------*/
 
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*-----------------  HEADER  -----------------*/
 
 .logo {
@@ -27,7 +33,6 @@
 
 /*-----------------  FOOTER  -----------------*/
 .footer-container {
-  position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
@@ -80,6 +85,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 5px;
+}
+
+.brief-bio {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.brief-bio > button {
+  width: 150px;
+  margin: 5px;
 }
 
 .latest-news {
@@ -90,4 +108,10 @@
 
 .news-item {
   padding: 5px;
+}
+
+.landing-top-image {
+  height: 225px;
+  width: 150px;
+  border-radius: 6px;
 }
