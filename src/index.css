@@ -76,7 +76,10 @@ body {
 
 .landing-about,
 .landing-teaser,
-.latest-news {
+.latest-news,
+.mission-div,
+.about-team,
+.about-press {
   padding: 5px 0;
   border-bottom: solid black 1px;
   margin-top: 10px;
@@ -137,4 +140,35 @@ body {
   height: 110px;
   width: 110px;
   border-radius: 10px;
+}
+
+/*-----------------  ABOUT  -----------------*/
+
+.about-header {
+  background-image: url("/images/placeholder.jpeg");
+  background-size: cover;
+  height: 20dvh;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bio-subdiv {
+  padding: 0 10px;
+}
+
+.team-bio-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }

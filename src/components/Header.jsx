@@ -1,4 +1,5 @@
 import logo from "./../../public/images/logo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -7,9 +8,9 @@ function Header() {
         <img src={logo} alt="Mouths of Babes logo" className="logo" />
       </div>
       <nav className="header-menu">
-        <p>Home</p>
+        <Link to="/">Home</Link>
         <p>Projects</p>
-        <p>About MoB</p>
+        <Link to="/about">About MoB</Link>
         <p>Get Involved</p>
       </nav>
     </div>

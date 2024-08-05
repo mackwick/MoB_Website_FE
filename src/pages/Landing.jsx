@@ -9,8 +9,8 @@ function Landing() {
           Mouths of Babes Theatre is dedicated to creating engaging,
           interesting, and smart theatre for actors and audiences in high school
           and college. We use forms of devising theatre to explore and
-          investigate issues we care about: engagement, risk, and advocacy.
-          Learn more about our mission. [LINK TO ABOUT]
+          investigate issues we care about: engagement, risk, advocacy. Learn
+          more about our mission. [LINK TO ABOUT]
           <button>[LINK TO DONATE]</button>
         </div>
         <div className="landing-bio-image">
