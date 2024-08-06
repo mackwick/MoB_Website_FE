@@ -1,5 +1,6 @@
 import Team from "../components/Team";
 import image from "/images/placeholder.jpeg";
+import Press from "../components/Press";
 
 function About() {
   return (
@@ -32,7 +33,7 @@ function About() {
           using our art to establish connections.
         </p>
         <p>Get involved [LINK].</p>
-        <button>[LINK TO DONATE]</button>
+        <button>Support MoB [LINK TO DONATE]</button>
       </div>
       <div className="about-team">
         <h3>Who we are</h3>
@@ -114,13 +115,47 @@ function About() {
         />
       </div>
       <div className="about-press">
-        <h3>Press</h3>
-        <p>press components galore</p>
+        <h3>Press and Recognition</h3>
+        <div className="press-blurbs">
+          <Press
+            blurb={`"DCTA Best of Fringe," 4 stars`}
+            link={"https://dctheaterarts.org/2023/07/16/quilt-stories/"}
+            source={"2023 Capital Fringe Review"}
+          />
+          <Press
+            blurb={`"Not only is 'Wilmington Reconstructed' a must-see, but it's arguably the most important original play ever produced in Wilmington."`}
+            link={
+              "https://www.starnewsonline.com/story/entertainment/theater/2023/04/27/wilmington-1898-coup-and-massacre-reconstructed-in-documentary-play/70152189007/"
+            }
+            source={"Wilmington Star News"}
+          />
+          <Press
+            blurb={`Artistic Director Trey Morehouse discusses "Out, NC", a documentary play on the voices of LGBTQIA+ community members in Wilmington.`}
+            link={
+              "https://www.whqr.org/show/midday-interviews/2018-03-26/communique-documentary-theatre-from-mouths-of-babes-out-nc-based-on-lgbtq-interviews#stream/0"
+            }
+            source={"WHQR Public Media"}
+          />
+          <Press
+            blurb={`Local journalist John Staton discusses MoB's ambitious 2018 adaptation of the Shakespeare classic Hamlet.`}
+            link={
+              "https://www.starnewsonline.com/story/entertainment/local/2018/04/12/mouths-of-babes-aims-to-give-teens-young-adults-voice-through-theater/12721325007/"
+            }
+            source={"Wilmington Star News"}
+          />
+          <Press
+            blurb={`Wilmington Star News reviews MoB Theatre's debu production, "The Diary Play", in 2017.`}
+            link={
+              "https://www.starnewsonline.com/story/entertainment/local/2018/04/12/mouths-of-babes-aims-to-give-teens-young-adults-voice-through-theater/12721325007/"
+            }
+            source={"Wilmington Star News"}
+          />
+        </div>
       </div>
 
       <div className="about-sponsors">
         <h3>Sponsors</h3>
-        <p>sponsors images galore</p>
+        <p>sponsors images</p>
       </div>
     </div>
   );

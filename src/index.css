@@ -172,3 +172,24 @@ body {
   width: 150px;
   border-radius: 50%;
 }
+
+.press-blurbs {
+  display: flex;
+  flex-direction: row;
+
+  text-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.press-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 3px;
+  padding: 5px;
+  width: 27dvw;
+  height: 27dvh;
+}
