@@ -11,7 +11,7 @@ function Landing() {
           and college. We use forms of devising theatre to explore and
           investigate issues we care about: engagement, risk, advocacy. Learn
           more about our mission. [LINK TO ABOUT]
-          <button>[LINK TO DONATE]</button>
+          <button>Support MoB [LINK TO DONATE]</button>
         </div>
         <div className="landing-bio-image">
           <img src={image} className="landing-top-image" />

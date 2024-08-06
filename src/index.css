@@ -24,6 +24,8 @@ body {
 
 .header-container > .header-menu {
   text-align: right;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-menu > p {

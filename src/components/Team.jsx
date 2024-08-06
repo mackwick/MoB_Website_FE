@@ -5,7 +5,7 @@ function Team({ image, name, bio, title }) {
         <img src={image} className="team-bio-pic" />
       </div>
       <div className="bio-subdiv">
-        <h4>{name}</h4>
+        <p>{name}</p>
         <p>
           <i>{title}</i>
         </p>

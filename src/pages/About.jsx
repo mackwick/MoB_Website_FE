@@ -20,8 +20,11 @@ function About() {
           tackle today's changing issues. We see theatre through a contemporary
           lens and use forms of devising theatre and documentary theatre to
           explore and investigate issues we care about:
-          <h4>ENGAGEMENT. RISK. ADVOCACY.</h4>
         </p>
+        <b>
+          <p>ENGAGEMENT. RISK. ADVOCACY.</p>
+        </b>
+
         <p>
           We're dedicated to creating engaging, interesting, and smart theatre
           for actors and audiences for the purposes of building community. We
@@ -37,7 +40,7 @@ function About() {
       </div>
       <div className="about-team">
         <h3>Who we are</h3>
-        <h4>Staff</h4>
+        <span className="who-we-are">Staff</span>
         <Team
           image={image}
           name={"Trey Morehouse"}
@@ -76,7 +79,7 @@ function About() {
           title={"Literary Associate"}
           bio={"Coming soon."}
         />
-        <h4>Board</h4>
+        <span className="who-we-are">Board</span>
         <Team
           image={image}
           name={"La-taun Danns"}

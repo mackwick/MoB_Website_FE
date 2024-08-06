@@ -9,7 +9,7 @@ function Header() {
       </div>
       <nav className="header-menu">
         <Link to="/">Home</Link>
-        <p>Projects</p>
+        <Link to="/projects">Projects</Link>
         <Link to="/about">About MoB</Link>
         <p>Get Involved</p>
       </nav>
