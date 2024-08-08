@@ -2,7 +2,7 @@
 
 To be deployed on Netlify. ETA: Late August.
 
-"Under construction" page design by Aug. 2. Up on custom domain Aug. 8ish.
+"Under construction" page up on custom domain Aug. 24 (when domain expires on Wix).
 
 ## Client Description:
 
