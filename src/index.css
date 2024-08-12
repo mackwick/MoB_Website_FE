@@ -84,7 +84,8 @@ body {
 .about-press,
 .current-projects,
 .engagements-div,
-.previous-works {
+.previous-works,
+.how-to-involved {
   padding: 5px 0;
   border-bottom: solid black 1px;
   margin-top: 10px;
@@ -150,7 +151,8 @@ body {
 /*-----------------  ABOUT  -----------------*/
 
 .about-header,
-.projects-header {
+.projects-header,
+.contact-header {
   background-image: url("/images/placeholder.jpeg");
   background-size: cover;
   height: 20dvh;

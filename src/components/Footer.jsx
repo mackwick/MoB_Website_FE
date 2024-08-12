@@ -23,7 +23,7 @@ function Footer() {
           <h3 className="footer-content">Contact Us</h3>
           <p className="footer-content">Wilmington, NC</p>
           <p className="footer-content">
-            Tel: (910)-367-5286 | Email:{" "}
+            Phone: (910)-367-5286 | Email:{" "}
             <a href="mailto:mouthsofbabestheatre@gmail.com">
               mouthsofbabestheatre@gmail.com
             </a>
