@@ -117,6 +117,7 @@ function About() {
           bio={"Coming Soon"}
         />
       </div>
+
       <div className="about-press">
         <h3>Press and Recognition</h3>
         <div className="press-blurbs">

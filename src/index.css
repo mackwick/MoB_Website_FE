@@ -81,7 +81,10 @@ body {
 .latest-news,
 .mission-div,
 .about-team,
-.about-press {
+.about-press,
+.current-projects,
+.engagements-div,
+.previous-works {
   padding: 5px 0;
   border-bottom: solid black 1px;
   margin-top: 10px;
@@ -146,7 +149,8 @@ body {
 
 /*-----------------  ABOUT  -----------------*/
 
-.about-header {
+.about-header,
+.projects-header {
   background-image: url("/images/placeholder.jpeg");
   background-size: cover;
   height: 20dvh;
@@ -175,16 +179,17 @@ body {
   border-radius: 50%;
 }
 
-.press-blurbs {
+.press-blurbs,
+.project-teasers-div {
   display: flex;
   flex-direction: row;
-
   text-wrap: wrap;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.press-div {
+.press-div,
+.one-project {
   display: flex;
   flex-direction: column;
   justify-content: center;
