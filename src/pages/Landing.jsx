@@ -1,35 +1,50 @@
+import { Link } from "react-router-dom";
 import image from "/images/placeholder.jpeg";
 import LatestNews from "../components/LatestNews";
+import verticalPic from "/images/home-vert4.jpg";
 
 function Landing() {
   return (
     <div className="landing-container">
       <div className="landing-about">
         <div className="brief-bio">
-          Mouths of Babes Theatre is dedicated to creating engaging,
-          interesting, and smart theatre for actors and audiences in high school
-          and college. We use forms of devising theatre to explore and
-          investigate issues we care about: engagement, risk, advocacy. Learn
-          more about our mission. [LINK TO ABOUT]
-          <button>Support MoB [LINK TO DONATE]</button>
+          <span className="home-bio-title">MOUTHS OF BABES</span>{" "}
+          <p>
+            creates theatre that explores and questions complex intersectional,
+            community related issues, examining both their underlying causes and
+            their consequences. Our goal is to curate a theatre-going experience
+            that empowers audience members to reflect on their community to
+            promote healing, growth, and engagement.
+          </p>
+          <div className="home-bio-links">
+            <button>
+              <Link to="/about" className="link button-link">
+                Learn More
+              </Link>{" "}
+            </button>
+            <button>Support MoB</button>
+          </div>
         </div>
-        <div className="landing-bio-image">
-          <img src={image} className="landing-top-image" />
-        </div>
+        {/* <div className="landing-bio-image">
+          <img src={verticalPic} className="landing-top-image" />
+        </div> */}
       </div>
 
       <div className="landing-teaser">
         <p>
-          [REPLACE WITH SCOTOPIA FLYER AND/OR INFO ABOUT SCOTOPIA & LINK TO
-          SCOTOPIA PAGE]
+          Experience Scotopia - MoB Theatre's annual original theatre festival
+          that inspires the search for light within darkness - for audiences and
+          artists alike. [LINK TO SCOTOPIA PAGE]
         </p>
       </div>
       <div className="latest-news">
         <div className="news-item">
           <LatestNews
             image={image}
-            title={"2024 Fundraiser"}
-            blurb={"Date and Time TBD"}
+            title={"2024 Fundraiser: MoB Mixtape"}
+            blurb={
+              "Join us Sept. 25th for a community arts and crafts night, with live music and karaoke, will have you making meaningful art and connections with your community, all while tapping your foot along to some epic live tunes."
+            }
             link={"https://www.mouthsofbabestheatre.com/tickets"}
           />
         </div>

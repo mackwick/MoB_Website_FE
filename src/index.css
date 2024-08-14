@@ -1,11 +1,48 @@
 /*-----------------  ROOT  -----------------*/
 
+:root {
+  --red: #b50d0d;
+  --orange: #b25126;
+  --purple: #5f106c;
+  --blue: #17106c;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /*-----------------  BODY  -----------------*/
 
 body {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.link,
+button {
+  font: inherit;
+  text-decoration: none;
+}
+
+.link {
+  color: var(--red);
+}
+
+.link:hover {
+  cursor: pointer;
+  color: var(--blue);
+}
+
+button,
+.button-link {
+  border-radius: 6px;
+  background-color: var(--orange);
+  color: white;
+  cursor: pointer;
 }
 
 /*-----------------  HEADER  -----------------*/
@@ -18,19 +55,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 3px;
-  border-bottom: solid black 1px;
+  border-bottom: solid var(--red) 20px;
 }
 
 .header-container > .header-menu {
   text-align: right;
   display: flex;
   flex-direction: column;
-}
-
-.header-menu > p {
-  padding: 0;
-  margin: 2px;
+  margin-right: 4px;
 }
 
 /*-----------------  FOOTER  -----------------*/
@@ -42,7 +74,7 @@ body {
   padding: 0;
   padding-top: 5px;
   text-align: center;
-  border-top: solid black 1px;
+  border-top: solid var(--red) 20px;
 }
 
 .footer-content {
@@ -78,7 +110,6 @@ body {
 
 .landing-about,
 .landing-teaser,
-.latest-news,
 .mission-div,
 .about-team,
 .about-press,
@@ -87,8 +118,8 @@ body {
 .previous-works,
 .how-to-involved {
   padding: 5px 0;
-  border-bottom: solid black 1px;
-  margin-top: 10px;
+  border-bottom: solid var(--red) 20px;
+  /* margin-top: 10px; */
 }
 
 .landing-about {
@@ -96,18 +127,36 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding: 5px;
+  background: linear-gradient(45deg, rgb(77, 72, 72), rgb(174, 170, 170));
+  color: white;
+}
+
+.home-bio-title {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 52px;
+  margin: 0 auto;
+  color: var(--red);
+  text-shadow: 2px 2px 3px white;
 }
 
 .brief-bio {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  margin-right: 20px;
 }
 
-.brief-bio > button {
-  width: 150px;
-  margin: 5px;
+.home-bio-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.home-bio-links > button {
+  width: 120px;
+  height: 40px;
+  border: none;
 }
 
 .landing-top-image {
@@ -117,19 +166,18 @@ body {
 }
 
 .landing-teaser {
-  background-image: url("/images/placeholder.jpeg");
+  background-image: url("./../public/images/scotopia-collage.jpg");
   background-size: cover;
   height: 40dvh;
   color: white;
   text-align: center;
-  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .latest-news {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-top: solid black 1px;
 }
 
 .news-item {

@@ -5,13 +5,23 @@ function Header() {
   return (
     <div className="header-container">
       <div className="logo">
-        <img src={logo} alt="Mouths of Babes logo" className="logo" />
+        <Link to="/" className="link">
+          <img src={logo} alt="Mouths of Babes logo" className="logo" />
+        </Link>
       </div>
       <nav className="header-menu">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/about">About MoB</Link>
-        <Link to="/getinvolved">Get Involved</Link>
+        <Link to="/" className="link">
+          Home
+        </Link>
+        <Link to="/projects" className="link">
+          Projects
+        </Link>
+        <Link to="/about" className="link">
+          About MoB
+        </Link>
+        <Link to="/getinvolved" className="link">
+          Get Involved
+        </Link>
       </nav>
     </div>
   );
