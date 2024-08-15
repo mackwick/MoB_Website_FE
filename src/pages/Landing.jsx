@@ -8,14 +8,11 @@ function Landing() {
     <div className="landing-container">
       <div className="landing-about">
         <div className="brief-bio">
-          <span className="home-bio-title">MOUTHS OF BABES</span>{" "}
-          <p>
-            creates theatre that explores and questions complex intersectional,
-            community related issues, examining both their underlying causes and
-            their consequences. Our goal is to curate a theatre-going experience
-            that empowers audience members to reflect on their community to
-            promote healing, growth, and engagement.
-          </p>
+          MOUTHS OF BABES creates theatre that explores and questions complex
+          intersectional, community related issues, examining both their
+          underlying causes and their consequences. Our goal is to curate a
+          theatre-going experience that empowers audience members to reflect on
+          their community to promote healing, growth, and engagement.
           <div className="home-bio-links">
             <button>
               <Link to="/about" className="link button-link">
@@ -31,10 +28,11 @@ function Landing() {
       </div>
 
       <div className="landing-teaser">
+        <span className="home-teaser-header">EXPERIENCE SCOTOPIA</span>
         <p>
-          Experience Scotopia - MoB Theatre's annual original theatre festival
-          that inspires the search for light within darkness - for audiences and
-          artists alike. [LINK TO SCOTOPIA PAGE]
+          MoB Theatre's annual original theatre festival that inspires the
+          search for light within darkness - for audiences and artists
+          alike.[LINK TO SCOTOPIA PAGE]
         </p>
       </div>
       <div className="latest-news">

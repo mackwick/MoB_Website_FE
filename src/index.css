@@ -1,10 +1,15 @@
 /*-----------------  ROOT  -----------------*/
 
 :root {
-  --red: #b50d0d;
+  --red: #981f2b;
   --orange: #b25126;
-  --purple: #5f106c;
-  --blue: #17106c;
+  --cream: #f7f7de;
+  --darkred: #771822;
+  --lightred: #a92330;
+  --verylightred: #f2bbc1;
+  --darkorange: #974420;
+  --lightorange: #d87246;
+  --verylightorange: #e08b67;
 }
 
 *,
@@ -29,18 +34,22 @@ button {
 }
 
 .link {
-  color: var(--red);
+  color: var(--darkorange);
 }
 
 .link:hover {
   cursor: pointer;
-  color: var(--blue);
+  /* color: var(--blue); */
+}
+
+button {
+  border: solid white 1px;
 }
 
 button,
 .button-link {
   border-radius: 6px;
-  background-color: var(--orange);
+  background-color: var(--lightred);
   color: white;
   cursor: pointer;
 }
@@ -55,7 +64,7 @@ button,
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: solid var(--red) 20px;
+  border-bottom: solid var(--darkred) 20px;
 }
 
 .header-container > .header-menu {
@@ -118,7 +127,7 @@ button,
 .previous-works,
 .how-to-involved {
   padding: 5px 0;
-  border-bottom: solid var(--red) 20px;
+  border-bottom: solid var(--darkred) 20px;
   /* margin-top: 10px; */
 }
 
@@ -127,17 +136,17 @@ button,
   flex-direction: row;
   justify-content: space-around;
   padding: 5px;
-  background: linear-gradient(45deg, rgb(77, 72, 72), rgb(174, 170, 170));
+  background: linear-gradient(var(--red), var(--lightred), var(--verylightred));
   color: white;
 }
 
-.home-bio-title {
+.home-teaser-header {
   font-weight: 900;
   font-style: normal;
-  font-size: 52px;
+  padding-bottom: 0;
+  font-size: 40px;
   margin: 0 auto;
-  color: var(--red);
-  text-shadow: 2px 2px 3px white;
+  text-shadow: 2px 2px 3px gray;
 }
 
 .brief-bio {
@@ -156,7 +165,6 @@ button,
 .home-bio-links > button {
   width: 120px;
   height: 40px;
-  border: none;
 }
 
 .landing-top-image {
@@ -166,12 +174,15 @@ button,
 }
 
 .landing-teaser {
-  background-image: url("./../public/images/scotopia-collage.jpg");
+  background-image: url("/images/scotopia-collage.jpg");
   background-size: cover;
   height: 40dvh;
   color: white;
   text-align: center;
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .latest-news {
