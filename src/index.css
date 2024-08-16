@@ -91,6 +91,7 @@ button:hover {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.861);
   color: var(--darkred);
+  border-top: solid var(--lightred) 20px;
 }
 
 .footer-content {
@@ -293,6 +294,7 @@ button:hover {
 /*--------------------- RESPONSIVENESS --------------------------*/
 
 @media screen and (min-width: 650px) {
+  /*********************    LANDING    *************************/
   .home-bio-links > button {
     width: 10rem;
     height: 3rem;
@@ -303,16 +305,45 @@ button:hover {
     width: 16rem;
     height: 4rem;
     font-size: 26px;
-    background-color: var(--lightred);
-    border: solid var(--cream) 1px;
     margin-top: 1rem;
   }
 
   .news-image {
     height: 9rem;
     width: 9rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  /*********************    LANDING    *************************/
+
+  .news-image {
+    height: 13rem;
+    width: 13rem;
+    margin-top: 1rem;
+  }
+
+  .landing-about {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .landing-teaser {
+    font-size: 26px;
+    padding: 0 10px;
+    text-shadow: 2px 2px 3px gray;
+  }
+
+  .home-bio-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+  }
+
+  .news-item,
+  .news-item .link {
+    font-size: 18px;
   }
 }
