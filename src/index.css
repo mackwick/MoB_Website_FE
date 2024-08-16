@@ -187,6 +187,7 @@ button:hover {
 
 .teaser-button:hover {
   background-color: var(--verylightred);
+  cursor: pointer;
 }
 
 .landing-top-image {
@@ -287,4 +288,31 @@ button:hover {
   padding: 5px;
   width: 27dvw;
   height: 27dvh;
+}
+
+/*--------------------- RESPONSIVENESS --------------------------*/
+
+@media screen and (min-width: 650px) {
+  .home-bio-links > button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 18px;
+  }
+
+  .teaser-button {
+    width: 16rem;
+    height: 4rem;
+    font-size: 26px;
+    background-color: var(--lightred);
+    border: solid var(--cream) 1px;
+    margin-top: 1rem;
+  }
+
+  .news-image {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
 }
