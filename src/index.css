@@ -25,6 +25,7 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: var(--red);
 }
 
 .link,
@@ -34,12 +35,12 @@ button {
 }
 
 .link {
-  color: var(--darkorange);
+  color: var(--darkred);
 }
 
 .link:hover {
   cursor: pointer;
-  /* color: var(--blue); */
+  color: var(--lightred);
 }
 
 button {
@@ -54,6 +55,10 @@ button,
   cursor: pointer;
 }
 
+button:hover {
+  background-color: var(--verylightred);
+}
+
 /*-----------------  HEADER  -----------------*/
 
 .logo {
@@ -65,6 +70,7 @@ button,
   flex-direction: row;
   justify-content: space-between;
   border-bottom: solid var(--darkred) 20px;
+  background-color: rgba(255, 255, 255, 0.861);
 }
 
 .header-container > .header-menu {
@@ -83,7 +89,8 @@ button,
   padding: 0;
   padding-top: 5px;
   text-align: center;
-  border-top: solid var(--red) 20px;
+  background-color: rgba(255, 255, 255, 0.861);
+  color: var(--darkred);
 }
 
 .footer-content {
@@ -92,6 +99,7 @@ button,
 
 .social-icons {
   width: 20%;
+  text-align: left;
 }
 
 .icon {
@@ -147,6 +155,7 @@ button,
   font-size: 40px;
   margin: 0 auto;
   text-shadow: 2px 2px 3px gray;
+  color: var(--cream);
 }
 
 .brief-bio {
@@ -155,7 +164,8 @@ button,
   text-align: justify;
 }
 
-.home-bio-links {
+.home-bio-links,
+.home-teaser-link {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -165,6 +175,18 @@ button,
 .home-bio-links > button {
   width: 120px;
   height: 40px;
+}
+
+.teaser-button {
+  width: 220px;
+  height: 45px;
+  font-size: 22px;
+  background-color: var(--lightred);
+  border: solid var(--cream) 1px;
+}
+
+.teaser-button:hover {
+  background-color: var(--verylightred);
 }
 
 .landing-top-image {
@@ -177,7 +199,7 @@ button,
   background-image: url("/images/scotopia-collage.jpg");
   background-size: cover;
   height: 40dvh;
-  color: white;
+  color: var(--cream);
   text-align: center;
   margin-top: 0;
   display: flex;
@@ -189,6 +211,9 @@ button,
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 10px 0px;
+  background: linear-gradient(var(--red), var(--verylightred));
+  color: white;
 }
 
 .news-item {
@@ -202,9 +227,11 @@ button,
 }
 
 .news-image {
-  height: 110px;
-  width: 110px;
+  height: 6rem;
+  width: 6rem;
   border-radius: 10px;
+  margin-bottom: 1rem;
+  object-fit: cover;
 }
 
 /*-----------------  ABOUT  -----------------*/
