@@ -72,11 +72,98 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.861);
 }
 
-.header-container > .header-menu {
-  text-align: right;
+.offscreen-menu {
   display: flex;
   flex-direction: column;
-  margin-right: 4px;
+  background-color: var(--red);
+  color: var(--cream);
+  text-align: center;
+  height: 100dvh;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  z-index: 2;
+  transition: 0.3s ease;
+}
+
+#ham-toggle {
+  display: none;
+}
+
+nav:has(#ham-toggle:checked) .offscreen-menu {
+  right: 0;
+}
+
+nav:has(#ham-toggle:checked) .hamburger-menu span {
+  background-color: var(--cream);
+  z-index: 2;
+}
+
+nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(1) {
+  margin-right: 25px;
+  top: 55%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: 0.3s ease;
+}
+
+nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(2) {
+  opacity: 0;
+}
+
+nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
+  margin-right: 25px;
+  top: 45%;
+  transform: translate(-50%, 50%) rotate(-45deg);
+  transition: 0.3s ease;
+}
+
+.hamburger-menu {
+  margin: 20px 5px;
+  padding-top: 20px;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  position: relative;
+}
+
+.hamburger-menu span {
+  height: 5px;
+  width: 100%;
+  background-color: var(--red);
+  border-radius: 25px;
+  position: absolute;
+  transition: 0.3s ease;
+}
+
+.hamburger-menu span:nth-child(1) {
+  top: 25%;
+}
+
+.hamburger-menu span:nth-child(2) {
+  top: 50%;
+}
+
+.hamburger-menu span:nth-child(3) {
+  top: 75%;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+.offscreen-menu > .link,
+.offscreen-menu > button {
+  padding: 20px 15px 0 20px;
+  color: var(--light);
+  font-size: 26px;
+  background: none;
+  border: none;
+}
+
+.offscreen-menu > .cl-rootBox {
+  margin: 20px auto 0 auto;
 }
 
 /*-----------------  FOOTER  -----------------*/
@@ -182,7 +269,7 @@ button:hover {
   margin: 10px;
 }
 
-.home-bio-links > button {
+.home-bio-links .home-bio-one-link {
   width: 120px;
   height: 40px;
 }
@@ -303,7 +390,7 @@ button:hover {
 
 @media screen and (min-width: 650px) {
   /*********************    LANDING    *************************/
-  .home-bio-links > button {
+  .home-bio-links .home-bio-one-link {
     width: 10rem;
     height: 3rem;
     font-size: 18px;
@@ -369,6 +456,10 @@ button:hover {
     height: 150px;
   }
 
+  .hamburger-menu {
+    margin: 50px 25px 20px 25px;
+  }
+
   .brief-bio {
     font-size: 22px;
   }
@@ -392,6 +483,27 @@ button:hover {
 }
 
 @media screen and (min-width: 1440px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  .offscreen-menu > .link {
+    padding: 0;
+    font-size: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4px;
+  }
+
+  .offscreen-menu {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--darkred);
+    height: 10%;
+    position: unset;
+    padding-top: 30px;
+  }
+
   .landing-video {
     display: contents;
   }
@@ -417,7 +529,7 @@ button:hover {
     padding: 0 20px 20px 20px;
   }
 
-  .home-bio-links > button {
+  .home-bio-links .home-bio-one-link {
     width: 12rem;
     height: 4rem;
     font-size: 22px;
@@ -463,5 +575,9 @@ button:hover {
 
   .footer-reference {
     font-size: 14px;
+  }
+
+  .header-container {
+    padding: 10px;
   }
 }

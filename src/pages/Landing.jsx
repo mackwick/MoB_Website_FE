@@ -15,8 +15,15 @@ function Landing() {
           theatre-going experience that empowers audience members to reflect on
           their community to promote healing, growth, and engagement.
           <div className="home-bio-links">
-            <button>Learn More</button>
-            <button>Support MoB</button>
+            <a href="/about">
+              <button className="learn-more-button home-bio-one-link">
+                Learn More
+              </button>
+            </a>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY">
+              {" "}
+              <button className="home-bio-one-link">Support MoB</button>
+            </a>
           </div>
         </div>
         <div className="landing-video">
@@ -31,7 +38,9 @@ function Landing() {
           search for light within darkness - for audiences and artists alike.
         </p>
         <div className="home-teaser-link">
-          <button className="teaser-button">GET TICKETS</button>
+          <a href="">
+            <button className="teaser-button">GET TICKETS</button>
+          </a>
         </div>
       </div>
       <div className="latest-news">
