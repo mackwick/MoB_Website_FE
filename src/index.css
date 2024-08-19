@@ -362,31 +362,106 @@ button:hover {
   .news-item .link {
     font-size: 18px;
   }
+}
 
-  @media screen and (min-width: 1020px) {
-    .logo {
-      height: 150px;
-    }
+@media screen and (min-width: 1020px) {
+  .logo {
+    height: 150px;
+  }
 
-    .brief-bio {
-      font-size: 22px;
-    }
+  .brief-bio {
+    font-size: 22px;
+  }
 
-    .landing-teaser {
-      min-height: 50dvh;
-    }
+  .landing-teaser {
+    min-height: 50dvh;
+  }
 
-    .home-teaser-header {
-      font-size: 6rem;
-    }
+  .home-teaser-header {
+    font-size: 6rem;
+  }
 
-    .teaser-blurb {
-      font-size: 2rem;
-    }
+  .teaser-blurb {
+    font-size: 2rem;
+  }
 
-    .news-image {
-      height: 15rem;
-      width: 15rem;
-    }
+  .news-image {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .landing-video {
+    display: contents;
+  }
+
+  .video-placeholder {
+    height: 450px;
+    border-radius: 6px;
+    border: solid var(--darkred) 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .landing-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .brief-bio {
+    font-size: 26px;
+    padding: 0 20px 20px 20px;
+  }
+
+  .home-bio-links > button {
+    width: 12rem;
+    height: 4rem;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .brief-bio {
+    font-size: 22px;
+  }
+
+  .landing-teaser {
+    min-height: 70dvh;
+  }
+
+  .home-teaser-header {
+    font-size: 10rem;
+  }
+
+  .teaser-blurb {
+    font-size: 2rem;
+    padding-bottom: 20px;
+  }
+
+  .teaser-button {
+    width: 18rem;
+    height: 6rem;
+    font-size: 30px;
+  }
+
+  .news-image {
+    height: 18rem;
+    width: 18rem;
+  }
+
+  .news-item,
+  .news-item .link {
+    font-size: 24px;
+  }
+
+  .footer-container {
+    font-size: 18px;
+  }
+
+  .footer-reference {
+    font-size: 14px;
   }
 }
