@@ -47,8 +47,7 @@ button {
   border: solid white 1px;
 }
 
-button,
-.button-link {
+button {
   border-radius: 6px;
   background-color: var(--lightred);
   color: white;
@@ -149,6 +148,10 @@ button:hover {
   color: white;
 }
 
+.landing-video {
+  display: none;
+}
+
 .home-teaser-header {
   font-weight: 900;
   font-style: normal;
@@ -157,6 +160,12 @@ button:hover {
   margin: 0 auto;
   text-shadow: 2px 2px 3px gray;
   color: var(--cream);
+}
+
+.teaser-blurb {
+  text-shadow: var(--darkred) 3px 0 20px;
+  color: var(--cream);
+  font-size: 20px;
 }
 
 .brief-bio {
@@ -201,7 +210,6 @@ button:hover {
   background-image: url("/images/scotopia-collage.jpg");
   background-size: cover;
   height: 40dvh;
-  color: var(--cream);
   text-align: center;
   margin-top: 0;
   display: flex;
@@ -308,6 +316,14 @@ button:hover {
     margin-top: 1rem;
   }
 
+  .home-teaser-header {
+    font-size: 4rem;
+  }
+
+  .teaser-blurb {
+    font-size: 1.5rem;
+  }
+
   .news-image {
     height: 9rem;
     width: 9rem;
@@ -345,5 +361,32 @@ button:hover {
   .news-item,
   .news-item .link {
     font-size: 18px;
+  }
+
+  @media screen and (min-width: 1020px) {
+    .logo {
+      height: 150px;
+    }
+
+    .brief-bio {
+      font-size: 22px;
+    }
+
+    .landing-teaser {
+      min-height: 50dvh;
+    }
+
+    .home-teaser-header {
+      font-size: 6rem;
+    }
+
+    .teaser-blurb {
+      font-size: 2rem;
+    }
+
+    .news-image {
+      height: 15rem;
+      width: 15rem;
+    }
   }
 }

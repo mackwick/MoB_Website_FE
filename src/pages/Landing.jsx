@@ -15,22 +15,18 @@ function Landing() {
           theatre-going experience that empowers audience members to reflect on
           their community to promote healing, growth, and engagement.
           <div className="home-bio-links">
-            <button>
-              <Link to="/about" className="link button-link">
-                Learn More
-              </Link>{" "}
-            </button>
+            <button>Learn More</button>
             <button>Support MoB</button>
           </div>
         </div>
-        {/* <div className="landing-bio-image">
-          <img src={verticalPic} className="landing-top-image" />
-        </div> */}
+        <div className="landing-video">
+          <img src={image} className="video-placeholder"></img>
+        </div>
       </div>
 
       <div className="landing-teaser">
         <span className="home-teaser-header">EXPERIENCE SCOTOPIA</span>
-        <p>
+        <p className="teaser-blurb">
           MoB Theatre's annual original theatre festival that inspires the
           search for light within darkness - for audiences and artists alike.
         </p>
