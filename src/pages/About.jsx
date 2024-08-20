@@ -15,36 +15,41 @@ function About() {
           “People speak in organic poems.” <span>- Anna Deveare Smith</span>
         </p>
         <div className="about-body">
-          <p>
-            MoB sees theatre through a contemporary lens, using forms of
-            collaborative theatre making to investigate issues we care about.
-            With a focus on non-fiction narratives, documentary theatre is one
-            of our most repeated and polished processes.
-          </p>
-          <p>
-            An incubator for new works, MoB Theatre is constantly harnessing
-            true stories, oral histories, and lived experiences to create
-            meaningful theatre.
-          </p>
-          <p>
-            Highlighting process over product, we develop workshops, staged
-            readings, and performances to showcase work as it's being developed
-            to garner community feedback, conversation, and growth.
-          </p>
-          <p>
-            Because the many details these true stories reveal over time, we
-            have more than one of these pieces being developed at once.
-          </p>
-          <div className="home-bio-links">
-            <a href="/contact" className="link">
-              <button className="home-bio-one-link">Get Involved</button>
-            </a>
-            <a
-              href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
-              className="link"
-            >
-              <button className="home-bio-one-link">Support MoB</button>
-            </a>
+          <div className="about-body-one">
+            <img src={image} className="about-image-main" />
+          </div>
+          <div className="about-body-two">
+            <p>
+              MoB sees theatre through a contemporary lens, using forms of
+              collaborative theatre making to investigate issues we care about.
+              With a focus on non-fiction narratives, documentary theatre is one
+              of our most repeated and polished processes.
+            </p>
+            <p>
+              An incubator for new works, MoB Theatre is constantly harnessing
+              true stories, oral histories, and lived experiences to create
+              meaningful theatre.
+            </p>
+            <p>
+              Highlighting process over product, we develop workshops, staged
+              readings, and performances to showcase work as it's being
+              developed to garner community feedback, conversation, and growth.
+            </p>
+            <p>
+              Because the many details these true stories reveal over time, we
+              have more than one of these pieces being developed at once.
+            </p>
+            <div className="home-bio-links">
+              <a href="/contact" className="link">
+                <button className="home-bio-one-link">Get Involved</button>
+              </a>
+              <a
+                href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
+                className="link"
+              >
+                <button className="home-bio-one-link">Support MoB</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

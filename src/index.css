@@ -238,7 +238,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   color: white;
 }
 
-.landing-video {
+.landing-video,
+.about-body-one {
   display: none;
 }
 
@@ -394,6 +395,11 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding-bottom: 20px !important;
 }
 
+.about-body {
+  display: flex;
+  flex-direction: row;
+}
+
 .mission-div p {
   padding-bottom: 10px;
 }
@@ -492,6 +498,16 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     height: 9rem;
     width: 9rem;
   }
+
+  .press-div,
+  .one-project {
+    width: 30dvw;
+  }
+
+  .press-blurb,
+  .press-link {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 860px) {
@@ -506,6 +522,14 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   .landing-about {
     font-size: 18px;
     padding: 10px 20px;
+  }
+
+  .about-body {
+    font-size: 18px;
+  }
+
+  .about-quote {
+    font-size: 24px;
   }
 
   .landing-teaser {
@@ -524,6 +548,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
   .news-item,
   .news-item .link {
+    font-size: 18px;
+  }
+
+  .team-bio-two {
     font-size: 18px;
   }
 }
@@ -557,9 +585,40 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     height: 15rem;
     width: 15rem;
   }
+
+  .about-header {
+    font-size: 5rem;
+  }
+
+  .team-bio-pic {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .about-body {
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .about-body-one {
+    display: contents;
+    justify-content: center;
+  }
+
+  .about-image-main {
+    height: 300px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .about-body-two {
+    margin-right: 20px;
+    text-align: justify;
+  }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1435px) {
   .hamburger-menu {
     display: none;
   }
