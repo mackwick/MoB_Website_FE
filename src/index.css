@@ -226,7 +226,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   /* margin-top: 10px; */
 }
 
-.landing-about {
+.landing-about,
+.mission-div,
+.about-press,
+.about-sponsors {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -340,28 +343,95 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   background-size: cover;
   height: 20dvh;
   color: white;
-  font-size: 32px;
+  font-size: 3rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.team-bio {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.about-team,
+.about-press,
+.about-sponsors {
+  flex-direction: column;
 }
 
-.bio-subdiv {
-  padding: 0 10px;
+.about-team {
+  color: var(--cream);
+  background-color: var(--red);
+  padding: 5px;
+}
+
+.about-press {
+  background: linear-gradient(
+    45deg,
+    var(--lightred),
+    var(--verylightred),
+    var(--lightred)
+  );
+}
+
+.about-container h3 {
+  font-size: 26px;
+  padding-bottom: 12px;
+}
+
+.who-we-are {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.mission-div {
+  flex-direction: column;
+}
+
+.about-quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  padding-bottom: 20px !important;
+}
+
+.mission-div p {
+  padding-bottom: 10px;
+}
+
+.bios-div {
+  padding-top: 20px;
+}
+
+.team-bio {
+  display: flex;
+  flex-direction: column;
+  border-top: dotted var(--verylightred) 2px;
+  padding: 10px 0;
+}
+
+.team-bio-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  font-size: 24px;
+}
+
+.team-bio-two {
+  text-align: justify;
+  padding: 0 5px;
 }
 
 .team-bio-pic {
-  height: 150px;
-  width: 150px;
+  height: 6.5rem;
+  width: 6.5rem;
   border-radius: 50%;
+  border: solid var(--cream) 2px;
+}
+
+.bio-name {
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .press-blurbs,
@@ -371,6 +441,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   text-wrap: wrap;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  font-size: 13px;
 }
 
 .press-div,
@@ -378,12 +450,17 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid black;
+  border: 3px solid var(--red);
   border-radius: 6px;
   margin: 3px;
   padding: 5px;
-  width: 27dvw;
+  width: 45dvw;
   height: 27dvh;
+  text-align: center;
+}
+
+.press-link {
+  color: var(--cream);
 }
 
 /*--------------------- RESPONSIVENESS --------------------------*/

@@ -1,8 +1,8 @@
 function Press({ source, blurb, link }) {
   return (
     <div className="press-div">
-      <h6>{blurb}</h6>
-      <a href={link}>
+      <p className="press-blurb">{blurb}</p>
+      <a href={link} className="link press-link">
         <i>{source}</i>
       </a>
     </div>
