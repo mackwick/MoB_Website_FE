@@ -220,7 +220,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .current-projects,
 .engagements-div,
 .previous-works,
-.how-to-involved {
+.contact-header,
+.involved-body {
   padding: 5px 0;
   border-bottom: solid var(--darkred) 20px;
   /* margin-top: 10px; */
@@ -467,6 +468,26 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .press-link {
   color: var(--cream);
+}
+
+/*-----------------  GET INVOLVED  -----------------*/
+
+.how-to-involved {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 15px 10px;
+  background: linear-gradient(var(--red), var(--lightred), var(--darkred));
+  color: var(--cream);
+  text-align: justify;
+}
+
+.how-to-involved .link {
+  color: var(--verylightred);
+}
+
+.how-to-involved h4 {
+  font-size: 24px;
+  padding-top: 8px;
 }
 
 /*--------------------- RESPONSIVENESS --------------------------*/
