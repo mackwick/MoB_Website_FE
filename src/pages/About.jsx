@@ -21,23 +21,21 @@ function About() {
           <div className="about-body-two">
             <p>
               MoB sees theatre through a contemporary lens, using forms of
-              collaborative theatre making to investigate issues we care about.
+              collaborative theatre-making to investigate issues we care about.
               With a focus on non-fiction narratives, documentary theatre is one
               of our most repeated and polished processes.
             </p>
             <p>
               An incubator for new works, MoB Theatre is constantly harnessing
               true stories, oral histories, and lived experiences to create
-              meaningful theatre.
+              meaningful theatre. Highlighting process over product, we develop
+              workshops, staged readings, and performances to showcase work as
+              it's being developed to garner community feedback, conversation,
+              and growth.
             </p>
             <p>
-              Highlighting process over product, we develop workshops, staged
-              readings, and performances to showcase work as it's being
-              developed to garner community feedback, conversation, and growth.
-            </p>
-            <p>
-              Because the many details these true stories reveal over time, we
-              have more than one of these pieces being developed at once.
+              Because of the many details these true stories reveal over time,
+              we have more than one of these pieces being developed at once.
             </p>
             <div className="home-bio-links">
               <a href="/contact" className="link">
@@ -91,18 +89,9 @@ function About() {
           />
           <Team
             image={image}
-            name={"Sarah Osoman"}
-            title={"Literary Associate"}
-            bio={"Coming soon."}
-          />
-        </div>
-
-        <div className="bios-div">
-          <Team
-            image={image}
             name={"La-taun Danns"}
             title={"Board President"}
-            bio={"Coming soon."}
+            bio={"Bio coming soon."}
           />
           <Team
             image={image}
@@ -138,7 +127,7 @@ function About() {
           />
           <Team
             image={image}
-            name={"Lilli LAST NAME"}
+            name={"Lilli Lindbeck"}
             title={"Board Member"}
             bio={
               "Lilli combines a diverse background in law, divinity, and medical coding with a passion for theater. She has experience on several boards, including those focused on AIDS and coding, and volunteered with the Names Project in San Francisco. Lillis theater involvement includes high school and community productions, reflecting a strong belief in theater's transformative impact."
@@ -146,7 +135,7 @@ function About() {
           />
           <Team
             image={image}
-            name={"Marie Antoinette LAST NAME"}
+            name={"Marie Antoinette Marrinan"}
             title={"Board Member"}
             bio={
               "Marie Antoinette a first-year MFA candidate at UNCW. She retired from my position as a Nurse Practitioner and relocated to North Carolina in 2015. Since then, she has had the honor of working with the Wilmington Theater community as a stage manager, ensemble member, and playwright. She is a member of the Port City Playwrights Project and a Board Member of MOB Theatre Company."
@@ -156,19 +145,19 @@ function About() {
             image={image}
             name={"Malachi Chapman"}
             title={"Board Member"}
-            bio={"coming soon"}
+            bio={"Bio coming soon."}
           />
           <Team
             image={image}
             name={"Madisyn Fleming"}
             title={"Board Member"}
-            bio={"coming soon"}
+            bio={"Bio coming soon."}
           />
         </div>
       </div>
 
       <div className="about-press">
-        <h3>Press and Recognition</h3>
+        <h3>PRESS AND RECOGNITION</h3>
         <div className="press-blurbs">
           <Press
             blurb={`"DCTA Best of Fringe," 4 stars`}
@@ -207,8 +196,8 @@ function About() {
       </div>
 
       <div className="about-sponsors">
-        <h3>Sponsors</h3>
-        <p>sponsors images</p>
+        <h3>SPONSORS</h3>
+        <p>insert sponsors images</p>
       </div>
     </div>
   );

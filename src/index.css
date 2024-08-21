@@ -616,6 +616,37 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     margin-right: 20px;
     text-align: justify;
   }
+
+  .bios-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .team-bio {
+    width: 40%;
+    padding: 25px 10px;
+  }
+
+  .team-bio-pic {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .team-bio-one {
+    padding: 10px 0;
+    justify-content: space-around;
+  }
+
+  .press-div {
+    width: 18%;
+  }
+
+  .press-blurbs {
+    justify-content: space-between;
+    padding: 15px;
+  }
 }
 
 @media screen and (min-width: 1435px) {
@@ -660,9 +691,19 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     align-items: center;
   }
 
-  .brief-bio {
+  .brief-bio,
+  .about-body {
     font-size: 26px;
     padding: 0 20px 20px 20px;
+  }
+
+  .about-quote {
+    font-size: 32px;
+  }
+
+  .about-image-main {
+    height: 400px;
+    margin-right: 20px;
   }
 
   .home-bio-links .home-bio-one-link {
@@ -715,5 +756,21 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
   .header-container {
     padding: 10px;
+  }
+
+  .about-container h3 {
+    font-size: 44px;
+  }
+
+  .team-bio {
+    width: 23%;
+    border: dotted var(--verylightred) 2px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+  }
+
+  .team-bio-pic {
+    height: 9rem;
+    width: 9rem;
   }
 }
