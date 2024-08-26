@@ -557,7 +557,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 /*--------------------- RESPONSIVENESS --------------------------*/
 
 @media screen and (min-width: 650px) {
-  /*********************    LANDING    *************************/
   .home-bio-links .home-bio-one-link {
     width: 10rem;
     height: 3rem;
@@ -594,11 +593,28 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   .project-link {
     font-size: 1rem;
   }
+
+  .one-project {
+    width: 48dvw;
+    height: 35dvw;
+  }
+
+  .project-tease-image {
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .engage-tease-image {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .engage-two p {
+    text-align: justify;
+  }
 }
 
 @media screen and (min-width: 860px) {
-  /*********************    LANDING    *************************/
-
   .news-image,
   .project-tease-image {
     height: 13rem;
@@ -760,6 +776,14 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   .how-to-div2 {
     width: 48%;
   }
+
+  .one-project {
+    width: 45dvw;
+  }
+
+  .project-link {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1435px) {
@@ -892,5 +916,32 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
   .contact-header {
     height: 25dvh;
+  }
+
+  .one-project {
+    width: 23dvw;
+    height: 400px;
+    justify-content: start;
+  }
+
+  .project-tease-image {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .project-teasers-div {
+    gap: 20px;
+  }
+
+  .engage-collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+  }
+
+  .one-engagement {
+    width: 40dvw;
   }
 }
