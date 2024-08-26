@@ -575,6 +575,15 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   .team-bio-two {
     font-size: 18px;
   }
+  .how-to-involved li,
+  .how-to-involved p,
+  .how-to-involved .link {
+    font-size: 1.5rem;
+  }
+
+  .how-to-involved h4 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1020px) {
@@ -607,7 +616,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     width: 15rem;
   }
 
-  .about-header {
+  .about-header,
+  .contact-header {
     font-size: 5rem;
   }
 
@@ -667,6 +677,17 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   .press-blurbs {
     justify-content: space-between;
     padding: 15px;
+  }
+
+  .how-to-involved {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .how-to-div1,
+  .how-to-div2 {
+    width: 48%;
   }
 }
 
@@ -793,5 +814,9 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   .team-bio-pic {
     height: 9rem;
     width: 9rem;
+  }
+
+  .contact-header {
+    height: 25dvh;
   }
 }
