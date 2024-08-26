@@ -1,9 +1,13 @@
 function Engagement({ image, name, details }) {
   return (
     <div className="one-engagement">
-      <img src={image} className="project-tease-image" />
-      <h3>{name}</h3>
-      <p>{details}</p>
+      <div className="engage-one">
+        <img src={image} className="engage-tease-image" />
+      </div>
+      <div className="engage-two">
+        <h3>{name}</h3>
+        <p>{details}</p>
+      </div>
     </div>
   );
 }

@@ -6,67 +6,76 @@ function Projects() {
   return (
     <div className="projects-container">
       <div className="projects-header">
-        <h2>Projects</h2>
+        <h2>PROJECTS</h2>
       </div>
+
       <div className="current-projects">
-        <h3>Current Projects</h3>
+        <h3>CURRENT PROJECTS</h3>
+
         <div className="project-teasers-div">
           <Project
-            image={"image"}
+            image={image}
+            name={"The Oak Grove Cemetery Project"}
+            link={""}
+          />
+          <Project
+            image={image}
             name={"Voices from the Opioid Epidemic"}
             link={""}
           />
-          <Project image={"image"} name={"Quilt Stories"} link={""} />
-          <Project
-            image={"image"}
-            name={"Wilmington Reconstructed"}
-            link={""}
+          <Project image={image} name={"Quilt Stories"} link={""} />
+          <Project image={image} name={"Wilmington Reconstructed"} link={""} />
+        </div>
+      </div>
+
+      <div className="engagements-div">
+        <h3>EVENTS & ENGAGEMENT</h3>
+        <div className="engage-collection">
+          <Engagement
+            image={image}
+            name={"2024 Fundraiser"}
+            details={"Date and Time TBD"}
+          />
+          <Engagement
+            image={image}
+            name={"YouthQuake 2023"}
+            details={`MoB partnered with PeaceRose Montessori School to teach upper-elementary kids about Social Justice through Theatre. Our associates discussed what it means to be a youth activist, analyzed speeches of youth activists, and collaged these findings into a visual piece. In their final class, students performed a series of monologues based on a combination of interviews they did and speeches they analyzed.`}
+          />
+          <Engagement
+            image={image}
+            name={"Red Ribbon Event 2023"}
+            details={`MoB performers attended the Wilmington Red Ribbon Event for World AIDS Day at the Cameron Arts Museum. Following various activists and speakers, including members of SEEDS of Healing, we performed a collection of monologues from Quilt Stories (see current projects), a production that we also had brought to the Washington D.C.Fringe Festival in the summer.`}
+          />
+          <Engagement
+            image={image}
+            name={"Overdose Awareness Day 2023"}
+            details={`MoB performers attended this event to provide support for the community and share stories from the first few interviews conducted on our ongoing project, Voices from the Opioid Epidemic. With almost all of the interviewees present to hear the first readings of their monologues, it was a powerful and emotional day. `}
+          />
+          <Engagement image={image} name={"OUT NC 2021"} details={`TBD`} />
+          <Engagement
+            image={image}
+            name={"Pride Picnic 2021"}
+            details={`TBD`}
           />
         </div>
       </div>
-      <div className="engagements-div">
-        <h3>Events & Engagement</h3>
-        <Engagement
-          image={"image"}
-          name={"2024 Fundraiser"}
-          details={"Date and Time TBD"}
-        />
-        <Engagement
-          image={"image"}
-          name={"YouthQuake 2023"}
-          details={`MoB partnered with PeaceRose Montessori School to teach upper-elementary kids about Social Justice through Theatre. Our associates discussed what it means to be a youth activist, analyzed speeches of youth activists, and collaged these findings into a visual piece. In their final class, students performed a series of monologues based on a combination of interviews they did and speeches they analyzed.`}
-        />
-        <Engagement
-          image={"image"}
-          name={"Red Ribbon Event 2023"}
-          details={`MoB performers attended the Wilmington Red Ribbon Event for World AIDS Day at the Cameron Arts Museum. Following various activists and speakers, including members of SEEDS of Healing, we performed a collection of monologues from Quilt Stories (see current projects), a production that we also had brought to the Washington D.C.Fringe Festival in the summer.`}
-        />
-        <Engagement
-          image={"image"}
-          name={"Overdose Awareness Day 2023"}
-          details={`MoB performers attended this event to provide support for the community and share stories from the first few interviews conducted on our ongoing project, Voices from the Opioid Epidemic. With almost all of the interviewees present to hear the first readings of their monologues, it was a powerful and emotional day. `}
-        />
-      </div>
+
       <div className="previous-works">
-        <h3>Previous Works</h3>
+        <h3>PREVIOUS WORKS</h3>
         <div className="project-teasers-div">
           <Project
-            image={"image"}
+            image={image}
             name={"Wilmington Reconstructed 2023 - Demo Reel"}
             link={""}
           />
+          <Project image={image} name={"Quilt Stories 2021 & 2023"} link={""} />
           <Project
-            image={"image"}
-            name={"Quilt Stories 2021 & 2023"}
-            link={""}
-          />
-          <Project
-            image={"image"}
+            image={image}
             name={"Wilmington Reconstructed 2023"}
             link={""}
           />
-          <Project image={"image"} name={"Out of Silence 2023"} link={""} />
-          <Project image={"image"} name={"Pride Picnic 2021"} link={""} />
+          <Project image={image} name={"Out of Silence 2023"} link={""} />
+          <Project image={image} name={"Pride Picnic 2021"} link={""} />
         </div>
       </div>
     </div>

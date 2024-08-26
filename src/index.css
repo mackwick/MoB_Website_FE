@@ -221,7 +221,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .engagements-div,
 .previous-works,
 .contact-header,
-.involved-body {
+.involved-body,
+.engagements-div {
   padding: 5px 0;
   border-bottom: solid var(--darkred) 20px;
   /* margin-top: 10px; */
@@ -237,6 +238,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding: 5px;
   background: linear-gradient(var(--red), var(--lightred), var(--verylightred));
   color: white;
+}
+
+.landing-about {
+  background: linear-gradient(var(--red), var(--lightred), var(--darkred));
 }
 
 .landing-video,
@@ -309,7 +314,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   justify-content: center;
 }
 
-.latest-news {
+.latest-news,
+.engagements-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -318,7 +324,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   color: white;
 }
 
-.news-item {
+.news-item,
+.one-engagement {
   padding: 5px;
   width: 30%;
   display: flex;
@@ -328,7 +335,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   text-align: center;
 }
 
-.news-image {
+.news-image,
+.project-tease-image {
   height: 6rem;
   width: 6rem;
   border-radius: 10px;
@@ -373,7 +381,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   );
 }
 
-.about-container h3 {
+.about-container h3,
+.projects-container h3 {
   font-size: 26px;
   padding-bottom: 12px;
 }
@@ -466,7 +475,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   text-align: center;
 }
 
-.press-link {
+.press-link,
+.project-link {
   color: var(--cream);
 }
 
@@ -488,6 +498,60 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .how-to-involved h4 {
   font-size: 24px;
   padding-top: 8px;
+}
+
+/*-----------------  PROJECTS  -----------------*/
+
+.current-projects,
+.engagements-div,
+.previous-works {
+  color: white;
+  padding: 5px;
+}
+
+.previous-works {
+  border-bottom: none;
+}
+
+.current-projects {
+  background: linear-gradient(var(--darkred), var(--lightred));
+}
+
+.previous-works {
+  background: linear-gradient(var(--red), var(--lightred), var(--verylightred));
+}
+
+.project-link {
+  font-size: 1rem;
+}
+
+.one-project {
+  border: dashed var(--cream) 2px;
+}
+
+.engagements-div {
+  flex-direction: column;
+}
+
+.one-engagement {
+  display: flex;
+  flex-direction: row;
+  width: 100dvw;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  border-top: dotted var(--verylightred) 1px;
+  padding: 20px 0;
+}
+
+.engage-two {
+  width: 60%;
+}
+
+.engage-tease-image {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 6px;
 }
 
 /*--------------------- RESPONSIVENESS --------------------------*/
@@ -526,7 +590,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   }
 
   .press-blurb,
-  .press-link {
+  .press-link,
+  .project-link {
     font-size: 1rem;
   }
 }
@@ -534,7 +599,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 @media screen and (min-width: 860px) {
   /*********************    LANDING    *************************/
 
-  .news-image {
+  .news-image,
+  .project-tease-image {
     height: 13rem;
     width: 13rem;
     margin-top: 1rem;
@@ -568,7 +634,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   }
 
   .news-item,
-  .news-item .link {
+  .news-item .link,
+  .one-engagement {
     font-size: 18px;
   }
 
@@ -611,13 +678,15 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     font-size: 2rem;
   }
 
-  .news-image {
+  .news-image,
+  .project-tease-image {
     height: 15rem;
     width: 15rem;
   }
 
   .about-header,
-  .contact-header {
+  .contact-header,
+  .projects-header {
     font-size: 5rem;
   }
 
@@ -670,11 +739,13 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     justify-content: space-around;
   }
 
-  .press-div {
+  .press-div,
+  .one-project {
     width: 18%;
   }
 
-  .press-blurbs {
+  .press-blurbs,
+  .current-projects {
     justify-content: space-between;
     padding: 15px;
   }
@@ -778,13 +849,15 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     font-size: 30px;
   }
 
-  .news-image {
+  .news-image,
+  .project-tease-image {
     height: 18rem;
     width: 18rem;
   }
 
   .news-item,
-  .news-item .link {
+  .news-item .link,
+  .one-engagement {
     font-size: 24px;
   }
 
@@ -800,7 +873,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     padding: 10px;
   }
 
-  .about-container h3 {
+  .about-container h3,
+  .projects-container h3 {
     font-size: 44px;
   }
 
