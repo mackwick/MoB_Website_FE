@@ -13,18 +13,27 @@ function Projects() {
         <h3>CURRENT PROJECTS</h3>
 
         <div className="project-teasers-div">
+          <Project image={image} name={"Scotopia"} link={"/scotopia"} />
           <Project
             image={image}
             name={"The Oak Grove Cemetery Project"}
-            link={""}
+            link={"/oakgrovecemeteryproject"}
           />
           <Project
             image={image}
             name={"Voices from the Opioid Epidemic"}
-            link={""}
+            link={"/opioidvoices"}
           />
-          <Project image={image} name={"Quilt Stories"} link={""} />
-          <Project image={image} name={"Wilmington Reconstructed"} link={""} />
+          <Project
+            image={image}
+            name={"Quilt Stories"}
+            link={"/quiltstories"}
+          />
+          <Project
+            image={image}
+            name={"Wilmington Reconstructed"}
+            link={"/wilmingtonreconstructed"}
+          />
         </div>
       </div>
 
