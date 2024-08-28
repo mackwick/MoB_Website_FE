@@ -12,18 +12,18 @@ function Header() {
 
       <nav className="header-menu">
         <div className="offscreen-menu">
-          <Link to="/" className="link">
+          <a href="/" className="link">
             Home
-          </Link>
-          <Link to="/projects" className="link">
+          </a>
+          <a href="/projects" className="link">
             Projects
-          </Link>
-          <Link to="/about" className="link">
+          </a>
+          <a href="/about" className="link">
             About MoB
-          </Link>
-          <Link to="/getinvolved" className="link">
+          </a>
+          <a href="/getinvolved" className="link">
             Get Involved
-          </Link>
+          </a>
         </div>
 
         <div className="hamburger-menu">

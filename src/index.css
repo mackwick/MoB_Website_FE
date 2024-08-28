@@ -88,12 +88,25 @@ button:hover {
   transition: 0.3s ease;
 }
 
-#ham-toggle {
-  display: none;
-}
-
 nav:has(#ham-toggle:checked) .offscreen-menu {
   right: 0;
+}
+
+.offscreen-menu > .link,
+.offscreen-menu > button {
+  padding: 20px 15px 0 20px;
+  color: var(--light);
+  font-size: 26px;
+  background: none;
+  border: none;
+}
+
+.offscreen-menu > .cl-rootBox {
+  margin: 20px auto 0 auto;
+}
+
+#ham-toggle {
+  display: none;
 }
 
 nav:has(#ham-toggle:checked) .hamburger-menu span {
@@ -151,19 +164,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .hamburger-menu:hover {
   cursor: pointer;
-}
-
-.offscreen-menu > .link,
-.offscreen-menu > button {
-  padding: 20px 15px 0 20px;
-  color: var(--light);
-  font-size: 26px;
-  background: none;
-  border: none;
-}
-
-.offscreen-menu > .cl-rootBox {
-  margin: 20px auto 0 auto;
 }
 
 /*-----------------  FOOTER  -----------------*/
@@ -381,8 +381,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   );
 }
 
-.about-container h3,
-.projects-container h3 {
+/* .about-container h3,
+.projects-container  */
+
+h3 {
   font-size: 26px;
   padding-bottom: 12px;
 }
@@ -554,6 +556,38 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   border-radius: 6px;
 }
 
+/*-----------------  FULL PROJECT PAGE  -----------------*/
+
+.full-project-container {
+  background: linear-gradient(
+    var(--lightred),
+    var(--red),
+    var(--darkred),
+    black
+  );
+  color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.full-project-image {
+  width: 80dvw;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.full-proj-two {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.full-proj-two p {
+  margin-bottom: 20px;
+}
+
 /*--------------------- RESPONSIVENESS --------------------------*/
 
 @media screen and (min-width: 650px) {
@@ -666,6 +700,14 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
   .how-to-involved h4 {
     font-size: 2rem;
+  }
+
+  .full-project-container h3 {
+    font-size: 3rem;
+  }
+
+  .full-proj-two p {
+    font-size: 1.5rem;
   }
 }
 
@@ -897,8 +939,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
     padding: 10px;
   }
 
-  .about-container h3,
-  .projects-container h3 {
+  /* .about-container h3,
+  .projects-container  */
+
+  h3 {
     font-size: 44px;
   }
 
@@ -943,5 +987,20 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
   .one-engagement {
     width: 40dvw;
+  }
+
+  .full-project-container {
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .full-project-image {
+    width: 50dvw;
+  }
+
+  .full-project-container h3 {
+    font-size: 4rem;
+    text-align: left;
   }
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Team from "../components/Team";
 import image from "/images/placeholder.jpeg";
 import Press from "../components/Press";
@@ -38,9 +39,9 @@ function About() {
               we have more than one of these pieces being developed at once.
             </p>
             <div className="home-bio-links">
-              <a href="/contact" className="link">
+              <Link to="/contact" className="link">
                 <button className="home-bio-one-link">Get Involved</button>
-              </a>
+              </Link>
               <a
                 href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
                 className="link"
