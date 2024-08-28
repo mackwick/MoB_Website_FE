@@ -3,6 +3,7 @@ import image from "/images/placeholder.jpeg";
 import LatestNews from "../components/LatestNews";
 import outreach from "/images/home-outreachrep.jpg";
 import wilm from "/images/Home-WilmingtonReconstructedrep.jpg";
+import opioid from "/images/opioid-proj.jpg";
 
 function Landing() {
   return (
@@ -15,11 +16,11 @@ function Landing() {
           theatre-going experience that empowers audience members to reflect on
           their community to promote healing, growth, and engagement.
           <div className="home-bio-links">
-            <a href="/about">
+            <Link to="/about">
               <button className="learn-more-button home-bio-one-link">
                 Learn More
               </button>
-            </a>
+            </Link>
             <a href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY">
               {" "}
               <button className="home-bio-one-link">Support MoB</button>
@@ -54,7 +55,7 @@ function Landing() {
         />
 
         <LatestNews
-          image={image}
+          image={opioid}
           title={"Voices from the Opioid Epidemic"}
           blurb={
             "Our current developing project, Voices from the Opioid Epidemic highlights the stories of those in our community impacted by overdose and addiction, be it personally or with someone they love."

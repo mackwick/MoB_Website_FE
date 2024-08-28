@@ -1,5 +1,5 @@
 import FullProj from "../components/FullProj";
-import image from "/images/placeholder.jpeg";
+import image from "/images/opioid-proj.jpg";
 
 function Opioid() {
   return (

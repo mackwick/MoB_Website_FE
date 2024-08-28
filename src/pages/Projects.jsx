@@ -1,6 +1,11 @@
 import Project from "../components/Project";
 import Engagement from "../components/Engagement";
 import image from "/images/placeholder.jpeg";
+import scotopia from "/images/sco-proj.jpg";
+import oak from "/images/oak-proj.jpg";
+import opioid from "/images/opioid-proj.jpg";
+import quilt from "/images/quilt-proj.jpg";
+import wilmy from "/images/wilmrec-proj.jpg";
 
 function Projects() {
   return (
@@ -13,24 +18,28 @@ function Projects() {
         <h3>CURRENT PROJECTS</h3>
 
         <div className="project-teasers-div">
-          <Project image={image} name={"Scotopia"} link={"/scotopia"} />
           <Project
-            image={image}
+            image={scotopia}
+            name={"Scotopia: Short Plays to Help You See in the Dark"}
+            link={"/scotopia"}
+          />
+          <Project
+            image={oak}
             name={"The Oak Grove Cemetery Project"}
             link={"/oakgrovecemeteryproject"}
           />
           <Project
-            image={image}
+            image={opioid}
             name={"Voices from the Opioid Epidemic"}
             link={"/opioidvoices"}
           />
           <Project
-            image={image}
-            name={"Quilt Stories"}
+            image={quilt}
+            name={"Quilt Stories: Voices from the AIDS Quilt"}
             link={"/quiltstories"}
           />
           <Project
-            image={image}
+            image={wilmy}
             name={"Wilmington Reconstructed"}
             link={"/wilmingtonreconstructed"}
           />
