@@ -81,11 +81,6 @@ function Projects() {
       <div className="previous-works">
         <h3>PREVIOUS WORKS</h3>
         <div className="project-teasers-div">
-          <Project
-            image={image}
-            name={"Wilmington Reconstructed 2023 - Demo Reel"}
-            link={""}
-          />
           <Project image={image} name={"Quilt Stories 2021 & 2023"} link={""} />
           <Project
             image={image}

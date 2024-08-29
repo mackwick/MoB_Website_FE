@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import Team from "../components/Team";
+import Board from "../components/Board";
 import image from "/images/placeholder.jpeg";
 import Press from "../components/Press";
+import paulgreen from "/images/sponsors/paulgreen.png";
+import peacerose from "/images/sponsors/peacerose.jpg";
+import ncarts from "/images/sponsors/ncarts.png";
 
 function About() {
   return (
@@ -54,106 +58,105 @@ function About() {
       </div>
       <div className="about-team">
         <h3>WHO WE ARE</h3>
-
+        <h2>Staff</h2>
         <div className="bios-div">
-          <Team
-            image={image}
-            name={"Trey Morehouse"}
-            title={"Artistic Director"}
-            bio={
-              "A 2012 alumni of UNCW. Trey has worked professionally with Burning Coal Theatre and North Carolina Theatre in the area of education and outreach. Trey has also worked professionally as an assistant director with South Coast Repertory (in Costa Mesa, CA), and New Swan Shakespeare (in Irvine, CA)."
-            }
-          />
-          <Team
-            image={image}
-            name={"Chloe Mason"}
-            title={"Artistic Associate"}
-            bio={
-              "Chloe Mason attended Appalachian State University where she earned her BA in theatre performance, and minored in film. There, Chloe lead a social justice themed theatre ensemble known as Women+ Inclusive Theatre Troupe, and became a twice published poet. In addition to acting, Chloe has lead intimacy coordination and movement specific work in past MoB productions. She’s a hands on visual artist who has designed past programs and posters for MoB through her chosen medium, collage. She’s a full time educator, and part time story teller here in Wilmington NC. "
-            }
-          />
-          <Team
-            image={image}
-            name={"Amber Moore"}
-            title={"Artistic Associate"}
-            bio={
-              "Amber Briana Moore is an actor and racial equity advocate. She has been featured in various productions in the Southeast from live theatre, films and network television. She received her B.A. in Theatre and African American Studies at the University of North Carolina at Greensboro, where she also discovered her interest in art centering on African American life and culture. She has been involved with MoB since 2018 and regularly advises with research on local African American history. "
-            }
-          />
-          <Team
-            image={image}
-            name={"Georgia Cole"}
-            title={"Artistic Associate"}
-            bio={
-              "Growing up in Wilmington, NC, Georgia was very much involved with the local theatre community, participating in companies including Thalian Association, TACT, Journey, and for 6 years straight with Cape Fear Shakespeare. Georgia decided to spend their undergrad years abroad, traveling and learning about prominent social justice issues. They are a passionate believer in community-based activism, which has brought them to their work with MoB."
-            }
-          />
-          <Team
-            image={image}
-            name={"La-taun Danns"}
-            title={"Board President"}
-            bio={"Bio coming soon."}
-          />
-          <Team
-            image={image}
-            name={"Conswalia Green"}
-            title={"Board Member"}
-            bio={
-              "Conswalia began her theater career in Durham, NC, where she managed performances at the Historic Carolina Theatre. Conswalia ultimately landed at the Joseph Papp Public Theater/ New York Shakespeare Festival as the head theater manager. Since returning to the Wilmington area Conswalia has contributed to A Storytelling Project to Raise Awareness: Facing Community (a collaboration with UNCW) and Gila Green Writes."
-            }
-          />
-          <Team
-            image={image}
-            name={"Rev. John McLaughlin"}
-            title={"Board Member"}
-            bio={
-              "John is the Pastor of St. Jude's Metropolitan Community Church in Wilmington, NC, the first house of faith formed with its primary outreach to the LGBTQ community. He is a lifelong advocate of issues of justice in the areas of sexism, gender-ism, racism, class-ism, and all the -isms with which we divide ourselves."
-            }
-          />
-          <Team
-            image={image}
-            name={"Nathan Ragain"}
-            title={"Board Member"}
-            bio={
-              "Nathan is a Bruce Scholar Visiting Lecturer with UNCW’s Honors Department. Nathan is passionate about social equity issues."
-            }
-          />
-          <Team
-            image={image}
-            name={"Amanda Wolf"}
-            title={"Board Member"}
-            bio={
-              "Amanda is the owner of Peace Rose Montessori School in Wilmington North Carolina. She first joined MoB as a Stage Manager during Wilmington Reconstructed. Her interest in the 1898 Massacre and Race Riots and Social Justice Theatre led her to join MoB as the Board Secretary. Amanda has a background in artistic direction, stage managing, script supervising, acting, and dancing in both stage and film productions. Originally from Seattle, she has called Wilmington home for the last decade."
-            }
-          />
-          <Team
-            image={image}
-            name={"Lilli Lindbeck"}
-            title={"Board Member"}
-            bio={
-              "Lilli combines a diverse background in law, divinity, and medical coding with a passion for theater. She has experience on several boards, including those focused on AIDS and coding, and volunteered with the Names Project in San Francisco. Lillis theater involvement includes high school and community productions, reflecting a strong belief in theater's transformative impact."
-            }
-          />
-          <Team
-            image={image}
-            name={"Marie Antoinette Marrinan"}
-            title={"Board Member"}
-            bio={
-              "Marie Antoinette a first-year MFA candidate at UNCW. She retired from my position as a Nurse Practitioner and relocated to North Carolina in 2015. Since then, she has had the honor of working with the Wilmington Theater community as a stage manager, ensemble member, and playwright. She is a member of the Port City Playwrights Project and a Board Member of MOB Theatre Company."
-            }
-          />
-          <Team
-            image={image}
-            name={"Malachi Chapman"}
-            title={"Board Member"}
-            bio={"Bio coming soon."}
-          />
-          <Team
-            image={image}
-            name={"Madisyn Fleming"}
-            title={"Board Member"}
-            bio={"Bio coming soon."}
-          />
+          <div className="bios-div-one">
+            <Team
+              image={image}
+              name={"Trey Morehouse"}
+              title={"Artistic Director"}
+              bio={
+                "A 2012 alumni of UNCW. Trey has worked professionally with Burning Coal Theatre and North Carolina Theatre in the area of education and outreach. Trey has also worked professionally as an assistant director with South Coast Repertory (in Costa Mesa, CA), and New Swan Shakespeare (in Irvine, CA)."
+              }
+            />
+            <Team
+              image={image}
+              name={"Chloe Mason"}
+              title={"Artistic Associate"}
+              bio={
+                "Chloe Mason attended Appalachian State University where she earned her BA in theatre performance, and minored in film. There, Chloe lead a social justice themed theatre ensemble known as Women+ Inclusive Theatre Troupe, and became a twice published poet. In addition to acting, Chloe has lead intimacy coordination and movement specific work in past MoB productions. She’s a hands on visual artist who has designed past programs and posters for MoB through her chosen medium, collage. She’s a full time educator, and part time story teller here in Wilmington NC. "
+              }
+            />
+            <Team
+              image={image}
+              name={"Amber Moore"}
+              title={"Artistic Associate"}
+              bio={
+                "Amber Briana Moore is an actor and racial equity advocate. She has been featured in various productions in the Southeast from live theatre, films and network television. She received her B.A. in Theatre and African American Studies at the University of North Carolina at Greensboro, where she also discovered her interest in art centering on African American life and culture. She has been involved with MoB since 2018 and regularly advises with research on local African American history. "
+              }
+            />
+            <Team
+              image={image}
+              name={"Georgia Cole"}
+              title={"Artistic Associate"}
+              bio={
+                "Growing up in Wilmington, NC, Georgia was very much involved with the local theatre community, participating in companies including Thalian Association, TACT, Journey, and for 6 years straight with Cape Fear Shakespeare. Georgia decided to spend their undergrad years abroad, traveling and learning about prominent social justice issues. They are a passionate believer in community-based activism, which has brought them to their work with MoB."
+              }
+            />
+            <Team
+              image={image}
+              name={"Malachi Chapman"}
+              title={"Title"}
+              bio={"Bio coming soon."}
+            />
+            <Team
+              image={image}
+              name={"Madisyn Fleming"}
+              title={"Title"}
+              bio={"Bio coming soon."}
+            />
+          </div>
+
+          <div className="bios-div-two">
+            <h2>Board</h2>
+            <Board
+              name={"La-taun Danns"}
+              title={"Board President"}
+              bio={"Bio coming soon."}
+            />
+            <Board
+              name={"Conswalia Green"}
+              title={"Board Member"}
+              bio={
+                "Conswalia began her theater career in Durham, NC, where she managed performances at the Historic Carolina Theatre. Conswalia ultimately landed at the Joseph Papp Public Theater/ New York Shakespeare Festival as the head theater manager. Since returning to the Wilmington area Conswalia has contributed to A Storytelling Project to Raise Awareness: Facing Community (a collaboration with UNCW) and Gila Green Writes."
+              }
+            />
+            <Board
+              name={"Rev. John McLaughlin"}
+              title={"Board Member"}
+              bio={
+                "John is the Pastor of St. Jude's Metropolitan Community Church in Wilmington, NC, the first house of faith formed with its primary outreach to the LGBTQ community. He is a lifelong advocate of issues of justice in the areas of sexism, gender-ism, racism, class-ism, and all the -isms with which we divide ourselves."
+              }
+            />
+            <Board
+              name={"Nathan Ragain"}
+              title={"Board Member"}
+              bio={
+                "Nathan is a Bruce Scholar Visiting Lecturer with UNCW’s Honors Department. Nathan is passionate about social equity issues."
+              }
+            />
+            <Board
+              name={"Amanda Wolf"}
+              title={"Board Member"}
+              bio={
+                "Amanda is the owner of Peace Rose Montessori School in Wilmington North Carolina. She first joined MoB as a Stage Manager during Wilmington Reconstructed. Her interest in the 1898 Massacre and Race Riots and Social Justice Theatre led her to join MoB as the Board Secretary. Amanda has a background in artistic direction, stage managing, script supervising, acting, and dancing in both stage and film productions. Originally from Seattle, she has called Wilmington home for the last decade."
+              }
+            />
+            <Board
+              name={"Lilli Lindbeck"}
+              title={"Board Member"}
+              bio={
+                "Lilli combines a diverse background in law, divinity, and medical coding with a passion for theater. She has experience on several boards, including those focused on AIDS and coding, and volunteered with the Names Project in San Francisco. Lillis theater involvement includes high school and community productions, reflecting a strong belief in theater's transformative impact."
+              }
+            />
+            <Board
+              name={"Marie Antoinette Marrinan"}
+              title={"Board Member"}
+              bio={
+                "Marie Antoinette a first-year MFA candidate at UNCW. She retired from my position as a Nurse Practitioner and relocated to North Carolina in 2015. Since then, she has had the honor of working with the Wilmington Theater community as a stage manager, ensemble member, and playwright. She is a member of the Port City Playwrights Project and a Board Member of MOB Theatre Company."
+              }
+            />
+          </div>
         </div>
       </div>
 
@@ -198,7 +201,20 @@ function About() {
 
       <div className="about-sponsors">
         <h3>SPONSORS</h3>
-        <p>insert sponsors images</p>
+        <div className="sponsor-images">
+          <img src={ncarts} alt="NC Arts Council" className="sponsor-image" />
+          <img
+            src={peacerose}
+            alt="Peace Rose Montessori"
+            className="sponsor-image"
+          />
+
+          <img
+            src={paulgreen}
+            alt="The Paul Green Foundation"
+            className="sponsor-image"
+          />
+        </div>
       </div>
     </div>
   );
