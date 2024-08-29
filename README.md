@@ -31,7 +31,7 @@ Mouths of Babes Theatre Company was founded in 2014 on the principles of active 
 - Hex Codes: #B50D0D, #000000, #b25126, #5F106C, #17106C
 
 **Color Palette**
-![Color Palette](./public/images/colors.jpeg)
+![Color Palette](./public/images/wireframes/colors.jpeg)
 
 ## Other Requests:
 
@@ -44,34 +44,34 @@ Mouths of Babes Theatre Company was founded in 2014 on the principles of active 
 ### Home Page
 
 **Mobile**
-![Mobile](./public/images/home-mobile.jpeg)
+![Mobile](./public/images/wireframes/home-mobile.jpeg)
 
 **Desktop**
-![Desktop](./public/images/home-desktop.png)
+![Desktop](./public/images/wireframes/home-desktop.png)
 
 ### Projects
 
 **Mobile**
-![Mobile](./public/images/projects-mobile.jpeg)
+![Mobile](./public/images/wireframes/projects-mobile.jpeg)
 
 **Desktop**
-![Desktop](./public/images/projects-desktop.jpeg)
+![Desktop](./public/images/wireframes/projects-desktop.jpeg)
 
 ### About
 
 **Mobile**
-![Mobile](./public/images/about-mobile.jpeg)
+![Mobile](./public/images/wireframes/about-mobile.jpeg)
 
 **Desktop**
-![Desktop](./public/images/about-desktop.png)
+![Desktop](./public/images/wireframes/about-desktop.png)
 
 ### Contact Us/Get Involved
 
 **Mobile**
-![Mobile](./public/images/getinvolved-mobile.jpeg)
+![Mobile](./public/images/wireframes/getinvolved-mobile.jpeg)
 
 **Desktop**
-![Desktop](./public/images/getinvolved-desktop.jpeg)
+![Desktop](./public/images/wireframes/getinvolved-desktop.jpeg)
 
 ## Dependencies:
 
