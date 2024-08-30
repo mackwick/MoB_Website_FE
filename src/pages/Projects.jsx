@@ -6,6 +6,9 @@ import oak from "/images/oak-proj.jpg";
 import opioid from "/images/opioid-proj.jpg";
 import quilt from "/images/quilt-proj.jpg";
 import wilmy from "/images/wilmrec-proj.jpg";
+import pride from "/images/pride-picnic-proj.jpg";
+import outNC from "/images/out-nc-proj.jpg";
+import outreach from "/images/outreachrep.jpg";
 
 function Projects() {
   return (
@@ -55,7 +58,7 @@ function Projects() {
             details={"Date and Time TBD"}
           />
           <Engagement
-            image={image}
+            image={outreach}
             name={"YouthQuake 2023"}
             details={`MoB partnered with PeaceRose Montessori School to teach upper-elementary kids about Social Justice through Theatre. Our associates discussed what it means to be a youth activist, analyzed speeches of youth activists, and collaged these findings into a visual piece. In their final class, students performed a series of monologues based on a combination of interviews they did and speeches they analyzed.`}
           />
@@ -69,9 +72,9 @@ function Projects() {
             name={"Overdose Awareness Day 2023"}
             details={`MoB performers attended this event to provide support for the community and share stories from the first few interviews conducted on our ongoing project, Voices from the Opioid Epidemic. With almost all of the interviewees present to hear the first readings of their monologues, it was a powerful and emotional day. `}
           />
-          <Engagement image={image} name={"OUT NC 2021"} details={`TBD`} />
+          <Engagement image={outNC} name={"OUT NC 2021"} details={`TBD`} />
           <Engagement
-            image={image}
+            image={pride}
             name={"Pride Picnic 2021"}
             details={`TBD`}
           />
@@ -88,7 +91,7 @@ function Projects() {
             link={""}
           />
           <Project image={image} name={"Out of Silence 2023"} link={""} />
-          <Project image={image} name={"Pride Picnic 2021"} link={""} />
+          <Project image={pride} name={"Pride Picnic 2021"} link={""} />
         </div>
       </div>
     </div>

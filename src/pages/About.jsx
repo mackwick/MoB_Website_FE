@@ -1,11 +1,17 @@
 import { Link } from "react-router-dom";
 import Team from "../components/Team";
 import Board from "../components/Board";
-import image from "/images/placeholder.jpeg";
+import image from "/images/extra-highlight1.jpg";
 import Press from "../components/Press";
 import paulgreen from "/images/sponsors/paulgreen.png";
 import peacerose from "/images/sponsors/peacerose.jpg";
 import ncarts from "/images/sponsors/ncarts.png";
+import Amber from "/images/Amber.jpg";
+import Chloe from "/images/chloe.jpg";
+import Georgia from "/images/Georgia.jpg";
+import Madisyn from "/images/Madisyn.jpg";
+import Malachi from "/images/Malachi.jpg";
+import Trey from "/images/Trey.jpg";
 
 function About() {
   return (
@@ -62,7 +68,7 @@ function About() {
         <div className="bios-div">
           <div className="bios-div-one">
             <Team
-              image={image}
+              image={Trey}
               name={"Trey Morehouse"}
               title={"Artistic Director"}
               bio={
@@ -70,7 +76,7 @@ function About() {
               }
             />
             <Team
-              image={image}
+              image={Chloe}
               name={"Chloe Mason"}
               title={"Artistic Associate"}
               bio={
@@ -78,7 +84,7 @@ function About() {
               }
             />
             <Team
-              image={image}
+              image={Amber}
               name={"Amber Moore"}
               title={"Artistic Associate"}
               bio={
@@ -86,7 +92,7 @@ function About() {
               }
             />
             <Team
-              image={image}
+              image={Georgia}
               name={"Georgia Cole"}
               title={"Artistic Associate"}
               bio={
@@ -94,13 +100,13 @@ function About() {
               }
             />
             <Team
-              image={image}
+              image={Malachi}
               name={"Malachi Chapman"}
               title={"Title"}
               bio={"Bio coming soon."}
             />
             <Team
-              image={image}
+              image={Madisyn}
               name={"Madisyn Fleming"}
               title={"Title"}
               bio={"Bio coming soon."}

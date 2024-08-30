@@ -46,7 +46,7 @@ function Landing() {
       </div>
       <div className="latest-news">
         <LatestNews
-          image={outreach}
+          image={image}
           title={"2024 Fundraiser: MoB Mixtape"}
           blurb={
             "Join us Sept. 25th for a community arts and crafts night, with live music and karaoke, will have you making meaningful art and connections with your community, all while tapping your foot along to some epic live tunes."
