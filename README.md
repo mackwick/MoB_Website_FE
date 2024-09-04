@@ -1,8 +1,6 @@
 # Mouths of Babes Website
 
-To be deployed on Netlify. ETA: Late August.
-
-"Under construction" page up on custom domain Aug. 24 (when domain expires on Wix).
+To be deployed on Netlify. ETA: Mid to late September.
 
 ## Client Description:
 
@@ -25,60 +23,18 @@ Mouths of Babes Theatre Company was founded in 2014 on the principles of active 
 - Current fonts: Avenir (not on Google Fonts; subbing Montserrat) and Overlock (on Google Fonts)
 - **Notes:** Gracie is looking for the best photos to showcase. Trey asked Chloe about making a couple of collages for the site.
 
-## Colors:
-
-- Red, burnt orange, black, white, dark purple, dark blue
-- Hex Codes: #B50D0D, #000000, #b25126, #5F106C, #17106C
-
-**Color Palette**
-![Color Palette](./public/images/wireframes/colors.jpeg)
-
 ## Other Requests:
 
 - **Easy for staff/interns to update content (2-3 x a year):** I want to prioritize getting an attractive, guest-friendly site live by September, so the initial deployment may not include an intuitive, non-developer option for updating. However, I will update content (upon MoB request) during this time and incorporate an admin user option within the first year.
 
-## Wireframes for Primary Pages:
-
-**Note:** I'd love to use a collage for the menu/logo background. It would lend some consistency to the site. Also, I think including contact info in the footer, like you've been doing, is a good idea.
-
-### Home Page
-
-**Mobile**
-![Mobile](./public/images/wireframes/home-mobile.jpeg)
-
-**Desktop**
-![Desktop](./public/images/wireframes/home-desktop.png)
-
-### Projects
-
-**Mobile**
-![Mobile](./public/images/wireframes/projects-mobile.jpeg)
-
-**Desktop**
-![Desktop](./public/images/wireframes/projects-desktop.jpeg)
-
-### About
-
-**Mobile**
-![Mobile](./public/images/wireframes/about-mobile.jpeg)
-
-**Desktop**
-![Desktop](./public/images/wireframes/about-desktop.png)
-
-### Contact Us/Get Involved
-
-**Mobile**
-![Mobile](./public/images/wireframes/getinvolved-mobile.jpeg)
-
-**Desktop**
-![Desktop](./public/images/wireframes/getinvolved-desktop.jpeg)
-
 ## Dependencies:
 
-- TBD
+- React
+- React Dom
+- React Router Dom
 
 ## Assets from:
 
 - Google Fonts
 - Canva
-- TBD
+- Pixabay

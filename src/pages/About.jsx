@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Team from "../components/Team";
 import Board from "../components/Board";
-import image from "/images/extra-highlight1.jpg";
+import image from "/images/shadowday-scotop-hl.jpg";
 import Press from "../components/Press";
 import paulgreen from "/images/sponsors/paulgreen.png";
 import peacerose from "/images/sponsors/peacerose.jpg";
