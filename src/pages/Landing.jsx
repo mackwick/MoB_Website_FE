@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import image from "/images/placeholder.jpeg";
 import LatestNews from "../components/LatestNews";
-import outreach from "/images/outreachrep.jpg";
 import wilm from "/images/Home-WilmingtonReconstructedrep.jpg";
 import opioid from "/images/opioid-proj.jpg";
 

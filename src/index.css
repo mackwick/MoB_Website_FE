@@ -68,8 +68,15 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: solid var(--darkred) 20px;
-  background-color: rgba(255, 255, 255, 0.861);
+  border-bottom: solid var(--orange) 20px;
+  background-image: linear-gradient(
+      rgba(244, 215, 158, 0.4),
+      rgba(244, 215, 158, 0.4)
+    ),
+    url(./public/images/backgrounds/graffiti1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: white;
 }
 
 .offscreen-menu {
@@ -86,6 +93,9 @@ button:hover {
   right: -450px;
   z-index: 2;
   transition: 0.3s ease;
+  font-family: "Road Rage", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav:has(#ham-toggle:checked) .offscreen-menu {
@@ -96,7 +106,7 @@ nav:has(#ham-toggle:checked) .offscreen-menu {
 .offscreen-menu > button {
   padding: 20px 15px 0 20px;
   color: var(--light);
-  font-size: 26px;
+  font-size: 3rem;
   background: none;
   border: none;
 }
@@ -144,7 +154,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .hamburger-menu span {
   height: 5px;
   width: 100%;
-  background-color: var(--red);
+  background-color: var(--lightred);
   border-radius: 25px;
   position: absolute;
   transition: 0.3s ease;
@@ -349,15 +359,17 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .about-header,
 .projects-header,
 .contact-header {
-  background-image: url("/images/placeholder.jpeg");
+  background-image: url("/public/images/backgrounds/texture2.jpg");
   background-size: cover;
   height: 20dvh;
+  font-family: "Road Rage", sans-serif;
   color: white;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-bottom: solid var(--orange) 20px;
 }
 
 .about-team,
@@ -381,12 +393,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   );
 }
 
-/* .about-container h3,
-.projects-container  */
-
 h3 {
-  font-size: 26px;
+  font-size: 30px;
   padding-bottom: 12px;
+  font-family: "Road Rage", sans-serif;
 }
 
 .who-we-are {
@@ -747,18 +757,41 @@ h3 {
     font-size: 2rem;
   }
 
-  .full-project-container h3 {
-    font-size: 3rem;
-  }
-
   .full-proj-two p {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (min-width: 1020px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  .offscreen-menu > .link {
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4px;
+  }
+
+  .offscreen-menu {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--red);
+    height: 10%;
+    position: unset;
+    padding-top: 30px;
+    filter: drop-shadow(0 0 0.75rem var(--cream));
+  }
+
+  .header-container {
+    border-bottom: solid var(--orange) 30px;
+  }
+
   .logo {
     height: 150px;
+    filter: drop-shadow(0 0 0.75rem var(--cream));
   }
 
   .hamburger-menu {
@@ -879,27 +912,6 @@ h3 {
 }
 
 @media screen and (min-width: 1435px) {
-  .hamburger-menu {
-    display: none;
-  }
-
-  .offscreen-menu > .link {
-    padding: 0;
-    font-size: 20px;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    margin-right: 4px;
-  }
-
-  .offscreen-menu {
-    background-color: rgba(255, 255, 255, 0);
-    color: var(--darkred);
-    height: 10%;
-    position: unset;
-    padding-top: 30px;
-  }
-
   .landing-video {
     display: contents;
   }
@@ -989,11 +1001,8 @@ h3 {
     padding: 10px;
   }
 
-  /* .about-container h3,
-  .projects-container  */
-
   h3 {
-    font-size: 44px;
+    font-size: 4rem;
   }
 
   .team-bio {
@@ -1050,7 +1059,6 @@ h3 {
   }
 
   .full-project-container h3 {
-    font-size: 4rem;
     text-align: left;
   }
 
