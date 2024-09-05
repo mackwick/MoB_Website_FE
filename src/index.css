@@ -24,7 +24,6 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: var(--red);
 }
 
 .link,
@@ -67,7 +66,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: solid var(--orange) 20px;
+  border-bottom: solid var(--orange) 10px;
   background-image: linear-gradient(
       rgba(244, 215, 158, 0.4),
       rgba(244, 215, 158, 0.4)
@@ -153,7 +152,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .hamburger-menu span {
   height: 5px;
   width: 100%;
-  background-color: var(--lightred);
+  background-color: black;
   border-radius: 25px;
   position: absolute;
   transition: 0.3s ease;
@@ -189,9 +188,13 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding: 0;
   padding-top: 5px;
   text-align: center;
-  background-color: var(--darkred);
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.8),
+      rgba(17, 15, 11, 0.8)
+    ),
+    url(./public/images/backgrounds/wolvesBG.png);
   color: var(--cream);
-  border-top: solid var(--orange) 20px;
+  border-top: solid var(--orange) 10px;
 }
 
 .footer-container .link {
@@ -215,7 +218,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: solid gray 0.5px;
+  border-bottom: dashed var(--cream) 0.5px;
   padding: 3px;
 }
 
@@ -242,8 +245,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .involved-body,
 .engagements-div {
   padding: 5px 0;
-  border-bottom: solid var(--orange) 20px;
-  /* margin-top: 10px; */
+  border-bottom: solid var(--orange) 10px;
+  padding-top: 10px;
 }
 
 .landing-about,
@@ -257,8 +260,14 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   color: white;
 }
 
-.landing-about {
-  background: var(--red);
+.landing-about,
+.latest-news {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.8),
+      rgba(17, 15, 11, 0.8)
+    ),
+    url(./public/images/backgrounds/wolvesBG.png);
+  background-size: cover;
 }
 
 .landing-video,
@@ -305,12 +314,12 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   width: 220px;
   height: 45px;
   font-size: 22px;
-  background-color: var(--lightred);
+  background-color: var(--orange);
   border: solid var(--cream) 1px;
 }
 
 .teaser-button:hover {
-  background-color: var(--cream);
+  background-color: var(--lightorange);
   cursor: pointer;
 }
 
@@ -342,12 +351,11 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   flex-direction: row;
   justify-content: space-around;
   padding: 10px 0px;
-  background: linear-gradient(var(--darkred), var(--lightorange));
   color: white;
 }
 
 .latest-news .link {
-  color: var(--red);
+  color: var(--cream);
   font-weight: 600;
 }
 
@@ -403,7 +411,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 .about-press {
-  background: var(--red));
+  background: var(--red);
 }
 
 h3 {
@@ -785,25 +793,25 @@ h3 {
 
   .offscreen-menu > .link {
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: right;
     display: flex;
     flex-direction: column;
-    margin-right: 4px;
+    margin: 0 0 4px 0;
   }
 
   .offscreen-menu {
     background-color: rgba(255, 255, 255, 0);
-    color: var(--red);
+    color: black;
     height: 10%;
     position: unset;
-    padding-top: 30px;
+    padding-top: 0;
     filter: drop-shadow(0 0 0.75rem var(--cream));
   }
 
-  .header-container {
+  /* .header-container {
     border-bottom: solid var(--orange) 30px;
-  }
+  } */
 
   .logo {
     height: 150px;
@@ -860,8 +868,8 @@ h3 {
   .about-image-main {
     height: 300px;
     border-radius: 6px;
-    margin-bottom: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .about-body-two {
@@ -935,9 +943,8 @@ h3 {
   .video-placeholder {
     height: 450px;
     border-radius: 6px;
-    border: solid var(--darkred) 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    /* border: solid var(--darkred) 20px; */
+    margin: 20px 0 20px 20px;
   }
 
   .landing-about {

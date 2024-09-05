@@ -1,14 +1,12 @@
-function LatestNews({ image, title, blurb, link }) {
+function LatestNews({ image, title, link }) {
   return (
     <div className="news-item">
-      <img src={image} className="news-image" />
-      <p>
-        <b className="news-title">{title}</b> - {blurb}
-        <br />
-        <a href={link} className="link">
-          LEARN MORE.
-        </a>
-      </p>
+      <a href={link} className="link">
+        <img src={image} className="news-image" />
+        <p>
+          <b className="news-title">{title}</b>
+        </p>
+      </a>
     </div>
   );
 }

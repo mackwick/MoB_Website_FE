@@ -38,8 +38,8 @@ function Landing() {
           search for light within darkness - for audiences and artists alike.
         </p>
         <div className="home-teaser-link">
-          <a href="">
-            <button className="teaser-button">GET TICKETS</button>
+          <a href="/scotopia">
+            <button className="teaser-button">LEARN MORE</button>
           </a>
         </div>
       </div>
@@ -47,27 +47,18 @@ function Landing() {
         <LatestNews
           image={image}
           title={"2024 Fundraiser: MoB Mixtape"}
-          blurb={
-            "Join us Sept. 25th for a community arts and crafts night, with live music and karaoke, will have you making meaningful art and connections with your community, all while tapping your foot along to some epic live tunes."
-          }
           link={"https://www.mouthsofbabestheatre.com/tickets"}
         />
 
         <LatestNews
           image={opioid}
           title={"Voices from the Opioid Epidemic"}
-          blurb={
-            "Our current developing project, Voices from the Opioid Epidemic highlights the stories of those in our community impacted by overdose and addiction, be it personally or with someone they love."
-          }
           link={"https://www.mouthsofbabestheatre.com/current-projects"}
         />
 
         <LatestNews
           image={wilm}
           title={"Wilmington Reconstructed"}
-          blurb={
-            "Wilmington Reconstructed is a documentary style play about the events that led up to the 1898 massacre and coup-d'etat fueled by white supremacy and hate in our city. It investigates the dire consequences of Black erasure and is a vital MoB piece."
-          }
           link={"https://www.mouthsofbabestheatre.com/gallery"}
         />
       </div>
