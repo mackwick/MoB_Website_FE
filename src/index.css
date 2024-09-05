@@ -5,8 +5,7 @@
   --orange: #b25126;
   --cream: #f7f7de;
   --darkred: #771822;
-  --lightred: #a92330;
-  --verylightred: #f2bbc1;
+  --lightred: #b23642;
   --darkorange: #974420;
   --lightorange: #d87246;
   --verylightorange: #e08b67;
@@ -49,13 +48,13 @@ button {
 
 button {
   border-radius: 6px;
-  background-color: var(--lightred);
+  background-color: var(--lightorange);
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: var(--verylightred);
+  background-color: var(--verylightorange);
 }
 
 /*-----------------  HEADER  -----------------*/
@@ -177,6 +176,11 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 /*-----------------  FOOTER  -----------------*/
+
+.contact-info h5 {
+  font-size: 1.25rem;
+}
+
 .footer-container {
   bottom: 0;
   right: 0;
@@ -185,9 +189,13 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding: 0;
   padding-top: 5px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.861);
-  color: var(--darkred);
-  border-top: solid var(--lightred) 20px;
+  background-color: var(--darkred);
+  color: var(--cream);
+  border-top: solid var(--orange) 20px;
+}
+
+.footer-container .link {
+  color: var(--cream);
 }
 
 .footer-content {
@@ -234,7 +242,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .involved-body,
 .engagements-div {
   padding: 5px 0;
-  border-bottom: solid var(--darkred) 20px;
+  border-bottom: solid var(--orange) 20px;
   /* margin-top: 10px; */
 }
 
@@ -246,12 +254,11 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   flex-direction: row;
   justify-content: space-around;
   padding: 5px;
-  background: linear-gradient(var(--red), var(--lightred), var(--verylightred));
   color: white;
 }
 
 .landing-about {
-  background: linear-gradient(var(--red), var(--lightred), var(--darkred));
+  background: var(--red);
 }
 
 .landing-video,
@@ -303,7 +310,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 .teaser-button:hover {
-  background-color: var(--verylightred);
+  background-color: var(--cream);
   cursor: pointer;
 }
 
@@ -314,7 +321,12 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 .landing-teaser {
-  background-image: url("/images/scotopia-collage.jpg");
+  background-image: linear-gradient(
+      rgba(244, 215, 158, 0.4),
+      rgba(244, 215, 158, 0.4)
+    ),
+    url(./public/images/scotopia-collage.jpg);
+  /* background-image: url("/images/scotopia-collage.jpg"); */
   background-size: cover;
   height: 40dvh;
   text-align: center;
@@ -330,8 +342,13 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   flex-direction: row;
   justify-content: space-around;
   padding: 10px 0px;
-  background: linear-gradient(var(--red), var(--verylightred));
+  background: linear-gradient(var(--darkred), var(--lightorange));
   color: white;
+}
+
+.latest-news .link {
+  color: var(--red);
+  font-weight: 600;
 }
 
 .news-item,
@@ -380,17 +397,13 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .about-team {
   color: var(--cream);
-  background-color: var(--red);
+  background: var(--darkred);
+
   padding: 5px;
 }
 
 .about-press {
-  background: linear-gradient(
-    45deg,
-    var(--lightred),
-    var(--verylightred),
-    var(--lightred)
-  );
+  background: var(--red));
 }
 
 h3 {
@@ -434,7 +447,7 @@ h3 {
 .board-bio {
   display: flex;
   flex-direction: column;
-  border-top: dotted var(--verylightred) 2px;
+  border-top: dotted var(--cream) 2px;
   padding: 10px 0;
 }
 
@@ -481,7 +494,7 @@ h3 {
 }
 
 .bios-div-two {
-  border-top: dotted var(--verylightred) 2px;
+  border-top: dotted var(--cream) 2px;
   padding-top: 20px;
 }
 
@@ -501,7 +514,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 3px solid var(--red);
+  border: 3px solid var(--cream);
   border-radius: 6px;
   margin: 3px;
   padding: 5px;
@@ -532,13 +545,13 @@ h3 {
   display: flex;
   flex-direction: column;
   padding: 0 10px 15px 10px;
-  background: linear-gradient(var(--red), var(--lightred), var(--darkred));
+  background: linear-gradient(var(--darkred), var(--lightred), var(--darkred));
   color: var(--cream);
   text-align: justify;
 }
 
 .how-to-involved .link {
-  color: var(--verylightred);
+  color: var(--cream);
 }
 
 .how-to-involved h4 {
@@ -564,7 +577,7 @@ h3 {
 }
 
 .previous-works {
-  background: linear-gradient(var(--red), var(--lightred), var(--verylightred));
+  background: linear-gradient(var(--lightred), var(--darkred));
 }
 
 .project-link {
@@ -575,8 +588,10 @@ h3 {
   border: dashed var(--cream) 2px;
 }
 
-.engagements-div {
+.projects-container .engagements-div {
   flex-direction: column;
+  background-image: none;
+  background-color: var(--darkred);
 }
 
 .one-engagement {
@@ -586,7 +601,7 @@ h3 {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  border-top: dotted var(--verylightred) 1px;
+  border-top: dotted var(--cream) 1px;
   padding: 20px 0;
 }
 
@@ -598,6 +613,7 @@ h3 {
   height: 8rem;
   width: 8rem;
   border-radius: 6px;
+  object-fit: cover;
 }
 
 /*-----------------  FULL PROJECT PAGE  -----------------*/
@@ -1007,7 +1023,7 @@ h3 {
 
   .team-bio {
     width: 23%;
-    border: dotted var(--verylightred) 2px;
+    border: dotted var(--cream) 2px;
     margin-bottom: 30px;
     border-radius: 6px;
   }

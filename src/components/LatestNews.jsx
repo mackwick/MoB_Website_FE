@@ -6,7 +6,7 @@ function LatestNews({ image, title, blurb, link }) {
         <b className="news-title">{title}</b> - {blurb}
         <br />
         <a href={link} className="link">
-          Learn more.
+          LEARN MORE.
         </a>
       </p>
     </div>

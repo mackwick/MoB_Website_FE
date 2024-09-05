@@ -20,7 +20,7 @@ function Footer() {
           </a>
         </div>
         <div className="contact-info">
-          <h3 className="footer-content">Contact Us</h3>
+          <h5 className="footer-content">Contact Us</h5>
           <p className="footer-content">Wilmington, NC</p>
           <p className="footer-content">
             <p>910-367-5286</p>
@@ -34,12 +34,6 @@ function Footer() {
       </div>
       <div className="footer-reference">
         <p className="footer-content">© 2024 Mouths of Babes Theatre</p>
-        <p className="footer-content">
-          Website by{" "}
-          <a href="https://github.com/mackwick" className="link">
-            MackWick Development
-          </a>{" "}
-        </p>
       </div>
     </div>
   );
