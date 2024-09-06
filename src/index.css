@@ -3,6 +3,8 @@
 :root {
   --red: rgba(121, 23, 25, 1);
   --orange: #b25126;
+  --opagueorange: #b25026c5;
+  --opaguegray: rgba(17, 15, 11, 0.7);
   --cream: #f7f7de;
   --darkred: #771822;
   --lightred: rgb(172, 60, 62, 1);
@@ -190,7 +192,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding: 0;
   padding-top: 5px;
   text-align: center;
-  background-color: rgba(17, 15, 11, 0.6);
+  background-color: var(--opaguegray);
   /* background-image: linear-gradient(
       rgba(17, 15, 11, 0.8),
       rgba(17, 15, 11, 0.8)
@@ -265,7 +267,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .landing-about,
 .latest-news {
-  background-color: rgba(17, 15, 11, 0.7);
+  background-color: var(--opaguegray);
   /* background-image: linear-gradient(
       rgba(17, 15, 11, 0.8),
       rgba(17, 15, 11, 0.8)
@@ -389,11 +391,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .about-header,
 .projects-header,
 .contact-header {
-  background-image: url("/public/images/backgrounds/texture2.jpg");
-  background-size: cover;
   height: 20dvh;
   font-family: "Road Rage", sans-serif;
   color: white;
+  background-color: var(--opaguegray);
   font-size: 4rem;
   text-align: center;
   display: flex;
@@ -410,7 +411,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .about-team {
   color: var(--cream);
-  background: var(--darkred);
+  background: var(--opaguegray);
 
   padding: 5px;
 }
@@ -432,6 +433,7 @@ h3 {
 
 .mission-div {
   flex-direction: column;
+  background-color: var(--red);
 }
 
 .about-quote {
@@ -558,7 +560,7 @@ h3 {
   display: flex;
   flex-direction: column;
   padding: 0 10px 15px 10px;
-  background: linear-gradient(var(--darkred), var(--lightred), var(--darkred));
+  background: var(--red);
   color: var(--cream);
   text-align: justify;
 }
@@ -585,12 +587,9 @@ h3 {
   border-bottom: none;
 }
 
-.current-projects {
-  background: linear-gradient(var(--darkred), var(--lightred));
-}
-
+.current-projects,
 .previous-works {
-  background: linear-gradient(var(--lightred), var(--darkred));
+  background: var(--red);
 }
 
 .project-link {
@@ -604,7 +603,7 @@ h3 {
 .projects-container .engagements-div {
   flex-direction: column;
   background-image: none;
-  background-color: var(--darkred);
+  background-color: var(--opaguegray);
 }
 
 .one-engagement {
