@@ -1,11 +1,11 @@
 /*-----------------  ROOT  -----------------*/
 
 :root {
-  --red: #981f2b;
+  --red: rgba(121, 23, 25, 1);
   --orange: #b25126;
   --cream: #f7f7de;
   --darkred: #771822;
-  --lightred: #b23642;
+  --lightred: rgb(172, 60, 62, 1);
   --darkorange: #974420;
   --lightorange: #d87246;
   --verylightorange: #e08b67;
@@ -24,6 +24,9 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-image: url("/public/images/backgrounds/wolves.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .link,
@@ -47,13 +50,13 @@ button {
 
 button {
   border-radius: 6px;
-  background-color: var(--lightorange);
+  background-color: var(--orange);
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: var(--verylightorange);
+  background-color: var(--red);
 }
 
 /*-----------------  HEADER  -----------------*/
@@ -66,15 +69,14 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: solid var(--orange) 10px;
+  border-bottom: solid var(--orange) 20px;
   background-image: linear-gradient(
-      rgba(244, 215, 158, 0.4),
-      rgba(244, 215, 158, 0.4)
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
     ),
-    url(./public/images/backgrounds/graffiti1.jpg);
+    url(./public/images/backgrounds/texure6.jpg);
   background-size: cover;
   background-position: center;
-  background-color: white;
 }
 
 .offscreen-menu {
@@ -188,13 +190,14 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding: 0;
   padding-top: 5px;
   text-align: center;
-  background-image: linear-gradient(
+  background-color: rgba(17, 15, 11, 0.6);
+  /* background-image: linear-gradient(
       rgba(17, 15, 11, 0.8),
       rgba(17, 15, 11, 0.8)
     ),
-    url(./public/images/backgrounds/wolvesBG.png);
+    url(./public/images/backgrounds/wolvesBG.png); */
   color: var(--cream);
-  border-top: solid var(--orange) 10px;
+  border-top: solid var(--orange) 20px;
 }
 
 .footer-container .link {
@@ -245,7 +248,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .involved-body,
 .engagements-div {
   padding: 5px 0;
-  border-bottom: solid var(--orange) 10px;
+  border-bottom: solid var(--orange) 20px;
   padding-top: 10px;
 }
 
@@ -262,12 +265,13 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .landing-about,
 .latest-news {
-  background-image: linear-gradient(
+  background-color: rgba(17, 15, 11, 0.7);
+  /* background-image: linear-gradient(
       rgba(17, 15, 11, 0.8),
       rgba(17, 15, 11, 0.8)
     ),
     url(./public/images/backgrounds/wolvesBG.png);
-  background-size: cover;
+  background-size: cover; */
 }
 
 .landing-video,
@@ -314,12 +318,12 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   width: 220px;
   height: 45px;
   font-size: 22px;
-  background-color: var(--orange);
+  /* background-color: var(--orange); */
   border: solid var(--cream) 1px;
 }
 
 .teaser-button:hover {
-  background-color: var(--lightorange);
+  /* background-color: var(--lightorange); */
   cursor: pointer;
 }
 
@@ -377,6 +381,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   border-radius: 10px;
   margin-bottom: 1rem;
   object-fit: cover;
+  border: solid var(--orange) 5px;
 }
 
 /*-----------------  ABOUT  -----------------*/
@@ -806,7 +811,7 @@ h3 {
     height: 10%;
     position: unset;
     padding-top: 0;
-    filter: drop-shadow(0 0 0.75rem var(--cream));
+    /* filter: drop-shadow(0 0 0.75rem var(--cream)); */
   }
 
   /* .header-container {
@@ -815,7 +820,7 @@ h3 {
 
   .logo {
     height: 150px;
-    filter: drop-shadow(0 0 0.75rem var(--cream));
+    /* filter: drop-shadow(0 0 0.75rem var(--cream)); */
   }
 
   .hamburger-menu {
@@ -943,7 +948,7 @@ h3 {
   .video-placeholder {
     height: 450px;
     border-radius: 6px;
-    /* border: solid var(--darkred) 20px; */
+    border: solid var(--orange) 5px;
     margin: 20px 0 20px 20px;
   }
 
