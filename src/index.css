@@ -4,7 +4,7 @@
   --red: rgba(121, 23, 25, 1);
   --orange: #b25126;
   --opagueorange: #b25026c5;
-  --opaguegray: rgba(17, 15, 11, 0.7);
+  --opaguegray: rgba(17, 15, 11, 0.85);
   --cream: #f7f7de;
   --darkred: #771822;
   --lightred: rgb(172, 60, 62, 1);
@@ -47,10 +47,6 @@ button {
 }
 
 button {
-  border: solid white 1px;
-}
-
-button {
   border-radius: 6px;
   background-color: var(--orange);
   color: white;
@@ -71,8 +67,9 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: solid var(--orange) 20px;
+  border-bottom: solid var(--orange) 35px;
   background-color: var(--opagueorange);
+  padding: 5px;
 }
 
 .offscreen-menu {
@@ -186,9 +183,9 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding: 0;
   padding-top: 5px;
   text-align: center;
-  background-color: var(--opaguegray);
+  background-color: var(--orange);
   color: var(--cream);
-  border-top: solid var(--orange) 20px;
+  border-top: solid var(--orange) 10px;
 }
 
 .footer-container .link {
@@ -202,6 +199,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .social-icons {
   width: 20%;
   text-align: left;
+  font-size: larger;
 }
 
 .icon {
@@ -212,7 +210,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: dashed var(--cream) 0.5px;
   padding: 3px;
 }
 
@@ -239,7 +236,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .involved-body,
 .engagements-div {
   padding: 5px 0;
-  border-bottom: solid var(--orange) 20px;
+  border-bottom: solid var(--orange) 35px;
   padding-top: 10px;
 }
 
@@ -304,7 +301,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   height: 45px;
   font-size: 22px;
   /* background-color: var(--orange); */
-  border: solid var(--cream) 1px;
+  /* border: solid var(--cream) 1px; */
 }
 
 .teaser-button:hover {
@@ -312,11 +309,11 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   cursor: pointer;
 }
 
-.landing-top-image {
+/* .landing-top-image {
   height: 225px;
   width: 150px;
   border-radius: 10px;
-}
+} */
 
 .landing-teaser {
   background-image: linear-gradient(
@@ -365,7 +362,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   border-radius: 10px;
   margin-bottom: 1rem;
   object-fit: cover;
-  border: solid var(--orange) 5px;
 }
 
 /*-----------------  ABOUT  -----------------*/
@@ -382,7 +378,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-bottom: solid var(--orange) 20px;
+  border-bottom: solid var(--orange) 35px;
 }
 
 .about-team,
@@ -579,7 +575,17 @@ h3 {
 }
 
 .one-project {
-  border: dashed var(--cream) 2px;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.project-tease-image {
+  height: 9rem;
+  width: 9rem;
+}
+
+.project-teasers-div {
+  margin-top: 10px;
 }
 
 .projects-container .engagements-div {
@@ -595,8 +601,9 @@ h3 {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  border-top: dotted var(--cream) 1px;
-  padding: 20px 0;
+  gap: 1rem;
+  /* border-top: dotted var(--cream) 1px; */
+  padding: 20px 5px;
 }
 
 .engage-two {
@@ -604,8 +611,8 @@ h3 {
 }
 
 .engage-tease-image {
-  height: 8rem;
-  width: 8rem;
+  height: 9rem;
+  width: 9rem;
   border-radius: 6px;
   object-fit: cover;
 }
@@ -788,7 +795,7 @@ h3 {
 
   .offscreen-menu {
     background-color: rgba(255, 255, 255, 0);
-    color: black;
+    color: white;
     height: 10%;
     position: unset;
     padding-top: 0;
@@ -826,8 +833,8 @@ h3 {
 
   .news-image,
   .project-tease-image {
-    height: 15rem;
-    width: 15rem;
+    height: 18rem;
+    width: 18rem;
   }
 
   .about-header,
@@ -929,7 +936,6 @@ h3 {
   .video-placeholder {
     height: 450px;
     border-radius: 6px;
-    border: solid var(--orange) 5px;
     margin: 20px 0 20px 20px;
   }
 

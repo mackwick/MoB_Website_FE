@@ -29,11 +29,9 @@ function Footer() {
                 mouthsofbabestheatre@gmail.com
               </a>
             </p>
+            <p className="footer-content">© 2024 Mouths of Babes Theatre</p>
           </p>
         </div>
-      </div>
-      <div className="footer-reference">
-        <p className="footer-content">© 2024 Mouths of Babes Theatre</p>
       </div>
     </div>
   );
