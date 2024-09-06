@@ -26,7 +26,7 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-image: url("/public/images/backgrounds/wolves.png");
+  background-image: url("/images/backgrounds/wolves.png");
   background-size: cover;
   background-position: center;
 }
@@ -72,13 +72,7 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
   border-bottom: solid var(--orange) 20px;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url(./public/images/backgrounds/texure6.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: var(--opagueorange);
 }
 
 .offscreen-menu {
@@ -193,11 +187,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   padding-top: 5px;
   text-align: center;
   background-color: var(--opaguegray);
-  /* background-image: linear-gradient(
-      rgba(17, 15, 11, 0.8),
-      rgba(17, 15, 11, 0.8)
-    ),
-    url(./public/images/backgrounds/wolvesBG.png); */
   color: var(--cream);
   border-top: solid var(--orange) 20px;
 }
@@ -268,12 +257,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .landing-about,
 .latest-news {
   background-color: var(--opaguegray);
-  /* background-image: linear-gradient(
-      rgba(17, 15, 11, 0.8),
-      rgba(17, 15, 11, 0.8)
-    ),
-    url(./public/images/backgrounds/wolvesBG.png);
-  background-size: cover; */
 }
 
 .landing-video,
@@ -340,8 +323,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
       rgba(244, 215, 158, 0.4),
       rgba(244, 215, 158, 0.4)
     ),
-    url(./public/images/scotopia-collage.jpg);
-  /* background-image: url("/images/scotopia-collage.jpg"); */
+    url(/images/scotopia-collage.jpg);
   background-size: cover;
   height: 40dvh;
   text-align: center;
