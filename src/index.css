@@ -617,6 +617,13 @@ h3 {
   object-fit: cover;
 }
 
+/* #scotopia {
+  background-image: url("/images/sco-proj.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+} */
+
 /*-----------------  FULL PROJECT PAGE  -----------------*/
 
 .full-project-container {
