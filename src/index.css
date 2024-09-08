@@ -534,6 +534,10 @@ h3 {
 
 /*-----------------  GET INVOLVED  -----------------*/
 
+.contact-h2 {
+  font-size: 5rem;
+}
+
 .how-to-involved {
   display: flex;
   flex-direction: column;
@@ -724,6 +728,10 @@ h3 {
 
   .sponsor-image {
     width: 10rem;
+  }
+
+  .contact-h2 {
+    font-size: 1.5em;
   }
 }
 
