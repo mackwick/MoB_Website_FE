@@ -8,6 +8,9 @@ function Landing() {
   return (
     <div className="landing-container">
       <div className="landing-about">
+        {/* <div className="landing-video">
+          <img src={image} className="video-placeholder"></img>
+        </div> */}
         <div className="brief-bio">
           MOUTHS OF BABES creates theatre that explores and questions complex
           intersectional, community related issues, examining both their
@@ -25,9 +28,6 @@ function Landing() {
               <button className="home-bio-one-link">Support MoB</button>
             </a>
           </div>
-        </div>
-        <div className="landing-video">
-          <img src={image} className="video-placeholder"></img>
         </div>
       </div>
 
@@ -47,19 +47,19 @@ function Landing() {
         <LatestNews
           image={image}
           title={"2024 Fundraiser: MoB Mixtape"}
-          link={"https://www.mouthsofbabestheatre.com/tickets"}
+          link={"https://events.humanitix.com/mob-mixtape-an-arts-night-out"}
         />
 
         <LatestNews
           image={opioid}
           title={"Voices from the Opioid Epidemic"}
-          link={"https://www.mouthsofbabestheatre.com/current-projects"}
+          link={"/opioidvoices"}
         />
 
         <LatestNews
           image={wilm}
           title={"Wilmington Reconstructed"}
-          link={"https://www.mouthsofbabestheatre.com/gallery"}
+          link={"/wilmingtonreconstructed"}
         />
       </div>
     </div>

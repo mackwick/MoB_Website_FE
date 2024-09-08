@@ -24,6 +24,12 @@ function Header() {
           <a href="/getinvolved" className="link">
             Get Involved
           </a>
+          <a
+            href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
+            className="link"
+          >
+            Donate
+          </a>
         </div>
 
         <div className="hamburger-menu">
