@@ -88,11 +88,10 @@ function Contact() {
           </p>
           <h4>ETC.</h4>
           <p>
-            We still encourage those If you are not local to North Carolina, but
-            still wish to engage with MoB, follow us on our social media. We
-            often post when we are seeking interviews for our documentary
-            productions, which is a unique opportunity MoB offers to become
-            involved in our productions!
+            If you are not local to North Carolina, but still wish to engage
+            with MoB, follow us on our social media. We often post when we are
+            seeking interviews for our documentary productions, which is a
+            unique opportunity MoB offers to become involved in our productions!
           </p>
         </div>
       </div>
