@@ -15,11 +15,12 @@ function Header() {
           <a href="/" className="link">
             Home
           </a>
-          <a href="/projects" className="link">
-            Projects
-          </a>
+
           <a href="/about" className="link">
             About MoB
+          </a>
+          <a href="/projects" className="link">
+            Projects
           </a>
           <a href="/getinvolved" className="link">
             Get Involved

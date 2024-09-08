@@ -440,7 +440,7 @@ h3 {
 .board-bio {
   display: flex;
   flex-direction: column;
-  border-top: dotted var(--cream) 2px;
+  /* border-top: solid var(--cream) 2px; */
   padding: 10px 0;
 }
 
@@ -487,7 +487,7 @@ h3 {
 }
 
 .bios-div-two {
-  border-top: dotted var(--cream) 2px;
+  border-top: solid var(--cream) 2px;
   padding-top: 20px;
 }
 
@@ -1042,8 +1042,8 @@ h3 {
   }
 
   .team-bio {
-    width: 23%;
-    border: dotted var(--cream) 2px;
+    /* width: 23%; */
+    /* border: dotted var(--cream) 2px; */
     margin-bottom: 30px;
     border-radius: 6px;
   }

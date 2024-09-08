@@ -50,13 +50,17 @@ function About() {
             </p>
             <div className="home-bio-links">
               <Link to="/contact" className="link">
-                <button className="home-bio-one-link">Get Involved</button>
+                <button className="home-bio-one-link about-link">
+                  Get Involved
+                </button>
               </Link>
               <a
                 href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
                 className="link"
               >
-                <button className="home-bio-one-link">Support MoB</button>
+                <button className="home-bio-one-link about-link">
+                  Support MoB
+                </button>
               </a>
             </div>
           </div>
