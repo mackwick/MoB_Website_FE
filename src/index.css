@@ -824,16 +824,6 @@ h3 {
     font-size: 1rem;
   }
 
-  .one-project {
-    width: 48dvw;
-    height: 35dvw;
-  }
-
-  .project-tease-image {
-    height: 9rem;
-    width: 9rem;
-  }
-
   .engage-tease-image {
     height: 10rem;
     width: 10rem;
@@ -856,6 +846,22 @@ h3 {
 
   .contact-h2 {
     font-size: 1.5em;
+  }
+
+  .project-teasers-div {
+    justify-content: space-around;
+  }
+
+  .project-link {
+    font-size: 3rem;
+  }
+
+  .one-project {
+    border: none;
+    margin-bottom: 2rem;
+    width: 100%;
+    width: 45dvw;
+    height: 300px;
   }
 }
 
