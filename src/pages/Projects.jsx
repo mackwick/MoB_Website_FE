@@ -1,11 +1,6 @@
 import Project from "../components/Project";
 import Engagement from "../components/Engagement";
 import image from "/images/placeholder.jpeg";
-import scotopia from "/images/sco-proj.jpg";
-import oak from "/images/oak-proj.jpg";
-import opioid from "/images/opioid-proj.jpg";
-import quilt from "/images/quilt-proj.jpg";
-import wilmy from "/images/wilmrec-proj.jpg";
 import pride from "/images/pride-picnic-proj.jpg";
 import outNC from "/images/out-nc-proj.jpg";
 import outreach from "/images/outreachrep.jpg";
@@ -22,27 +17,28 @@ function Projects() {
 
         <div className="project-teasers-div">
           <Project
-            image={scotopia}
+            BG="scotopia proj-compon-BG"
             name={"Scotopia: Short Plays to Help You See in the Dark"}
             link={"/scotopia"}
           />
+
           <Project
-            image={oak}
+            BG="oak proj-compon-BG"
             name={"The Oak Grove Cemetery Project"}
             link={"/oakgrovecemeteryproject"}
           />
           <Project
-            image={opioid}
+            BG="opioid proj-compon-BG"
             name={"Voices from the Opioid Epidemic"}
             link={"/opioidvoices"}
           />
           <Project
-            image={quilt}
+            BG="quilt proj-compon-BG"
             name={"Quilt Stories: Voices from the AIDS Quilt"}
             link={"/quiltstories"}
           />
           <Project
-            image={wilmy}
+            BG="wilmy proj-compon-BG"
             name={"Wilmington Reconstructed"}
             link={"/wilmingtonreconstructed"}
           />
@@ -84,14 +80,26 @@ function Projects() {
       <div className="previous-works">
         <h3>PREVIOUS WORKS</h3>
         <div className="project-teasers-div">
-          <Project image={image} name={"Quilt Stories 2021 & 2023"} link={""} />
           <Project
-            image={image}
+            BG="quilt-prev proj-compon-BG"
+            name={"Quilt Stories 2021 & 2023"}
+            link={""}
+          />
+          <Project
+            BG="wilm-prev proj-compon-BG"
             name={"Wilmington Reconstructed 2023"}
             link={""}
           />
-          <Project image={image} name={"Out of Silence 2023"} link={""} />
-          <Project image={pride} name={"Pride Picnic 2021"} link={""} />
+          <Project
+            BG="out proj-compon-BG"
+            name={"Out of Silence 2023"}
+            link={""}
+          />
+          <Project
+            BG="pride proj-compon-BG"
+            name={"Pride Picnic 2021"}
+            link={""}
+          />
         </div>
       </div>
     </div>

@@ -574,20 +574,6 @@ h3 {
   background: var(--red);
 }
 
-.project-link {
-  font-size: 1rem;
-}
-
-.one-project {
-  border: none;
-  margin-bottom: 2rem;
-}
-
-.project-tease-image {
-  height: 9rem;
-  width: 9rem;
-}
-
 .project-teasers-div {
   margin-top: 10px;
 }
@@ -621,12 +607,150 @@ h3 {
   object-fit: cover;
 }
 
-/* #scotopia {
-  background-image: url("/images/sco-proj.jpg");
+/*-----------------  PROJECT COMPONENT  -----------------*/
+
+.proj-compon-BG {
   background-size: cover;
-  height: 200px;
-  width: 200px;
-} */
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-link {
+  font-size: 2rem;
+}
+
+.one-project {
+  border: none;
+  margin-bottom: 2rem;
+  width: 100%;
+  align-items: center;
+  width: 100dvw;
+  height: 310px;
+}
+
+/*-----------------  PROJECT COMPONENT BACKGROUNDS -----------------*/
+
+.scotopia {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/sco-proj.jpg");
+}
+
+.scotopia:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/sco-proj.jpg");
+}
+
+.oak {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/oak-proj.jpg");
+}
+
+.oak:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/oak-proj.jpg");
+}
+
+.opioid {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/opioid-proj.jpg");
+}
+
+.opioid:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/opioid-proj.jpg");
+}
+
+.quilt {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/quilt-proj.jpg");
+}
+
+.quilt:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/quilt-proj.jpg");
+}
+
+.wilmy {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/wilmrec-proj.jpg");
+}
+
+.wilmy:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/wilmrec-proj.jpg");
+}
+
+.quilt-prev {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/wilmrec-proj.jpg");
+}
+
+.quilt-prev:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/wilmrec-proj.jpg");
+}
+
+.wilm-prev {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/wilmrec-proj.jpg");
+}
+
+.wilm-prev:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/wilmrec-proj.jpg");
+}
+
+.out {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/out-nc-proj.jpg");
+}
+
+.out:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/out-nc-proj.jpg");
+}
+
+.pride {
+  background-image: linear-gradient(
+      rgba(17, 15, 11, 0.5),
+      rgba(17, 15, 11, 0.5)
+    ),
+    url("/images/pride-picnic-proj.jpg");
+}
+
+.pride:hover {
+  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+    url("/images/pride-picnic-proj.jpg");
+}
 
 /*-----------------  FULL PROJECT PAGE  -----------------*/
 
