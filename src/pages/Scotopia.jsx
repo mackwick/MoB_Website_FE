@@ -7,7 +7,7 @@ function Scotopia() {
       image={image}
       name={"SCOTOPIA: SHORT PLAYS TO HELP YOU SEE IN THE DARK"}
       details={
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        'Experience MoB Theatre’s annual original theatre festival. The word Scotopia, also known as scotopic vision, means "the ability to see in darkness, or dim light." Inspired by a short play festival curated in spring of 2024, MoB has decided to continue Scotopia as an incubator for new works with a social justice focus. Scotopia is a multi-venue, multi-day theatre festival, that brings to life new and developings works that celebrate identity and advocate for social change.'
       }
     />
   );

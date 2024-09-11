@@ -7,7 +7,6 @@ import outreach from "/images/outreachrep.jpg";
 import mixtape from "/images/mixtape.jpg";
 import redribbon from "/images/redribbon.jpg";
 import overdose from "/images/overdose.jpg";
-import quilt2223 from "/images/quilt2223.jpg";
 
 function Projects() {
   return (
@@ -54,23 +53,39 @@ function Projects() {
         <div className="engage-collection">
           <Engagement
             image={mixtape}
-            name={"2024 Fundraiser: MoB MixTape"}
+            name={"MoB MixTape: Arts Night Out"}
             details={
-              <p>
-                Join us for MoB Mixtape, a MoB fundraiser this September 25th.
-                This community arts and crafts night, with live music and
-                karaoke, will have you making meaningful art and connections
-                with your community, all while tapping your foot along to some
-                epic live tunes. At Eagles Dare, 6 p.m., Sept. 25.{"     "}
-                <a
-                  href="https://events.humanitix.com/mob-mixtape-an-arts-night-out"
-                  target="_blank"
-                  className="link"
-                >
-                  {" "}
-                  LEARN MORE.
-                </a>
-              </p>
+              <>
+                <div>
+                  <p>
+                    <b>6 p.m., Sept. 25, 2024, at Eagles Dare in Wilmington</b>
+                  </p>
+                  <p>
+                    <b>Community. Crafts. Karaoke. Live Music.</b>
+                  </p>
+                  <p>
+                    Join MoB Theatre company for our first community arts night!
+                    MoB Mixtape presents an assortment of happenings to enjoy
+                    and participate in as you get to know MoB! Money raised goes
+                    directly toward MoB's mission to create meaningful,
+                    grassroots theatre for our community. It will facilitate and
+                    activate a variety of developing projects. Last year, over
+                    60% of our budget went directly to artists. Your donations
+                    during this event will help support visiting and local
+                    artists, historical research, venue spaces, and outreach
+                    programs to serve youth through theatre.
+                  </p>
+
+                  <a
+                    href="https://events.humanitix.com/mob-mixtape-an-arts-night-out"
+                    target="_blank"
+                    className="link"
+                  >
+                    {" "}
+                    LEARN MORE.
+                  </a>
+                </div>
+              </>
             }
           />
           <Engagement
@@ -87,12 +102,6 @@ function Projects() {
             image={overdose}
             name={"Overdose Awareness Day 2023 & 2024"}
             details={`MoB performers attended this event to provide support for the community and share stories from the first few interviews conducted on our ongoing project, Voices from the Opioid Epidemic. With almost all of the interviewees present to hear the first readings of their monologues, it was a powerful and emotional day. `}
-          />
-          <Engagement image={outNC} name={"OUT NC 2021"} details={`TBD`} />
-          <Engagement
-            image={pride}
-            name={"Pride Picnic 2021"}
-            details={`TBD`}
           />
         </div>
       </div>
@@ -112,7 +121,7 @@ function Projects() {
           />
           <Project
             BG="out proj-compon-BG"
-            name={"Out of Silence 2023"}
+            name={"Out of Silence 2021 & 2023"}
             link={""}
           />
           <Project
