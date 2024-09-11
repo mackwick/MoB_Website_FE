@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import image from "/images/placeholder.jpeg";
+import mixtape from "/images/mixtape.jpg";
 import LatestNews from "../components/LatestNews";
 import wilm from "/images/Home-WilmingtonReconstructedrep.jpg";
 import opioid from "/images/opioid-proj.jpg";
@@ -48,7 +48,7 @@ function Landing() {
       </div>
       <div className="latest-news">
         <LatestNews
-          image={image}
+          image={mixtape}
           title={"2024 Fundraiser: MoB Mixtape"}
           link={"https://events.humanitix.com/mob-mixtape-an-arts-night-out"}
         />

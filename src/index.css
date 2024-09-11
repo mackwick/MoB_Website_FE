@@ -564,6 +564,11 @@ h3 {
   padding: 5px;
 }
 
+.engagements-div .link {
+  color: var(--cream);
+  font-size: inherit;
+}
+
 .previous-works {
   border-bottom: none;
 }
@@ -710,12 +715,12 @@ h3 {
       rgba(17, 15, 11, 0.5),
       rgba(17, 15, 11, 0.5)
     ),
-    url("/images/wilmrec-proj.jpg");
+    url("/images/quilt2223.jpg");
 }
 
 .quilt-prev:hover {
   background-image: linear-gradient(#f7f7de84, #f7f7de84),
-    url("/images/wilmrec-proj.jpg");
+    url("/images/quilt2223.jpg");
 }
 
 .wilm-prev {
@@ -723,12 +728,12 @@ h3 {
       rgba(17, 15, 11, 0.5),
       rgba(17, 15, 11, 0.5)
     ),
-    url("/images/wilmrec-proj.jpg");
+    url("/images/wilm-prev.jpg");
 }
 
 .wilm-prev:hover {
   background-image: linear-gradient(#f7f7de84, #f7f7de84),
-    url("/images/wilmrec-proj.jpg");
+    url("/images/wilm-prev.jpg");
 }
 
 .out {

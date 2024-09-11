@@ -19,10 +19,10 @@ function FullProj({ image, name, details }) {
                 Go Back
               </button>
             </Link>
-            <a href="">
+            {/* <a href="">
               {" "}
               <button className="home-bio-one-link">Get Tickets</button>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
