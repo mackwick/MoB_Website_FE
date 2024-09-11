@@ -57,6 +57,7 @@ function About() {
               <a
                 href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
                 className="link"
+                target="_blank"
               >
                 <button className="home-bio-one-link about-link">
                   Support MoB

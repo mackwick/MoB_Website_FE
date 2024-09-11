@@ -23,7 +23,10 @@ function Landing() {
                 Learn More
               </button>
             </Link>
-            <a href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY">
+            <a
+              href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
+              target="_blank"
+            >
               {" "}
               <button className="home-bio-one-link">Support MoB</button>
             </a>

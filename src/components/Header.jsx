@@ -28,6 +28,7 @@ function Header() {
           <a
             href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
             className="link"
+            target="_blank"
           >
             Donate
           </a>
