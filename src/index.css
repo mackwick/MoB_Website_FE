@@ -235,7 +235,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .contact-header,
 .involved-body,
 .engagements-div {
-  padding: 5px 0;
+  padding: 5px;
   border-bottom: solid var(--orange) 35px;
   padding-top: 10px;
 }

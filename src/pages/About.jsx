@@ -49,7 +49,7 @@ function About() {
               we have more than one of these pieces being developed at once.
             </p>
             <div className="home-bio-links">
-              <Link to="/contact" className="link">
+              <Link to="/getinvolved" className="link">
                 <button className="home-bio-one-link about-link">
                   Get Involved
                 </button>
