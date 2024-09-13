@@ -8,7 +8,7 @@ function Landing() {
   return (
     <div className="landing-container">
       <div className="landing-teaser">
-        <span className="home-teaser-header">MOB THEATRE COMPANY</span>
+        <span className="home-teaser-header">MoB THEATRE COMPANY</span>
         <p className="teaser-blurb">Theatre Makers on a Mission</p>
         <div className="home-teaser-link">
           {/* <a href="/about">
