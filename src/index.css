@@ -26,9 +26,6 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-image: url("/images/backgrounds/wolves.png");
-  background-size: cover;
-  background-position: center;
 }
 
 .link,
@@ -59,17 +56,24 @@ button:hover {
 
 /*-----------------  HEADER  -----------------*/
 
-.logo {
-  height: 100px;
-}
-
 .header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   border-bottom: solid var(--orange) 35px;
   background-color: var(--lightorange);
   padding: 5px;
+}
+
+.logo > .link {
+  font-size: 28px;
+  color: white;
+}
+
+.logo {
+  margin: 5px;
+  padding-top: 5px;
 }
 
 .offscreen-menu {
@@ -86,7 +90,6 @@ button:hover {
   right: -450px;
   z-index: 2;
   transition: 0.3s ease;
-  font-family: "Road Rage", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -136,8 +139,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 .hamburger-menu {
-  margin: 20px 5px;
-  padding-top: 20px;
+  margin: 5px;
   height: 50px;
   width: 50px;
   margin-left: auto;
@@ -171,14 +173,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 /*-----------------  FOOTER  -----------------*/
 
-.contact-info h5 {
-  font-size: 1.25rem;
-}
-
 .footer-container {
-  bottom: 0;
-  right: 0;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   padding: 0;
   padding-top: 5px;
@@ -192,14 +190,9 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   color: var(--cream);
 }
 
-.footer-content {
-  margin: 0;
-}
-
-.social-icons {
-  width: 25%;
-  text-align: left;
-  font-size: x-large;
+.social-icons,
+.footer-contact {
+  font-size: 20px;
 }
 
 .icon {
@@ -208,13 +201,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .footer-contact {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   padding: 3px;
-}
-
-.contact-info {
-  text-align: right;
 }
 
 .footer-reference {
@@ -370,7 +360,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .projects-header,
 .contact-header {
   height: 20dvh;
-  font-family: "Road Rage", sans-serif;
+
   color: white;
   background-color: var(--opaguegray);
   font-size: 4rem;
@@ -401,7 +391,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 h3 {
   font-size: 30px;
   padding-bottom: 12px;
-  font-family: "Road Rage", sans-serif;
 }
 
 .who-we-are {
@@ -526,33 +515,30 @@ h3 {
   color: var(--red);
 }
 
+.sponsor-images {
+  text-align: center;
+}
+
 .sponsor-image {
-  width: 7.5rem;
+  width: 10rem;
   padding-bottom: 10px;
 }
 
 /*-----------------  GET INVOLVED  -----------------*/
-
 .contact-h2 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
-.how-to-involved {
-  display: flex;
-  flex-direction: column;
-  padding: 0 10px 15px 10px;
-  background: var(--red);
-  color: var(--cream);
-  text-align: justify;
+.how-to-involved,
+.how-to-involved .link {
+  color: black;
+  font-size: 26px;
+  text-align: center;
+  padding: 55px 15px;
 }
 
 .how-to-involved .link {
-  color: var(--cream);
-}
-
-.how-to-involved h4 {
-  font-size: 24px;
-  padding-top: 8px;
+  font-weight: 600;
 }
 
 /*-----------------  PROJECTS  -----------------*/
@@ -834,12 +820,13 @@ h3 {
   }
 
   .engage-tease-image {
-    height: 10rem;
-    width: 10rem;
+    height: 15rem;
+    width: 13rem;
   }
 
   .engage-two p {
     text-align: justify;
+    padding-right: 10px;
   }
 
   .sponsor-images {
@@ -850,7 +837,7 @@ h3 {
   }
 
   .sponsor-image {
-    width: 10rem;
+    width: 12rem;
   }
 
   .contact-h2 {
@@ -869,9 +856,19 @@ h3 {
   .project-teasers-div {
     gap: 1rem;
   }
+
+  .team-bio-pic {
+    height: 8rem;
+    width: 8rem;
+  }
 }
 
 @media screen and (min-width: 860px) {
+  .social-icons,
+  .footer-contact {
+    font-size: 24px;
+  }
+
   .news-image,
   .project-tease-image {
     height: 13rem;
@@ -884,8 +881,17 @@ h3 {
     padding: 10px 20px;
   }
 
-  .about-body {
-    font-size: 18px;
+  .news-item,
+  .news-item .link,
+  .one-engagement,
+  .about-body,
+  .team-bio-two {
+    font-size: 22px;
+  }
+
+  .engage-tease-image {
+    height: 17rem;
+    width: 16rem;
   }
 
   .about-quote {
@@ -906,19 +912,10 @@ h3 {
     margin-top: 2rem;
   }
 
-  .news-item,
-  .news-item .link,
-  .one-engagement {
-    font-size: 18px;
-  }
-
-  .team-bio-two {
-    font-size: 18px;
-  }
   .how-to-involved li,
   .how-to-involved p,
   .how-to-involved .link {
-    font-size: 1.5rem;
+    font-size: 30px;
   }
 
   .how-to-involved h4 {
@@ -938,10 +935,19 @@ h3 {
     width: 40dvw;
     height: 340px;
   }
+
+  .sponsor-image {
+    width: 13rem;
+  }
+
+  .team-bio-pic {
+    height: 9rem;
+    width: 9rem;
+  }
 }
 
 @media screen and (min-width: 1020px) {
-  .hamburger-menu {
+  /* .hamburger-menu {
     display: none;
   }
 
@@ -967,7 +973,7 @@ h3 {
     padding-top: 0;
     flex-direction: row;
     justify-content: space-between;
-    /* font: inherit; */
+    font: inherit;
   }
 
   .header-menu {
@@ -975,17 +981,15 @@ h3 {
     flex-direction: column;
     justify-content: center;
     width: 40dvw;
+  } */
+
+  .logo .link {
+    font-size: 45px;
   }
 
-  .logo {
-    height: 150px;
-    width: 186.44px;
-    /* filter: drop-shadow(0 0 0.75rem var(--cream)); */
-  }
-
-  .hamburger-menu {
+  /* .hamburger-menu {
     margin: 50px 25px 20px 25px;
-  }
+  } */
 
   .brief-bio {
     font-size: 22px;
@@ -1016,13 +1020,13 @@ h3 {
   }
 
   .team-bio-pic {
-    height: 7rem;
-    width: 7rem;
+    height: 11rem;
+    width: 11rem;
   }
 
   .about-body {
     justify-content: space-around;
-    gap: 20px;
+    gap: 60px;
   }
 
   .about-body-one {
@@ -1031,7 +1035,7 @@ h3 {
   }
 
   .about-image-main {
-    height: 300px;
+    height: 500px;
     border-radius: 6px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -1040,6 +1044,10 @@ h3 {
   .about-body-two {
     margin-right: 20px;
     text-align: justify;
+  }
+
+  .about-mission {
+    padding-top: 30px;
   }
 
   .bios-div-one {
@@ -1052,11 +1060,6 @@ h3 {
   .team-bio {
     width: 40%;
     padding: 25px 10px;
-  }
-
-  .team-bio-pic {
-    height: 8rem;
-    width: 8rem;
   }
 
   .team-bio-one {
@@ -1073,11 +1076,11 @@ h3 {
     padding: 15px;
   }
 
-  .how-to-involved {
+  /* .how-to-involved {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }
+  } */
 
   .how-to-div1,
   .how-to-div2 {
@@ -1272,6 +1275,10 @@ h3 {
     align-items: center;
     padding: 20px 5px;
     justify-content: space-between;
+  }
+
+  .sponsor-image {
+    width: 15rem;
   }
 
   .board-bio {

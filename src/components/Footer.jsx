@@ -2,36 +2,38 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-contact">
-        <div className="social-icons">
-          <a
-            href="https://www.instagram.com/mobtheatre/"
-            className="icon link"
-            target="_blank"
-          >
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="https://www.facebook.com/MoBTheatreCompany/"
-            className="icon link"
-            target="_blank"
-          >
-            <i className="fa-brands fa-facebook"></i>
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCplIp7V5VNQDvq00an61NcQ"
-            className="icon link"
-            target="_blank"
-          >
-            <i className="fa-brands fa-youtube"></i>
-          </a>
-        </div>
         <div className="contact-info">
-          <h5 className="footer-content">Contact Us</h5>
-          <p className="footer-content">Wilmington, NC</p>
           <p className="footer-content">
+            {" "}
+            <span className="social-icons">
+              <a
+                href="https://www.instagram.com/mobtheatre/"
+                className="icon link"
+                target="_blank"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/MoBTheatreCompany/"
+                className="icon link"
+                target="_blank"
+              >
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCplIp7V5VNQDvq00an61NcQ"
+                className="icon link"
+                target="_blank"
+              >
+                <i className="fa-brands fa-youtube"></i>
+              </a>
+            </span>{" "}
+            Wilmington, NC |{" "}
             <a href="tel:9103675286" className="link">
               910-367-5286
             </a>
+          </p>
+          <p className="footer-content">
             <p>
               <a
                 href="mailto:mouthsofbabestheatre@gmail.com"
