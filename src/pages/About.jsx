@@ -16,21 +16,18 @@ import Trey from "/images/Trey.jpg";
 function About() {
   return (
     <div className="about-container">
-      <div className="about-header">
-        <h2>ABOUT MOB</h2>
-      </div>
-
       <div className="mission-div">
         <h3>WHAT WE DO</h3>
-        <p className="about-quote">
-          “People speak in organic poems.” <span>- Anna Deveare Smith</span>
-        </p>
+
         <div className="about-body">
           <div className="about-body-one">
             <img src={image} className="about-image-main" />
           </div>
           <div className="about-body-two">
-            <p>
+            <p className="about-quote">
+              “People speak in organic poems.” <span>- Anna Deveare Smith</span>
+            </p>
+            <p className="about-mission">
               MoB sees theatre through a contemporary lens, using forms of
               collaborative theatre-making to investigate issues we care about.
               With a focus on non-fiction narratives, documentary theatre is one
@@ -48,22 +45,6 @@ function About() {
               Because of the many details these true stories reveal over time,
               we have more than one of these pieces being developed at once.
             </p>
-            <div className="home-bio-links">
-              <Link to="/getinvolved" className="link">
-                <button className="home-bio-one-link about-link">
-                  Get Involved
-                </button>
-              </Link>
-              <a
-                href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
-                className="link"
-                target="_blank"
-              >
-                <button className="home-bio-one-link about-link">
-                  Support MoB
-                </button>
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -107,12 +88,6 @@ function About() {
             <Team
               image={Malachi}
               name={"Malachi Chapman"}
-              title={"Title"}
-              bio={"Bio coming soon."}
-            />
-            <Team
-              image={Madisyn}
-              name={"Madisyn Fleming"}
               title={"Title"}
               bio={"Bio coming soon."}
             />
