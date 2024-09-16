@@ -20,31 +20,33 @@ function About() {
         <h3>WHAT WE DO</h3>
 
         <div className="about-body">
-          <div className="about-body-one">
+          {/* <div className="about-body-one">
             <img src={image} className="about-image-main" />
-          </div>
+          </div> */}
           <div className="about-body-two">
             <p className="about-quote">
               “People speak in organic poems.” <span>- Anna Deveare Smith</span>
             </p>
-            <p className="about-mission">
-              MoB sees theatre through a contemporary lens, using forms of
-              collaborative theatre-making to investigate issues we care about.
-              With a focus on non-fiction narratives, documentary theatre is one
-              of our most repeated and polished processes.
-            </p>
-            <p>
-              An incubator for new works, MoB Theatre is constantly harnessing
-              true stories, oral histories, and lived experiences to create
-              meaningful theatre. Highlighting process over product, we develop
-              workshops, staged readings, and performances to showcase work as
-              it's being developed to garner community feedback, conversation,
-              and growth.
-            </p>
-            <p>
-              Because of the many details these true stories reveal over time,
-              we have more than one of these pieces being developed at once.
-            </p>
+            <div className="about-mission">
+              <p>
+                MoB sees theatre through a contemporary lens, using forms of
+                collaborative theatre-making to investigate issues we care
+                about. With a focus on non-fiction narratives, documentary
+                theatre is one of our most repeated and polished processes.
+              </p>
+              <p>
+                An incubator for new works, MoB Theatre is constantly harnessing
+                true stories, oral histories, and lived experiences to create
+                meaningful theatre. Highlighting process over product, we
+                develop workshops, staged readings, and performances to showcase
+                work as it's being developed to garner community feedback,
+                conversation, and growth.
+              </p>
+              <p>
+                Because of the many details these true stories reveal over time,
+                we have more than one of these pieces being developed at once.
+              </p>{" "}
+            </div>
           </div>
         </div>
       </div>
@@ -88,17 +90,24 @@ function About() {
             <Team
               image={Malachi}
               name={"Malachi Chapman"}
-              title={"Title"}
-              bio={"Bio coming soon."}
+              title={"Artistic Associate, Actor"}
+              bio={
+                "Malachi Chapman is a local actor, working with MoB and other local theatre groups. Recent acting credits include Scoptia, and Wilmington Reconstructed. Malachi is currently attending Cape Fear Community College with the plan to attend University to continue his studies in Theatre. Malachai is also passionate about basketball, football, and anime."
+              }
             />
           </div>
 
           <div className="bios-div-two">
+            <hr />
+            <hr />
+            <br />
             <h2>Board</h2>
             <Board
               name={"La-taun Danns"}
               title={"Board President"}
-              bio={"Bio coming soon."}
+              bio={
+                "La’Tuan Danns, a native North Carolinian, comes from a theater background that originated in high school. She’s worked in both theater and film. Various nonprofit boards and organizations have helped feed her need to be involved in issues such as the arts, education, worker rights, and children issues. Currently, the focus is on her for fantastical daughters who have also inherited love of the arts. As a graduate of UNCW, she is active in the theatre community and happy to be a part of MoB, a company that highlights such relevant and tough issues."
+              }
             />
             <Board
               name={"Conswalia Green"}

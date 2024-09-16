@@ -373,7 +373,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 .about-team {
-  color: var(--cream);
+  color: black;
   background: white;
   padding: 5px;
 }
@@ -408,13 +408,13 @@ h3 {
   padding-bottom: 20px !important;
 }
 
-.about-body {
+/* .about-body {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .mission-div p {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .bios-div {
@@ -425,8 +425,11 @@ h3 {
 .board-bio {
   display: flex;
   flex-direction: column;
-  /* border-top: solid var(--cream) 2px; */
-  padding: 10px 0;
+  /* border: solid black 1px; */
+  border-radius: 6%;
+  box-shadow: -2px -2px 10px var(--shadow);
+  padding: 10px;
+  margin: 10px;
 }
 
 .team-bio-one {
@@ -491,7 +494,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 3px solid var(--cream);
+  border: 3px solid white;
   border-radius: 6px;
   margin: 3px;
   padding: 5px;
@@ -502,7 +505,12 @@ h3 {
 
 .press-link,
 .project-link {
-  color: var(--cream);
+  color: white;
+  text-decoration: underline;
+}
+
+.press-link:hover {
+  color: black;
 }
 
 .about-sponsors {
@@ -870,6 +878,12 @@ h3 {
     height: 8rem;
     width: 8rem;
   }
+
+  .mission-div {
+    font-size: 22px;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 860px) {
@@ -1000,9 +1014,9 @@ h3 {
     margin: 50px 25px 20px 25px;
   } */
 
-  .brief-bio {
+  /* .brief-bio {
     font-size: 22px;
-  }
+  } */
 
   .landing-teaser {
     min-height: 50dvh;
@@ -1022,41 +1036,50 @@ h3 {
     width: 18rem;
   }
 
-  .about-header,
+  /* .about-header,
   .contact-header,
   .projects-header {
     font-size: 5rem;
-  }
+  } */
 
   .team-bio-pic {
     height: 11rem;
     width: 11rem;
   }
 
-  .about-body {
+  /* .about-body {
     justify-content: space-around;
     gap: 60px;
-  }
+  } */
 
-  .about-body-one {
+  /* .about-body-one {
     display: contents;
     justify-content: center;
-  }
+  } */
 
-  .about-image-main {
+  /* .about-image-main {
     height: 500px;
     border-radius: 6px;
     margin-left: 20px;
     margin-bottom: 20px;
-  }
+  } */
 
-  .about-body-two {
+  /* .about-body-two {
     margin-right: 20px;
     text-align: justify;
+  } */
+
+  /* .about-mission {
+    padding-top: 30px;
+  } */
+
+  .mission-div {
+    background-image: linear-gradient(#255f85a2, #255f85a2),
+      url("/images/shadowday-scotop-hl.jpg");
   }
 
-  .about-mission {
-    padding-top: 30px;
+  .about-body {
+    font-size: 30px;
   }
 
   .bios-div-one {
@@ -1210,6 +1233,19 @@ h3 {
 
   h3 {
     font-size: 4rem;
+  }
+
+  .mission-div {
+    background-image: linear-gradient(#255f85c9, #255f85c9),
+      url("/images/shadowday-scotop-hl.jpg");
+  }
+
+  .about-body {
+    font-size: 32px;
+  }
+
+  .about-mission {
+    padding: 30px 5px;
   }
 
   .team-bio {
