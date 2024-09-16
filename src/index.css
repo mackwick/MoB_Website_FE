@@ -348,11 +348,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 /*-----------------  ABOUT  -----------------*/
 
-.about-header,
+/* .about-header,
 .projects-header,
 .contact-header {
   height: 20dvh;
-
   color: white;
   background-color: var(--opaguegray);
   font-size: 4rem;
@@ -361,6 +360,10 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   flex-direction: column;
   justify-content: center;
   border-bottom: solid var(--orange) 35px;
+} */
+
+.about-body-one {
+  display: none;
 }
 
 .about-team,
@@ -371,8 +374,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 
 .about-team {
   color: var(--cream);
-  background: var(--opaguegray);
-
+  background: white;
   padding: 5px;
 }
 
@@ -392,7 +394,9 @@ h3 {
 
 .mission-div {
   flex-direction: column;
-  background-color: var(--red);
+  padding: 0 5px;
+  background-image: linear-gradient(#255f857c, #255f857c),
+    url("/images/shadowday-scotop-hl.jpg");
 }
 
 .about-quote {
