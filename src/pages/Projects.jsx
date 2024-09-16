@@ -8,10 +8,6 @@ import overdose from "/images/overdose.jpg";
 function Projects() {
   return (
     <div className="projects-container">
-      <div className="projects-header">
-        <h2>PROJECTS</h2>
-      </div>
-
       <div className="current-projects">
         <h3>CURRENT PROJECTS</h3>
 
@@ -50,27 +46,24 @@ function Projects() {
         <div className="engage-collection">
           <Engagement
             image={mixtape}
-            name={"MoB MixTape: Arts Night Out"}
+            name={"MoB MixTape: Arts Night Out 2024"}
             details={
               <>
                 <div>
                   <p>
-                    <b>6 p.m., Sept. 25, 2024, at Eagles Dare in Wilmington</b>
-                  </p>
-                  <p>
-                    <b>Community. Crafts. Karaoke. Live Music.</b>
+                    <b>
+                      6 p.m., Sept. 25, 2024, at Eagles Dare in Wilmington -
+                      Community. Crafts. Karaoke. Live Music.
+                    </b>
                   </p>
                   <p>
                     Join MoB Theatre company for our first community arts night!
-                    MoB Mixtape presents an assortment of happenings to enjoy
-                    and participate in as you get to know MoB! Money raised goes
-                    directly toward MoB's mission to create meaningful,
-                    grassroots theatre for our community. It will facilitate and
-                    activate a variety of developing projects. Last year, over
-                    60% of our budget went directly to artists. Your donations
-                    during this event will help support visiting and local
-                    artists, historical research, venue spaces, and outreach
-                    programs to serve youth through theatre.
+                    Money raised goes directly toward MoB's mission to create
+                    meaningful, grassroots theatre for our community. Last year,
+                    over 60% of our budget went directly to artists. Your
+                    donations during this event will help support visiting and
+                    local artists, historical research, venue spaces, and
+                    outreach programs to serve youth through theatre.
                   </p>
 
                   <a
@@ -88,17 +81,45 @@ function Projects() {
           <Engagement
             image={outreach}
             name={"YouthQuake 2023"}
-            details={`MoB partnered with PeaceRose Montessori School to teach upper-elementary kids about Social Justice through Theatre. Our associates discussed what it means to be a youth activist, analyzed speeches of youth activists, and collaged these findings into a visual piece. In their final class, students performed a series of monologues based on a combination of interviews they did and speeches they analyzed.`}
+            details={
+              <p>
+                MoB partnered with PeaceRose Montessori School to teach
+                upper-elementary kids about Social Justice through Theatre. Our
+                associates discussed what it means to be a youth activist,
+                analyzed speeches of youth activists, and collaged these
+                findings into a visual piece. In their final class, students
+                performed a series of monologues based on a combination of
+                interviews they did and speeches they analyzed.
+              </p>
+            }
           />
           <Engagement
             image={redribbon}
             name={"Red Ribbon Event 2023"}
-            details={`MoB performers attended the Wilmington Red Ribbon Event for World AIDS Day at the Cameron Arts Museum. Following various activists and speakers, including members of SEEDS of Healing, we performed a collection of monologues from Quilt Stories (see current projects), a production that we also had brought to the Washington D.C.Fringe Festival in the summer.`}
+            details={
+              <p>
+                MoB performers attended the Wilmington Red Ribbon Event for
+                World AIDS Day at the Cameron Arts Museum. Following various
+                activists and speakers, including members of SEEDS of Healing,
+                we performed a collection of monologues from Quilt Stories (see
+                current projects), a production that we also had brought to the
+                Washington D.C.Fringe Festival in the summer.
+              </p>
+            }
           />
           <Engagement
             image={overdose}
             name={"Overdose Awareness Day 2023 & 2024"}
-            details={`MoB performers attended this event to provide support for the community and share stories from the first few interviews conducted on our ongoing project, Voices from the Opioid Epidemic. With almost all of the interviewees present to hear the first readings of their monologues, it was a powerful and emotional day. `}
+            details={
+              <p>
+                MoB performers attended this event to provide support for the
+                community and share stories from the first few interviews
+                conducted on our ongoing project, Voices from the Opioid
+                Epidemic. With almost all of the interviewees present to hear
+                the first readings of their monologues, it was a powerful and
+                emotional day.
+              </p>
+            }
           />
         </div>
       </div>

@@ -3,9 +3,9 @@ function Engagement({ image, name, details }) {
     <div className="one-engagement">
       <div className="engage-one">
         <img src={image} className="engage-tease-image" />
+        <h5>{name}</h5>
       </div>
       <div className="engage-two">
-        <h3>{name}</h3>
         <p>{details}</p>
       </div>
     </div>

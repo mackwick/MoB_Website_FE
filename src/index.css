@@ -382,7 +382,8 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   background: var(--red);
 }
 
-h3 {
+h3,
+h5 {
   font-size: 30px;
   padding-bottom: 12px;
 }
@@ -503,8 +504,7 @@ h3 {
   text-align: center;
 }
 
-.press-link,
-.project-link {
+.press-link {
   color: white;
   text-decoration: underline;
 }
@@ -555,8 +555,13 @@ h3 {
 }
 
 .engagements-div .link {
-  color: var(--cream);
   font-size: inherit;
+  color: black;
+  font-weight: 600;
+}
+
+.engagements-div .link:hover {
+  color: var(--red);
 }
 
 .previous-works {
@@ -565,11 +570,11 @@ h3 {
 
 .current-projects,
 .previous-works {
-  background: var(--red);
+  background: var(--blue);
 }
 
 .project-teasers-div {
-  margin-top: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   text-wrap: wrap;
@@ -582,23 +587,33 @@ h3 {
 .projects-container .engagements-div {
   flex-direction: column;
   background-image: none;
-  background-color: var(--opaguegray);
+  background-color: white;
+  color: var(--gray);
 }
 
 .one-engagement {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100dvw;
-  justify-content: space-around;
+  /* justify-content: space-around;
   align-items: center;
   align-content: center;
-  gap: 1rem;
+  gap: 1rem; */
   /* border-top: dotted var(--cream) 1px; */
-  padding: 20px 5px;
+  padding: 20px 10px;
 }
 
-.engage-two {
-  width: 60%;
+.engage-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.engage-two p {
+  text-align: justify;
 }
 
 .engage-tease-image {
@@ -623,6 +638,7 @@ h3 {
 
 .project-link {
   font-size: 2rem;
+  color: white;
 }
 
 .one-project {
@@ -644,7 +660,7 @@ h3 {
 }
 
 .scotopia:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/sco-proj.jpg");
 }
 
@@ -657,7 +673,7 @@ h3 {
 }
 
 .oak:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/oak-proj.jpg");
 }
 
@@ -670,7 +686,7 @@ h3 {
 }
 
 .opioid:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/opioid-proj.jpg");
 }
 
@@ -683,7 +699,7 @@ h3 {
 }
 
 .quilt:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/quilt-proj.jpg");
 }
 
@@ -696,7 +712,7 @@ h3 {
 }
 
 .wilmy:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/wilmrec-proj.jpg");
 }
 
@@ -709,7 +725,7 @@ h3 {
 }
 
 .quilt-prev:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/quilt2223.jpg");
 }
 
@@ -722,7 +738,7 @@ h3 {
 }
 
 .wilm-prev:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/wilm-prev.jpg");
 }
 
@@ -735,7 +751,7 @@ h3 {
 }
 
 .out:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/out-nc-proj.jpg");
 }
 
@@ -748,7 +764,7 @@ h3 {
 }
 
 .pride:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/pride-picnic-proj.jpg");
 }
 
@@ -761,7 +777,7 @@ h3 {
 }
 
 .mixtape:hover {
-  background-image: linear-gradient(#f7f7de84, #f7f7de84),
+  background-image: linear-gradient(#ced6de70, #ced6de70),
     url("/images/mixtape.jpg");
 }
 
@@ -841,9 +857,18 @@ h3 {
     width: 13rem;
   }
 
+  .one-engagement {
+    flex-direction: row;
+    gap: 20px;
+    align-items: start;
+  }
+
+  .engage-one {
+    flex-direction: column;
+  }
+
   .engage-two p {
-    text-align: justify;
-    padding-right: 10px;
+    padding: 10px 20px 0 0;
   }
 
   .sponsor-images {
@@ -1114,6 +1139,22 @@ h3 {
     justify-content: space-around;
   } */
 
+  .engage-collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+  }
+
+  .one-engagement {
+    width: 40dvw;
+  }
+
+  .engage-two p {
+    padding: 0 20px 0 0;
+  }
+
   .how-to-div1,
   .how-to-div2 {
     width: 48%;
@@ -1288,18 +1329,6 @@ h3 {
   /* .project-teasers-div {
     gap: 20px;
   } */
-
-  .engage-collection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-around;
-  }
-
-  .one-engagement {
-    width: 40dvw;
-  }
 
   .full-project-container {
     flex-direction: row;
