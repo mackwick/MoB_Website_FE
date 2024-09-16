@@ -3,6 +3,7 @@ import mixtape from "/images/mixtape.jpg";
 import LatestNews from "../components/LatestNews";
 import wilm from "/images/Home-WilmingtonReconstructedrep.jpg";
 import opioid from "/images/opioid-proj.jpg";
+import Project from "../components/Project";
 
 function Landing() {
   return (
@@ -18,8 +19,24 @@ function Landing() {
           </a> */}
         </div>
       </div>
-      <div className="latest-news">
-        <LatestNews
+      <div className="latest-news project-teasers-div">
+        <Project
+          name={"2024 Fundraiser: MoB Mixtape"}
+          link={"https://events.humanitix.com/mob-mixtape-an-arts-night-out"}
+          BG={"mixtape proj-compon-BG"}
+        />
+        <Project
+          name={"Voices from the Opioid Epidemic"}
+          link={"/opioidvoices"}
+          BG={"opioid proj-compon-BG"}
+        />
+        <Project
+          name={"Wilmington Reconstructed"}
+          link={"/wilmingtonreconstructed"}
+          BG={"wilmy proj-compon-BG"}
+        />
+
+        {/* <LatestNews
           image={mixtape}
           title={"2024 Fundraiser: MoB Mixtape"}
           link={"https://events.humanitix.com/mob-mixtape-an-arts-night-out"}
@@ -35,7 +52,7 @@ function Landing() {
           image={wilm}
           title={"Wilmington Reconstructed"}
           link={"/wilmingtonreconstructed"}
-        />
+        /> */}
       </div>
     </div>
   );
