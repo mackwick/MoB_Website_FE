@@ -6,6 +6,7 @@ import Press from "../components/Press";
 import paulgreen from "/images/sponsors/paulgreen.png";
 import peacerose from "/images/sponsors/peacerose.jpg";
 import ncarts from "/images/sponsors/ncarts.png";
+import stjude from "/images/sponsors/stjude.jpg";
 import Amber from "/images/Amber.jpg";
 import Chloe from "/images/chloe.jpg";
 import Georgia from "/images/Georgia.jpg";
@@ -209,6 +210,7 @@ function About() {
             alt="The Paul Green Foundation"
             className="sponsor-image"
           />
+          <img src={stjude} alt="St. Jude's MCC" className="sponsor-image" />
         </div>
       </div>
     </div>
