@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 function Contact() {
   return (
     <div className="contact-container">
-      <div className="contact-header">
-        <h2 className="contact-h2">GET INVOLVED</h2>
-      </div>{" "}
       <div className="how-to-involved">
         <p>
           Interested in auditioning, volunteering, or joining our mailing list?

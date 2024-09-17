@@ -529,20 +529,24 @@ h5 {
 }
 
 /*-----------------  GET INVOLVED  -----------------*/
-.contact-h2 {
-  font-size: 4rem;
+.contact-container {
+  height: 66dvh;
 }
 
-.how-to-involved,
+.how-to-involved p,
 .how-to-involved .link {
-  color: black;
+  color: var(--gray);
   font-size: 26px;
-  text-align: center;
-  padding: 55px 15px;
 }
 
 .how-to-involved .link {
   font-weight: 600;
+  color: var(--red);
+}
+
+.how-to-involved {
+  text-align: center;
+  padding: 55px 15px;
 }
 
 /*-----------------  PROJECTS  -----------------*/
@@ -818,18 +822,18 @@ h5 {
 /*--------------------- RESPONSIVENESS --------------------------*/
 
 @media screen and (min-width: 650px) {
-  .home-bio-links .home-bio-one-link {
+  /* .home-bio-links .home-bio-one-link {
     width: 10rem;
     height: 3rem;
     font-size: 18px;
-  }
+  } */
 
-  .teaser-button {
+  /* .teaser-button {
     width: 16rem;
     height: 4rem;
     font-size: 26px;
     margin-top: 1rem;
-  }
+  } */
 
   .home-teaser-header {
     font-size: 4rem;
@@ -839,10 +843,10 @@ h5 {
     font-size: 1.5rem;
   }
 
-  .news-image {
+  /* .news-image {
     height: 9rem;
     width: 9rem;
-  }
+  } */
 
   .press-div {
     width: 30dvw;
@@ -914,6 +918,14 @@ h5 {
 
   .full-project-container {
     font-size: 18px;
+  }
+
+  .contact-container {
+    height: 70dvh;
+  }
+
+  .how-to-involved {
+    padding: 120px 50px;
   }
 }
 
@@ -997,6 +1009,10 @@ h5 {
   .team-bio-pic {
     height: 9rem;
     width: 9rem;
+  }
+
+  .how-to-involved {
+    padding: 180px 50px;
   }
 }
 
@@ -1181,6 +1197,14 @@ h5 {
 
   h3 {
     font-size: 4rem;
+  }
+
+  .contact-container {
+    height: 70dvh;
+  }
+
+  .how-to-involved {
+    padding: 120px 50px;
   }
 }
 
@@ -1373,6 +1397,15 @@ h5 {
   .board-two {
     width: 70dvw;
     padding-right: 20px;
+  }
+
+  .how-to-involved {
+    padding: 200px 50px;
+  }
+
+  .how-to-involved p,
+  .how-to-involved .link {
+    font-size: 34px;
   }
 }
 
