@@ -98,10 +98,10 @@ function About() {
             />
           </div>
 
+          <hr />
+          <hr />
+          <br />
           <div className="bios-div-two">
-            <hr />
-            <hr />
-            <br />
             <h2>Board</h2>
             <Board
               name={"La-taun Danns"}

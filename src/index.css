@@ -237,7 +237,6 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   color: white;
 }
 
-.landing-about,
 .latest-news {
   background-color: var(--blue);
 }
@@ -475,11 +474,6 @@ h5 {
   padding-bottom: 10px;
 }
 
-.bios-div-two {
-  border-top: solid var(--cream) 2px;
-  padding-top: 20px;
-}
-
 .press-blurbs {
   display: flex;
   flex-direction: row;
@@ -531,17 +525,18 @@ h5 {
 /*-----------------  GET INVOLVED  -----------------*/
 .contact-container {
   height: 66dvh;
+  background-image: linear-gradient(#255f857c, #255f857c),
+    url("/images/wilm-recon-hl.jpg");
 }
 
 .how-to-involved p,
 .how-to-involved .link {
-  color: var(--gray);
+  color: white;
   font-size: 26px;
 }
 
 .how-to-involved .link {
   font-weight: 600;
-  color: var(--red);
 }
 
 .how-to-involved {
@@ -632,8 +627,8 @@ h5 {
 .proj-compon-BG {
   background-size: cover;
   background-position: center;
-  height: 300px;
-  width: 300px;
+  height: 95dvw;
+  width: 90dvw;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -647,7 +642,7 @@ h5 {
 
 .one-project {
   width: 100dvw;
-  height: 320px;
+  height: 100dvw;
   text-align: center;
   align-items: center;
   border: none;
@@ -896,20 +891,31 @@ h5 {
     font-size: 3rem;
   }
 
-  .one-project {
-    width: 45dvw;
-    height: 300px;
+  .latest-news {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  .project-teasers-div {
-    gap: 1rem;
+  .one-project {
+    width: 45dvw;
+    height: 42dvw;
   }
+
+  .proj-compon-BG {
+    width: 44dvw;
+    height: 42dvw;
+  }
+
+  /* .project-teasers-div {
+    gap: 1rem;
+  } */
 
   .team-bio-pic {
     height: 8rem;
     width: 8rem;
   }
 
+  .contact-container,
   .mission-div {
     font-size: 22px;
     background-size: cover;
@@ -991,7 +997,7 @@ h5 {
   .full-proj-two p {
     font-size: 1.5rem;
   }
-
+  /* 
   .one-project {
     width: 45dvw;
     height: 360px;
@@ -1000,7 +1006,7 @@ h5 {
   .proj-compon-BG {
     width: 40dvw;
     height: 340px;
-  }
+  } */
 
   .sponsor-image {
     width: 13rem;
@@ -1077,11 +1083,11 @@ h5 {
     font-size: 2rem;
   }
 
-  .news-image,
+  /* .news-image,
   .project-tease-image {
     height: 18rem;
     width: 18rem;
-  }
+  } */
 
   /* .about-header,
   .contact-header,
@@ -1182,9 +1188,9 @@ h5 {
     width: 48%;
   }
 
-  .project-link {
+  /* .project-link {
     font-size: 2rem;
-  }
+  } */
 
   .sponsor-images {
     justify-content: center;
@@ -1247,12 +1253,12 @@ h5 {
     font-size: 32px;
   }
 
-  .about-image-main {
+  /* .about-image-main {
     height: 400px;
     margin-right: 20px;
-  }
+  } */
 
-  .home-bio-links .home-bio-one-link {
+  /* .home-bio-links .home-bio-one-link {
     width: 12rem;
     height: 4rem;
     font-size: 22px;
@@ -1261,7 +1267,7 @@ h5 {
 
   .brief-bio {
     font-size: 22px;
-  }
+  } */
 
   .landing-teaser {
     min-height: 70dvh;
@@ -1276,20 +1282,18 @@ h5 {
     padding-bottom: 20px;
   }
 
-  .teaser-button {
+  /* .teaser-button {
     width: 18rem;
     height: 6rem;
     font-size: 30px;
-  }
-
+  } */
+  /* 
   .news-image,
   .project-tease-image {
     height: 18rem;
     width: 18rem;
-  }
+  } */
 
-  .news-item,
-  .news-item .link,
   .one-engagement {
     font-size: 24px;
   }
@@ -1335,7 +1339,25 @@ h5 {
     height: 25dvh;
   }
 
+  .project-link {
+    font-size: 3rem;
+  }
+
   .one-project {
+    width: 30dvw;
+    height: 35dvw;
+  }
+
+  .proj-compon-BG {
+    width: 30dvw;
+    height: 34dvw;
+  }
+
+  /* .project-teasers-div {
+    gap: 1rem;
+  } */
+
+  /* .one-project {
     width: 23dvw;
     height: 360px;
   }
@@ -1343,7 +1365,7 @@ h5 {
   .proj-compon-BG {
     width: 20dvw;
     height: 340px;
-  }
+  } */
 
   /* .one-project {
     width: 23dvw;
@@ -1414,7 +1436,7 @@ h5 {
     width: 24dvw;
   }
 
-  .one-project {
+  /* .one-project {
     width: 18dvw;
     height: 360px;
   }
@@ -1422,5 +1444,5 @@ h5 {
   .proj-compon-BG {
     width: 17dvw;
     height: 340px;
-  }
+  } */
 }
