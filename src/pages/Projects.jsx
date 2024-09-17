@@ -52,7 +52,7 @@ function Projects() {
                 <div>
                   <p>
                     <b>
-                      6 p.m., Sept. 25, 2024, at Eagles Dare in Wilmington -
+                      6 p.m., Sept. 25, 2024, at Eagles Dare in Wilmington.
                       Community. Crafts. Karaoke. Live Music.
                     </b>
                   </p>

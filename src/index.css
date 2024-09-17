@@ -1171,16 +1171,16 @@ h5 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 10px;
     justify-content: space-around;
   }
 
   .one-engagement {
-    width: 40dvw;
+    width: 48dvw;
   }
 
   .engage-two p {
-    padding: 0 20px 0 0;
+    padding: 0;
   }
 
   .how-to-div1,
