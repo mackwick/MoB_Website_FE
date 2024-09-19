@@ -92,8 +92,7 @@ nav:has(#ham-toggle:checked) .offscreen-menu {
   right: 0;
 }
 
-.offscreen-menu > .link,
-.offscreen-menu > button {
+.offscreen-menu > .link {
   padding: 20px 15px 0 20px;
   color: var(--light);
   font-size: 3rem;
@@ -1031,12 +1030,11 @@ h5 {
 
   .offscreen-menu > .link {
     padding: 0;
-    font-size: 2rem;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    margin: 0 10px 4px 0;
-    font-size: 22px;
+    /* text-align: right; */
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 10px 4px 10px;
+    font-size: 26px;
   }
 
   .offscreen-menu > .link:hover {
@@ -1050,15 +1048,15 @@ h5 {
     position: unset;
     padding-top: 0;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     font: inherit;
+    max-width: 80dvw;
   }
 
   .header-menu {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40dvw;
+    justify-content: space-between;
+    width: 50dvw;
   }
 
   .logo .link {
@@ -1216,25 +1214,20 @@ h5 {
   }
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .header-menu {
     width: 33dvw;
   }
-}
+} */
 
 @media screen and (min-width: 1435px) {
-  /* .landing-video {
-    display: contents;
-  }
-
-  .video-placeholder {
-    height: 450px;
-    border-radius: 6px;
-    margin: 20px 0 20px 20px;
+  /* .header-menu {
+    width: 28dvw;
   } */
 
-  .header-menu {
-    width: 28dvw;
+  .offscreen-menu > .link {
+    margin: 0 25px 4px 25px;
+    font-size: 30px;
   }
 
   .landing-about {
@@ -1308,9 +1301,9 @@ h5 {
     font-size: 14px;
   }
 
-  .header-container {
+  /* .header-container {
     padding: 10px;
-  }
+  } */
 
   /* .mission-div {
     background-image: linear-gradient(#255f85c9, #255f85c9),
@@ -1431,20 +1424,4 @@ h5 {
   .how-to-involved .link {
     font-size: 34px;
   }
-}
-
-@media screen and (min-width: 1660px) {
-  .header-menu {
-    width: 24dvw;
-  }
-
-  /* .one-project {
-    width: 18dvw;
-    height: 360px;
-  }
-
-  .proj-compon-BG {
-    width: 17dvw;
-    height: 340px;
-  } */
 }

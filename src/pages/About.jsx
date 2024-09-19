@@ -29,23 +29,21 @@ function About() {
               “People speak in organic poems.” <span>- Anna Deveare Smith</span>
             </p>
             <div className="about-mission">
+              <p>Impactful stories, well told.</p>
               <p>
-                MoB sees theatre through a contemporary lens, using forms of
-                collaborative theatre-making to investigate issues we care
-                about. With a focus on non-fiction narratives, documentary
-                theatre is one of our most repeated and polished processes.
-              </p>
-              <p>
-                An incubator for new works, MoB Theatre is constantly harnessing
-                true stories, oral histories, and lived experiences to create
-                meaningful theatre. Highlighting process over product, we
-                develop workshops, staged readings, and performances to showcase
-                work as it's being developed to garner community feedback,
-                conversation, and growth.
-              </p>
-              <p>
-                Because of the many details these true stories reveal over time,
-                we have more than one of these pieces being developed at once.
+                MoB Theatre sees theatre through a contemporary lens, using
+                collaborative theatre-making to explore social justice, cultural
+                engagement, and issues that matter to our community. As a
+                grassroots ensemble, we focus on non-fiction narratives, with
+                documentary theatre being one of our most refined and repeated
+                processes. Constantly serving as an incubator for new works, we
+                harness true stories, oral histories, and lived experiences to
+                create meaningful theatre. We emphasize process over product,
+                developing workshops, staged readings, and performances that
+                invite community feedback, conversation, and growth. With
+                multiple projects in development at once, MoB Theatre remains
+                dedicated to empowering change and fostering deep community
+                connections, both locally and beyond.
               </p>{" "}
             </div>
           </div>
@@ -61,7 +59,7 @@ function About() {
               name={"Trey Morehouse"}
               title={"Artistic Director"}
               bio={
-                "A 2012 alumni of UNCW. Trey has worked professionally with Burning Coal Theatre and North Carolina Theatre in the area of education and outreach. Trey has also worked professionally as an assistant director with South Coast Repertory (in Costa Mesa, CA), and New Swan Shakespeare (in Irvine, CA)."
+                "Trey Morehouse is a theatre artist and educator with a focus on community engagement and collaborative theatre-making. As the founding artistic director of Mouths of Babes Theatre, Trey works alongside a talented ensemble to create original works that focus on true stories and local issues. He is passionate about creating art that highlights collective experiences and the often-overlooked contributions of everyday people."
               }
             />
             <Team
@@ -91,7 +89,7 @@ function About() {
             <Team
               image={Malachi}
               name={"Malachi Chapman"}
-              title={"Artistic Associate, Actor"}
+              title={"Artistic Associate"}
               bio={
                 "Malachi Chapman is a local actor, working with MoB and other local theatre groups. Recent acting credits include Scoptia, and Wilmington Reconstructed. Malachi is currently attending Cape Fear Community College with the plan to attend University to continue his studies in Theatre. Malachai is also passionate about basketball, football, and anime."
               }
@@ -104,7 +102,7 @@ function About() {
           <div className="bios-div-two">
             <h2>Board</h2>
             <Board
-              name={"La-taun Danns"}
+              name={"La'Tuan Danns"}
               title={"Board President"}
               bio={
                 "La’Tuan Danns, a native North Carolinian, comes from a theater background that originated in high school. She’s worked in both theater and film. Various nonprofit boards and organizations have helped feed her need to be involved in issues such as the arts, education, worker rights, and children issues. Currently, the focus is on her for fantastical daughters who have also inherited love of the arts. As a graduate of UNCW, she is active in the theatre community and happy to be a part of MoB, a company that highlights such relevant and tough issues."

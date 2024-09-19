@@ -130,22 +130,30 @@ function Projects() {
           <Project
             BG="quilt-prev proj-compon-BG"
             name={"Quilt Stories 2022 & 2023"}
-            link={""}
+            link={
+              "https://www.facebook.com/media/set/?set=a.1318559035865683&type=3"
+            }
           />
           <Project
             BG="wilm-prev proj-compon-BG"
             name={"Wilmington Reconstructed 2023"}
-            link={""}
+            link={
+              "https://www.facebook.com/media/set/?set=a.1318569932531260&type=3"
+            }
           />
           <Project
             BG="out proj-compon-BG"
-            name={"Out of Silence 2021 & 2023"}
-            link={""}
+            name={"Out of Silence"}
+            link={
+              "https://www.facebook.com/media/set/?set=a.1318551862533067&type=3"
+            }
           />
           <Project
             BG="pride proj-compon-BG"
             name={"Pride Picnic 2021"}
-            link={""}
+            link={
+              "https://www.facebook.com/media/set/?set=a.1318557615865825&type=3"
+            }
           />
         </div>
       </div>
