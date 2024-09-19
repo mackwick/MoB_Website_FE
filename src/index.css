@@ -56,7 +56,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   border-bottom: solid var(--red) 35px;
-  background-color: white;
+  background-color: black;
   padding: 5px;
 }
 
@@ -1045,7 +1045,7 @@ h5 {
   }
 
   .offscreen-menu {
-    background-color: white;
+    background-color: black;
     color: var(--red);
     text-shadow: 1px 1px 1px black;
     height: 10%;
