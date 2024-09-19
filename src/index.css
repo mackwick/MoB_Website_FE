@@ -17,8 +17,7 @@
 /*-----------------  BODY  -----------------*/
 
 body {
-  font-family: "Special Elite", system-ui;
-  /* font-family: "PT Sans Narrow", sans-serif; */
+  font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -52,6 +51,7 @@ button:hover {
 /*-----------------  HEADER  -----------------*/
 
 .header-container {
+  font-family: "Special Elite", system-ui;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -388,6 +388,7 @@ h5 {
   font-family: "Special Elite", system-ui;
   font-size: 30px;
   padding-bottom: 12px;
+  padding-top: 10px;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -535,6 +536,7 @@ h5 {
 
 .how-to-involved p,
 .how-to-involved .link {
+  font-family: "Special Elite", system-ui;
   color: white;
   font-size: 26px;
 }
@@ -1040,8 +1042,8 @@ h5 {
     /* text-align: right; */
     /* display: flex;
     flex-direction: column; */
-    margin: 0 10px 4px 10px;
-    font-size: 26px;
+    margin: 0 5px 4px 5px;
+    font-size: 18px;
   }
 
   .offscreen-menu > .link:hover {
@@ -1058,7 +1060,7 @@ h5 {
     flex-direction: row;
     justify-content: space-around;
     font: inherit;
-    max-width: 80dvw;
+    max-width: 100%;
   }
 
   .header-menu {
@@ -1068,7 +1070,8 @@ h5 {
   }
 
   .logo .link {
-    font-size: 45px;
+    font-size: 48px;
+    width: 20dvw;
   }
 
   /* .hamburger-menu {
@@ -1234,8 +1237,8 @@ h5 {
   } */
 
   .offscreen-menu > .link {
-    margin: 0 25px 4px 25px;
-    font-size: 30px;
+    margin: 0 15px 4px 15px;
+    font-size: 24px;
   }
 
   .landing-about {
