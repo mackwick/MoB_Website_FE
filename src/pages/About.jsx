@@ -21,12 +21,13 @@ function About() {
         <h3>WHAT WE DO</h3>
 
         <div className="about-body">
-          {/* <div className="about-body-one">
-            <img src={image} className="about-image-main" />
-          </div> */}
           <div className="about-body-two">
-            <p className="about-quote">
-              “People speak in organic poems.” <span>- Anna Deveare Smith</span>
+            <p>
+              <i>“People speak in organic poems.”</i>{" "}
+            </p>{" "}
+            <p>
+              {" "}
+              <i>- Anna Deveare Smith</i>
             </p>
             <div className="about-mission">
               <p>Impactful stories, well told.</p>

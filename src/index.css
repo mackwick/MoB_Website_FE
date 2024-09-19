@@ -404,14 +404,14 @@ h5 {
     url("/images/shadowday-scotop-hl.jpg");
 }
 
-.about-quote {
+/* .about-quote {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   font-size: 22px;
   font-style: italic;
   padding-bottom: 20px !important;
-}
+} */
 
 /* .about-body {
   display: flex;
