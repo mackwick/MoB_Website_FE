@@ -1,11 +1,9 @@
 /*-----------------  ROOT  -----------------*/
 
 :root {
-  --red: #c5283d;
-  --lightred: #dc5668;
+  --red: #b50d0d;
+  --lightred: #df2929;
   --gray: #5f758e;
-  --blue: #255f85;
-  --lightblue: #4092c9;
   --shadow: #ced6de;
 }
 
@@ -57,7 +55,7 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid var(--shadow) 35px;
+  border-bottom: solid var(--red) 35px;
   background-color: white;
   padding: 5px;
 }
@@ -179,7 +177,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
   text-align: center;
   background-color: white;
   color: var(--red);
-  border-top: solid var(--shadow) 30px;
+  border-top: solid var(--red) 35px;
 }
 
 .footer-container .link {
@@ -222,7 +220,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 .involved-body,
 .engagements-div {
   padding: 5px;
-  border-bottom: solid var(--shadow) 35px;
+  border-bottom: solid var(--red) 35px;
   padding-top: 10px;
 }
 
@@ -238,7 +236,7 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 .latest-news {
-  background-color: var(--blue);
+  background-color: white;
 }
 
 /* .landing-video,
@@ -395,7 +393,7 @@ h5 {
 .mission-div {
   flex-direction: column;
   padding: 0 5px;
-  background-image: linear-gradient(#255f857c, #255f857c),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/images/shadowday-scotop-hl.jpg");
 }
 
@@ -466,7 +464,7 @@ h5 {
   height: 6.5rem;
   width: 6.5rem;
   border-radius: 50%;
-  border: solid var(--cream) 2px;
+  /* border: solid var(--cream) 2px; */
 }
 
 .bio-name {
@@ -525,7 +523,7 @@ h5 {
 /*-----------------  GET INVOLVED  -----------------*/
 .contact-container {
   height: 66dvh;
-  background-image: linear-gradient(#255f857c, #255f857c),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("/images/wilm-recon-hl.jpg");
 }
 
@@ -546,10 +544,14 @@ h5 {
 
 /*-----------------  PROJECTS  -----------------*/
 
-.current-projects,
-.engagements-div,
-.previous-works {
+.engagements-div {
   color: white;
+  padding: 5px;
+}
+
+.current-projects,
+.previous-works {
+  color: black;
   padding: 5px;
 }
 
@@ -569,7 +571,7 @@ h5 {
 
 .current-projects,
 .previous-works {
-  background: var(--blue);
+  background: white;
 }
 
 .project-teasers-div {
@@ -586,8 +588,8 @@ h5 {
 .projects-container .engagements-div {
   flex-direction: column;
   background-image: none;
-  background-color: white;
-  color: var(--gray);
+  background-color: black;
+  color: white;
 }
 
 .one-engagement {
@@ -1127,7 +1129,7 @@ h5 {
   } */
 
   .mission-div {
-    background-image: linear-gradient(#255f85a2, #255f85a2),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("/images/shadowday-scotop-hl.jpg");
   }
 
@@ -1310,10 +1312,10 @@ h5 {
     padding: 10px;
   }
 
-  .mission-div {
+  /* .mission-div {
     background-image: linear-gradient(#255f85c9, #255f85c9),
       url("/images/shadowday-scotop-hl.jpg");
-  }
+  } */
 
   .about-body {
     font-size: 32px;
