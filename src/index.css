@@ -183,7 +183,11 @@ nav:has(#ham-toggle:checked) .hamburger-menu span:nth-child(3) {
 }
 
 .footer-container .link {
-  color: var(--cream);
+  color: var(--red);
+}
+
+.footer-container .link:hover {
+  color: black;
 }
 
 .social-icons,
@@ -565,7 +569,7 @@ h5 {
 
 .engagements-div .link {
   font-size: inherit;
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
@@ -840,6 +844,10 @@ h5 {
     margin-top: 1rem;
   } */
 
+  .landing-teaser {
+    min-height: 250px;
+  }
+
   .home-teaser-header {
     font-size: 4rem;
   }
@@ -855,6 +863,7 @@ h5 {
 
   .press-div {
     width: 30dvw;
+    min-height: 25dvw;
   }
 
   .press-blurb,
@@ -930,6 +939,10 @@ h5 {
     font-size: 22px;
     background-size: cover;
     background-position: center;
+  }
+
+  .contact-container {
+    min-height: 375px;
   }
 
   .full-project-container {
