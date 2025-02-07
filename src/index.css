@@ -781,17 +781,17 @@ h5 {
     url("/images/pride-picnic-proj.jpg");
 }
 
-.mixtape {
+.sco-landing {
   background-image: linear-gradient(
       rgba(17, 15, 11, 0.5),
       rgba(17, 15, 11, 0.5)
     ),
-    url("/images/mixtape.jpg");
+    url("/images/Sco-Landing.jpg");
 }
 
-.mixtape:hover {
+.sco-landing:hover {
   background-image: linear-gradient(#ced6de70, #ced6de70),
-    url("/images/mixtape.jpg");
+    url("/images/Sco-Landing.jpg");
 }
 
 /*-----------------  FULL PROJECT PAGE  -----------------*/

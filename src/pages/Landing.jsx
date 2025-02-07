@@ -21,9 +21,14 @@ function Landing() {
       </div>
       <div className="latest-news project-teasers-div">
         <Project
-          name={"2024 Fundraiser: MoB Mixtape"}
-          link={"https://events.humanitix.com/mob-mixtape-an-arts-night-out"}
-          BG={"mixtape proj-compon-BG"}
+          name={
+            <>
+              <p>Scotopia</p>
+              <p>March 8-23, 2025</p>
+            </>
+          }
+          link={"/scotopia"}
+          BG={"sco-landing proj-compon-BG"}
         />
         <Project
           name={"Voices from the Opioid Epidemic"}

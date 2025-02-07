@@ -14,7 +14,7 @@ function Projects() {
         <div className="project-teasers-div">
           <Project
             BG="scotopia proj-compon-BG"
-            name={"Scotopia: Short Plays to Help You See in the Dark"}
+            name={"Scotopia"}
             link={"/scotopia"}
           />
 
@@ -51,29 +51,14 @@ function Projects() {
               <>
                 <div>
                   <p>
-                    <b>
-                      6 p.m., Sept. 25, 2024, at Eagles Dare in Wilmington.
-                      Community. Crafts. Karaoke. Live Music.
-                    </b>
+                    MoB Theatre company held its first community arts night in
+                    Sept. 2024, with crafts, karaoke, and music. Money raised
+                    went directly toward MoB's mission to create meaningful,
+                    grassroots theatre for our community. Donations during this
+                    event helped support visiting and local artists, historical
+                    research, venue spaces, and outreach programs to serve youth
+                    through theatre.
                   </p>
-                  <p>
-                    Join MoB Theatre company for our first community arts night!
-                    Money raised goes directly toward MoB's mission to create
-                    meaningful, grassroots theatre for our community. Last year,
-                    over 60% of our budget went directly to artists. Your
-                    donations during this event will help support visiting and
-                    local artists, historical research, venue spaces, and
-                    outreach programs to serve youth through theatre.
-                  </p>
-
-                  <a
-                    href="https://events.humanitix.com/mob-mixtape-an-arts-night-out"
-                    target="_blank"
-                    className="link"
-                  >
-                    {" "}
-                    LEARN MORE.
-                  </a>
                 </div>
               </>
             }

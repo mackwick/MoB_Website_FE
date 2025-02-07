@@ -22,7 +22,7 @@ function Header() {
             Projects
           </a>
           <a href="/getinvolved" className="link">
-            Get Involved
+            Tickets
           </a>
           <a
             href="https://www.paypal.com/donate/?hosted_button_id=6JDGLM3KV8FNY"
