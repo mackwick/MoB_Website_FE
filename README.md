@@ -10,8 +10,6 @@ Mouths of Babes Theatre Company was founded in 2014 on the principles of active 
 
 - Informal, punk/grunge but not destructive or negative, playful, whimsical, edgy, smart
 - Sketches, soft scribbles, spraypaint (not excessive), collages
-- Current fonts: Avenir (not on Google Fonts; subbing Montserrat) and Overlock (on Google Fonts)
-- **Notes:** Gracie is looking for the best photos to showcase. Trey asked Chloe about making a couple of collages for the site.
 
 ## Dependencies:
 
