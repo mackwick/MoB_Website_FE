@@ -547,6 +547,7 @@ h5 {
 
 .how-to-involved .link {
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .how-to-involved {
@@ -1448,4 +1449,27 @@ h5 {
   .how-to-involved .link {
     font-size: 34px;
   }
+}
+
+/*SCOTOPIA TICKET INFO*/
+
+.scotix-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.scotix-event {
+  margin-bottom: 20px;
+}
+.event-date {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.location {
+  font-style: italic;
+}
+.sco-link {
+  color: white;
+  text-decoration: underline;
 }

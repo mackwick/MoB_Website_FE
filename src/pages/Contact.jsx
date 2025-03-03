@@ -4,9 +4,15 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="how-to-involved">
-        <p>TICKETS COMING SOON.</p>
+        <p>
+          Visit our{" "}
+          <Link to="/scotopia" className="link">
+            Scotopia Festival Page
+          </Link>{" "}
+          for tickets to the March 2025 event!
+        </p>
         <br></br>
-        <p>Please check back.</p>
+        <p>Check back here for tickets to upcoming projects!</p>
       </div>
     </div>
   );
