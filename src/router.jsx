@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Landing />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/getinvolved" element={<Contact />} />
+      <Route path="/tickets" element={<Contact />} />
       <Route path="/scotopia" element={<Scotopia />} />
       <Route path="/wilmingtonreconstructed" element={<WilmRecon />} />
       <Route path="/quiltstories" element={<Quilt />} />

@@ -21,7 +21,7 @@ function Header() {
           <a href="/projects" className="link">
             Projects
           </a>
-          <a href="/getinvolved" className="link">
+          <a href="/tickets" className="link">
             Tickets
           </a>
           <a
