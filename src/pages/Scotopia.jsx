@@ -97,6 +97,33 @@ function Scotopia() {
             </div>
             <hr />
             <div className="event">
+              <p className="event-date">📅 Saturday, March 15th</p>
+              <p>
+                📍{" "}
+                <span className="location">
+                  Thalian Hall - Ruth & Bucky Stein Theater
+                </span>
+              </p>
+              <p>
+                <strong>
+                  2:00 PM – Basketball Play (Staged Reading & Workshop)
+                </strong>
+                <br />A sports drama set in the high-stakes world of elite high
+                school basketball.
+              </p>
+              <p>
+                <strong>6:00 PM – Cosmic Love and Furious</strong>
+                <br />
+                See description above.
+              </p>
+              <p>
+                <strong>7:30 PM – MoB After Dark</strong>
+                <br />
+                See description above.
+              </p>
+            </div>
+            <hr />
+            <div className="event">
               <p className="event-date">📅 Sunday, March 16th</p>
               <p>
                 📍{" "}
