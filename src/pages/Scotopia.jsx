@@ -17,32 +17,35 @@ function Scotopia() {
               hand-picked selections from over 400 submissions worldwide, along
               with original works by MoB Theatre.
             </p>
-            <p>
-              🎟{" "}
-              <a
-                href="https://www.onthestage.tickets/show/mouths-of-babes-theatre/67b262bdf6d3670f7fc00e3b"
-                className="sco-link"
-                target="_blank"
-              >
-                Buy tickets for Garage performances here
-              </a>
-              <br />
-              🎟{" "}
-              <a
-                href="https://www.onthestage.tickets/show/mouths-of-babes-theatre/67b262bdf6d3670f7fc00e3b/subscriptions#/subscriptions"
-                className="sco-link"
-                target="_blank"
-              >
-                Buy an all-encompassing Festival Pass here
-              </a>
-              <br />
-              🎟{" "}
-              <span>
-                <i>Individual Thalian Hall tickets coming soon</i>
-              </span>
-            </p>
+            🎟{" "}
+            <a
+              href="https://www.thalianhall.org/mob-theatre-present-scotopia"
+              className="sco-link"
+              target="_blank"
+            >
+              Buy tickets for Thalian Hall performances here
+            </a>
+            <br />
+            🎟{" "}
+            <a
+              href="https://www.onthestage.tickets/show/mouths-of-babes-theatre/67b262bdf6d3670f7fc00e3b"
+              className="sco-link"
+              target="_blank"
+            >
+              Buy tickets for Garage performances here
+            </a>
+            <br />
+            🎟{" "}
+            <a
+              href="https://www.onthestage.tickets/show/mouths-of-babes-theatre/67b262bdf6d3670f7fc00e3b/subscriptions#/subscriptions"
+              className="sco-link"
+              target="_blank"
+            >
+              Buy an all-encompassing Festival Pass here
+            </a>
+            <br />
+            <br />
             <hr />
-
             <div className="event">
               <p className="event-date">📅 Sunday, March 9th</p>
               <p>
@@ -63,7 +66,6 @@ function Scotopia() {
               </p>
             </div>
             <hr />
-
             <div className="event">
               <p className="event-date">📅 Friday, March 14th</p>
               <p>
@@ -80,7 +82,6 @@ function Scotopia() {
               </p>
             </div>
             <hr />
-
             <div className="event">
               <p className="event-date">📅 Saturday, March 15th</p>
               <p>
@@ -95,7 +96,6 @@ function Scotopia() {
               </p>
             </div>
             <hr />
-
             <div className="event">
               <p className="event-date">📅 Sunday, March 16th</p>
               <p>
@@ -126,7 +126,6 @@ function Scotopia() {
               </p>
             </div>
             <hr />
-
             <div className="event">
               <p className="event-date">📅 Saturday, March 22nd</p>
               <p>
@@ -149,7 +148,6 @@ function Scotopia() {
               </p>
             </div>
             <hr />
-
             <div className="event">
               <p className="event-date">📅 Sunday, March 23rd</p>
               <p>
