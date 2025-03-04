@@ -11,7 +11,7 @@ function Scotopia() {
           <div className="scotix-container">
             <h1>Schedule of Events</h1>
             <p>
-              🎭 <strong>New works. New voices. New perspectives.</strong>
+              <strong>New works. New voices. New perspectives.</strong>
               <br />
               Scotopia is an incubator for bold, risk-taking theatre, featuring
               hand-picked selections from over 400 submissions worldwide, along
