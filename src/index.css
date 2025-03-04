@@ -1404,11 +1404,20 @@ h5 {
 
   .full-project-container {
     flex-direction: row;
+    align-items: flex-start;
     gap: 20px;
     padding: 20px;
   }
 
+  .full-proj-one {
+    flex: 1;
+    position: sticky;
+    top: 10px;
+    align-self: flex-start;
+  }
+
   .full-project-image {
+    margin-top: 5%;
     width: 50dvw;
   }
 
