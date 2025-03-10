@@ -66,7 +66,7 @@ function About() {
             <Team
               image={Chloe}
               name={"Chloe Mason"}
-              title={"Artistic Associate"}
+              title={"Company Manager"}
               bio={
                 "Chloe Mason attended Appalachian State University where she earned her BA in theatre performance, and minored in film. There, Chloe lead a social justice themed theatre ensemble known as Women+ Inclusive Theatre Troupe, and became a twice published poet. In addition to acting, Chloe has lead intimacy coordination and movement specific work in past MoB productions. She’s a hands on visual artist who has designed past programs and posters for MoB through her chosen medium, collage. She’s a full time educator, and part time story teller here in Wilmington NC. "
               }
@@ -74,7 +74,7 @@ function About() {
             <Team
               image={Amber}
               name={"Amber Moore"}
-              title={"Artistic Associate"}
+              title={"Associate Artistic Director"}
               bio={
                 "Amber Briana Moore is an actor and racial equity advocate. She has been featured in various productions in the Southeast from live theatre, films and network television. She received her B.A. in Theatre and African American Studies at the University of North Carolina at Greensboro, where she also discovered her interest in art centering on African American life and culture. She has been involved with MoB since 2018 and regularly advises with research on local African American history. "
               }

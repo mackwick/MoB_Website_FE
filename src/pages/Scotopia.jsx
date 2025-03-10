@@ -140,11 +140,16 @@ function Scotopia() {
                 tennis stars.
               </p>
               <p>
-                <strong>4:30 PM – Seabreeze & Wilmington Reconstructed</strong>
-                <br />A powerful dance tribute to the historic Seabreeze
-                community, paired with MoB Theatre’s ongoing development of
-                Wilmington Reconstructed, exploring the Wilmington 1898
-                massacre.
+                <strong>
+                  4:30 PM – Wilmington Reconstructed & Rabbit Rabbit Rabbit
+                </strong>
+                <br />
+                Experience MoB Theatre’s ongoing development of Wilmington
+                Reconstructed, a play about the 1898 Wilmington massacre. This
+                is paired with a staged reading of Rabbit, Rabbit, Rabbit, a new
+                play by Mary McCallum, inspired by the writings of the late
+                Larry Reni Thomas, which dramatizes the protests and violence
+                surrounding the Wilmington 10.
               </p>
               <p>
                 <strong>7:00 PM – Protect the Protectors</strong>
